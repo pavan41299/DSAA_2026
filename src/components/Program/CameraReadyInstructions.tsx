@@ -1,6 +1,6 @@
 function CameraReadyInstructions() {
   return (
-    <section className="w-full bg-white py-12 px-4 sm:py-16 sm:px-6">
+    <section className="w-full bg-white py-12 px-4 sm:py-16 sm:px-6 max-w-5xl mx-auto">
       <div className="max-w-[1700px] mx-auto">
         <h2 className="font-inter font-bold text-[32px] md:text-[40px] text-center text-[#101828] mb-3">Camera-ready submission (authors)</h2>
         <div className="font-inter text-[16px] md:text-[18px] text-center text-[#4A5565] mb-8">Important instructions for submitting camera-ready papers and registering authors.</div>

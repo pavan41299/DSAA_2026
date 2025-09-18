@@ -11,7 +11,7 @@ function AboutResearchTrack() {
         <div className="font-inter text-[16px] md:text-[18px] text-center text-[#4A5565] mb-8">
           Important deadlines and milestones for DSAA 2026. Mark your calendar and stay updated.
         </div>
-        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
+        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6 max-w-5xl mx-auto">
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
             The DSAA&apos;2026 Research Track solicits high-quality, original papers presenting novel issues of Data Science and Advanced Analytics across various disciplines and domains, including business, government, health and medical science, physical sciences, and social sciences. Topics of interest include but are not limited to:
           </div>
@@ -37,7 +37,7 @@ function AboutResearchTrack() {
         </div>
 
         {/* Paper Submissions */}
-        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
+        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6 max-w-5xl mx-auto">
           <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
             Paper Submissions
           </h3>
@@ -64,7 +64,7 @@ function AboutResearchTrack() {
         </div>
 
         {/* Proceedings and Indexing */}
-        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
+        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6 max-w-5xl mx-auto">
           <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
             Proceedings and Indexing
           </h3>
@@ -74,7 +74,7 @@ function AboutResearchTrack() {
         </div>
 
         {/* Important Policies */}
-        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
+        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6 max-w-5xl mx-auto">
           <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
             Important Policies
           </h3>
@@ -101,7 +101,7 @@ function AboutResearchTrack() {
         </div>
 
         {/* Enquiries */}
-        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
+        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6 max-w-5xl mx-auto">
           <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
             Enquiries
           </h3>

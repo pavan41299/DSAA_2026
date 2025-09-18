@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function TechnicalProgramBanner() {
   return (
-    <section className="w-full bg-[#F1F5FC] py-10 px-4 flex flex-col items-center justify-center md:h-[276px]">
+    <section className="w-full bg-[#F1F5FC] py-10 px-4 flex flex-col items-center justify-center md:h-[276px] max-w-5xl mx-auto">
       <h1 className="font-inter font-semibold text-[28px] sm:text-[36px] md:text-[40px] text-center text-black mb-3">
         Technical Program
       </h1>
