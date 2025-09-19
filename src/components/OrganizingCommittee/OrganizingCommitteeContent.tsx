@@ -1,13 +1,14 @@
 import React from "react";
 import Image from "next/image";
-// import DssaLogo from "../../../public/latestlogoaroial.png"
+import DssaLogo from "../../../public/PKReddy.jpg"
+// import DssaLogo from "../../../public/Dr. Sarah Chen.png"
 
 const committees = [
   {
     title: "Honorary Chairs",
     members: [
       {
-        photo: "/members/default.png",
+        photo: "/Dr. Sarah Chen.png",
         name: "Sandeep Kumar Shukla",
         university: "Director, IIIT Hyderabad",
       },
@@ -17,17 +18,17 @@ const committees = [
     title: "General Co-Chairs",
     members: [
       {
-        photo: "/members/default.png",
+        photo: "/PKReddysmart.jpg",
         name: "P. Krishna Reddy",
         university: "IIIT Hyderabad",
       },
       {
-        photo: "/members/default.png",
+        photo: "/FemaleDummy.jpeg",
         name: "Jaideep Srivastava",
         university: "University of Minnesota",
       },
       {
-        photo: "/members/default.png",
+        photo: "/MaleDummy.jpeg",
         name: "Masaru Kitsuregawa",
         university: "The University of Tokyo",
       },
