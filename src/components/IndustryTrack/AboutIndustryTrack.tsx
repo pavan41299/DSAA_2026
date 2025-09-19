@@ -13,7 +13,7 @@ function AboutIndustryTrack() {
         </div>
 
         {/* About Card */}
-        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
+        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6 text-justify">
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
             The DSAA&apos;2026 Industry Track solicits industry contributions in data science and analytics, in any business domain, to be presented as a talk or poster in a dedicated session.
           </div>
@@ -56,7 +56,7 @@ function AboutIndustryTrack() {
         </div>
 
         {/* Proceedings and Indexing */}
-        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
+        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6 text-justify">
           <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
             Proceedings and Indexing
           </h3>
