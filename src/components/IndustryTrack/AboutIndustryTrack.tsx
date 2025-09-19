@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutIndustryTrack() {
   return (
-    <section className="w-full bg-white py-12 px-4 sm:py-16 sm:px-6 max-w-5xl mx-auto">
+    <section className="w-full bg-white py-12 px-4 sm:py-16 sm:px-6 max-w-5xl mx-auto text-justify">
       <div className="max-w-[1700px] mx-auto">
         {/* Heading and subtitle */}
         <h2 className="font-inter font-bold text-[32px] md:text-[40px] text-center text-[#101828] mb-3">
