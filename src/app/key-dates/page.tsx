@@ -5,7 +5,7 @@ import KeyDatesContent from '@/components/KeyDates/KeyDatesContent'
 export default function KeyDatesPage() {
   return (
     <main>
-      <KeyDatesBanner />
+      {/* <KeyDatesBanner /> */}
       <KeyDatesContent />
     </main>
   )

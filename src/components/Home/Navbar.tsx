@@ -4,7 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import gsap from "gsap";
-import DssaLogo from "../../../public/latestlogo.png";
+// import DssaLogo from "../../../public/latestlogo.png";
+import DssaLogo from "../../../public/latestlogoaroial.png";
+
 
 // Define dropdown items (similar to subCategories in CategoryNav)
 const dropdownItems = {
@@ -130,6 +132,7 @@ function Navbar() {
 
   return (
   <nav className="sticky top-0 z-50 w-full bg-[#FAFAFB] border-b border-[#E5E7EB] backdrop-blur-lg shadow-sm">
+    {/* h-20 */}
       <div className="max-w-[1795px] mx-auto flex items-center justify-between px-6 xl:px-8 md:h-[90px] h-[70px]">
         {/* Logo */}
         <div className="flex items-center z-10">
@@ -157,7 +160,7 @@ function Navbar() {
             >
               <Link
                 href={navLinks[item] || '/'}
-                className="font-inter font-normal text-[16px] leading-[28px] text-[#364153] hover:text-[#155DFC] transition-colors duration-200 flex items-center"
+                className="font-inter font-normal text-[17px] leading-[28px] text-[#364153] hover:text-[#155DFC] transition-colors duration-200 flex items-center"
               >
                 {item}
                 {hasDropdown(item) && (

@@ -81,8 +81,8 @@ const images = [
   { src: BannerImage, alt: "Banner 1" },
   { src: BannerImage2, alt: "Banner 2" },
   { src: BannerImage3, alt: "Banner 3" },
-  { src: BannerImage4, alt: "Banner 4" },
-  { src: BannerImage5, alt: "Banner 5" },
+  // { src: BannerImage4, alt: "Banner 4" },
+  // { src: BannerImage5, alt: "Banner 5" },
 ];
 
 const Banner: React.FC = () => {

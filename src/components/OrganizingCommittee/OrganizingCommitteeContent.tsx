@@ -3,152 +3,212 @@ import Image from "next/image";
 
 const committees = [
   {
-    title: "Organizing Committee",
+    title: "Honorary Chairs",
     members: [
       {
-        photo: "/Dr. Sarah Chen.png",
-        name: "Dr. Sarah Chen",
-        university: "Harvard University",
-      },
-      {
-        photo: "/members/member2.jpg",
-        name: "Prof. Anjali Sharma",
-        university: "Jawaharlal Nehru University, New Delhi",
-      },
-      {
-        photo: "/members/member3.jpg",
-        name: "Dr. Vikram Rao",
-        university: "University of Hyderabad",
+        photo: "/members/default.png",
+        name: "Sandeep Kumar Shukla",
+        university: "Director, IIIT Hyderabad",
       },
     ],
   },
   {
-    title: "Technical Program Committee",
+    title: "General Co-Chairs",
     members: [
       {
-        photo: "/members/member4.jpg",
-        name: "Dr. Emily Johnson",
-        university: "MIT",
+        photo: "/members/default.png",
+        name: "P. Krishna Reddy",
+        university: "IIIT Hyderabad",
       },
       {
-        photo: "/members/member5.jpg",
-        name: "Prof. Rajesh Patel",
-        university: "IIT Bombay",
+        photo: "/members/default.png",
+        name: "Jaideep Srivastava",
+        university: "University of Minnesota",
+      },
+      {
+        photo: "/members/default.png",
+        name: "Masaru Kitsuregawa",
+        university: "The University of Tokyo",
       },
     ],
   },
   {
-    title: "Advisory Committee",
+    title: "PC Chairs - Research Track",
     members: [
       {
-        photo: "/members/member6.jpg",
-        name: "Dr. Li Wei",
-        university: "Tsinghua University",
+        photo: "/members/default.png",
+        name: "Tanmoy Chakraborty",
+        university: "IIT Delhi",
       },
       {
-        photo: "/members/member7.jpg",
-        name: "Prof. Maria Garcia",
-        university: "University of Barcelona",
+        photo: "/members/default.png",
+        name: "Sharma Chakravarthy",
+        university: "The University of Texas at Arlington",
       },
       {
-        photo: "/members/member8.jpg",
-        name: "Dr. John Smith",
-        university: "Stanford University",
+        photo: "/members/default.png",
+        name: "Longbing Cao",
+        university: "Macquarie University, Australia",
       },
     ],
   },
   {
-    title: "Steering Committee",
+    title: "PC Chairs - Application Track",
     members: [
       {
-        photo: "/members/member9.jpg",
-        name: "Prof. Aditi Mehra",
-        university: "IIT Kanpur",
+        photo: "/members/default.png",
+        name: "Partha Pratim Roy",
+        university: "IIT (ISM) Dhanbad, India",
       },
       {
-        photo: "/members/member10.jpg",
-        name: "Dr. Michael Brown",
-        university: "Oxford University",
+        photo: "/members/default.png",
+        name: "Ladjel Bellatreche",
+        university: "ENSMA, France",
       },
     ],
   },
   {
-    title: "Finance Committee",
+    title: "PC Chairs - Industry Track",
     members: [
       {
-        photo: "/members/member11.jpg",
-        name: "Dr. Priya Nair",
-        university: "IISc Bangalore",
+        photo: "/members/default.png",
+        name: "Arvind Agarwal",
+        university: "IBM India",
+      },
+      {
+        photo: "/members/default.png",
+        name: "Rajeev Gupta",
+        university: "Microsoft",
       },
     ],
   },
   {
-    title: "Publication Committee",
+    title: "Journal Track Chairs",
     members: [
       {
-        photo: "/members/member12.jpg",
-        name: "Prof. David Wilson",
-        university: "University of Cambridge",
+        photo: "/members/default.png",
+        name: "Dr. Kalidas",
+        university: "IIT Tirupati, India",
       },
       {
-        photo: "/members/member13.jpg",
-        name: "Dr. Chen Yu",
-        university: "Peking University",
+        photo: "/members/default.png",
+        name: "Lan Du",
+        university: "Monash University, Australia",
+      },
+      {
+        photo: "/members/default.png",
+        name: "Hady Lauw",
+        university: "Singapore Management University",
+      },
+      {
+        photo: "/members/default.png",
+        name: "Longbing Cao",
+        university: "Macquarie University, Australia",
       },
     ],
   },
   {
-    title: "Publicity Committee",
+    title: "Special Session Chairs",
     members: [
       {
-        photo: "/members/member14.jpg",
-        name: "Prof. Sofia Rossi",
-        university: "University of Milan",
+        photo: "/members/default.png",
+        name: "Kamal Karlapalem",
+        university: "IIIT Hyderabad",
       },
       {
-        photo: "/members/member15.jpg",
-        name: "Dr. Rajiv Gupta",
-        university: "IIT Madras",
+        photo: "/members/default.png",
+        name: "Carson Leung",
+        university: "University of Manitoba, Canada",
+      },
+      {
+        photo: "/members/default.png",
+        name: "Defu Lian",
+        university: "University of Science and Technology of China",
       },
     ],
   },
   {
-    title: "Sponsorship Committee",
+    title: "Tutorial Chairs",
     members: [
       {
-        photo: "/members/member16.jpg",
-        name: "Prof. Elena Petrova",
-        university: "Moscow State University",
+        photo: "/members/default.png",
+        name: "P. Radha Krishna",
+        university: "NIT Warangal",
+      },
+      {
+        photo: "/members/default.png",
+        name: "Benjamin Fung",
+        university: "McGill University, Canada",
+      },
+      {
+        photo: "/members/default.png",
+        name: "Evangelos E. Papalexakis",
+        university: "University of California, Riverside",
       },
     ],
   },
   {
-    title: "Local Organizing Committee",
+    title: "Diversity & Inclusion Chair",
     members: [
       {
-        photo: "/members/member17.jpg",
-        name: "Dr. Sunil Agarwal",
-        university: "University of Delhi",
-      },
-      {
-        photo: "/members/member18.jpg",
-        name: "Prof. Claire Dubois",
-        university: "Sorbonne University",
+        photo: "/members/default.png",
+        name: "Dr. Sanju Tiwari",
+        university: "Sharda University, India",
       },
     ],
   },
   {
-    title: "Student Committee",
+    title: "Publicity Chairs",
     members: [
       {
-        photo: "/members/member19.jpg",
-        name: "Ms. Neha Verma",
-        university: "IIT Roorkee",
+        photo: "/members/default.png",
+        name: "Xiaohan Yu",
+        university: "Macquarie University, Australia",
       },
       {
-        photo: "/members/member20.jpg",
-        name: "Mr. Arjun Singh",
-        university: "BITS Pilani",
+        photo: "/members/default.png",
+        name: "Qi Zhang",
+        university: "Tongji University, China",
+      },
+    ],
+  },
+  {
+    title: "Proceedings Chair",
+    members: [
+      {
+        photo: "/members/default.png",
+        name: "R. Uday Kiran",
+        university: "The University of Aizu, Japan",
+      },
+    ],
+  },
+  {
+    title: "Sponsorship Chair",
+    members: [
+      {
+        photo: "/members/default.png",
+        name: "P. Krishna Reddy",
+        university: "IIIT Hyderabad",
+      },
+    ],
+  },
+  {
+    title: "Finance Chair",
+    members: [
+      {
+        photo: "/members/default.png",
+        name: "Vikram Pudi",
+        university: "IIIT Hyderabad",
+      },
+    ],
+  },
+  {
+    title: "Registration & Local Arrangement Chairs",
+    members: [
+      {
+        photo: "/members/default.png",
+        name: "Vikram Goyal",
+        university: "IIIT Delhi",
       },
     ],
   },
@@ -159,7 +219,6 @@ function OrganizingCommitteeContent() {
     <div className="max-w-6xl mx-auto py-12 px-4">
       {committees.map((committee, index) => (
         <div key={index} className="mb-12">
-          {/* Committee Title */}
           <h5
             className="font-inter font-semibold 
             text-[20px] sm:text-[22px] md:text-[24px] lg:text-[28px] 
@@ -169,7 +228,6 @@ function OrganizingCommitteeContent() {
             {committee.title}
           </h5>
 
-          {/* Committee Members */}
           <div className="flex flex-wrap justify-center gap-8">
             {committee.members.map((member, idx) => (
               <div
@@ -191,7 +249,6 @@ function OrganizingCommitteeContent() {
             ))}
           </div>
 
-          {/* Bluish Divider Line */}
           {index !== committees.length - 1 && (
             <div className="border-t border-blue-800 mt-12"></div>
           )}
