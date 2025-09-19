@@ -11,7 +11,7 @@ function SponsorContent() {
     },
     {
       name: "IEEE CIS",
-      logo: "/sponsors/ieee-cis.png", // put your IEEE CIS logo here
+      logo: "/public/banner1.png", // put your IEEE CIS logo here public\download.webp
       url: "https://cis.ieee.org/",
     },
     {
