@@ -115,7 +115,7 @@ const Banner: React.FC = () => {
         <div className="flex">
           {images.map((image, index) => (
             <div key={index} className="flex-shrink-0 w-full min-w-0 relative">
-              <div className="object-contain sm:object-cover w-full h-[200px] sm:h-[300px] md:h-[400px] lg:h-[450px] xl:h-[500px] overflow-hidden rounded-xl">
+              <div className="object-contain sm:object-cover w-full h-auto sm:h-[300px] md:h-[400px] lg:h-[450px] xl:h-[500px] overflow-hidden rounded-xl">
                 <Image
                   src={image.src}
                   alt={image.alt}
