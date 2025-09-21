@@ -8,7 +8,7 @@ const committees = [
     title: "Honorary Chairs",
     members: [
       {
-        photo: "/Dr. Sarah Chen.png",
+        photo: "/MaleDummy.jpeg",
         name: "Sandeep Kumar Shukla",
         university: "Director, IIIT Hyderabad",
       },

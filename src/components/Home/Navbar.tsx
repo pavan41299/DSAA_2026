@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import gsap from "gsap";
 // import DssaLogo from "../../../public/latestlogo.png";
-import DssaLogo from "../../../public/latestlogoaroial.png";
+import DssaLogo from "../../../public/png dsaa d.png";
 
 
 // Define dropdown items (similar to subCategories in CategoryNav)
@@ -140,8 +140,8 @@ function Navbar() {
             <Image
               src={DssaLogo}
               alt="DSAA Logo"
-              width={2000}
-              height={2000}
+              // width={2000}
+              // height={2000}
               // responsive CSS sizes: smaller on mobile, original size on large screens
               className="mr-2 w-16 h-16 sm:w-12 sm:h-12 md:w-[70px] md:h-[70px] xl:w-[85px] xl:h-[85px] cursor-pointer"
               priority
