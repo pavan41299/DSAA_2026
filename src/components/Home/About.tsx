@@ -9,11 +9,7 @@ function About() {
         </h2>
         <p className="font-inter text-black text-justify font-medium text-[16px] sm:text-[16px] md:text-[16px] leading-[24px] sm:leading-[28px] md:leading-[32.05px] text-[#777D86] tracking-[0%] max-w-5xl mx-auto">
           The 13th IEEE International Conference on Data Science and Advanced
-          Analytics (DSAA) will be held in New Delhi, India on
-          October 6-9, 2026, at the Pride Plaza Hotel, Aerocity New Delhi.
-        </p>
-        <p className="font-inter text-black text-justify font-medium text-[16px] sm:text-[16px] md:text-[16px] leading-[24px] sm:leading-[28px] md:leading-[32.05px] text-[#777D86] tracking-[0%] max-w-5xl mx-auto">
-          It features its strong interdisciplinary synergy between statistics,
+          Analytics (DSAA) will be held in New Delhi, India on October 6-9, 2026. It features its strong interdisciplinary synergy between statistics,
           computing and information/intelligence sciences, and cross-domain
           interactions between academia and business for data science and
           analytics. DSAA sets up a high standard for its organizing committee,
