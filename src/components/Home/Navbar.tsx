@@ -135,13 +135,13 @@ function Navbar() {
     {/* h-20 */}
       <div className="max-w-[1795px] mx-auto flex items-center justify-between px-6 xl:px-8 md:h-[90px] h-[70px]">
         {/* Logo */}
-        <div className="flex items-center z-10">
+        <div className="flex items-center z-10 mr-2 cursor-pointer max-h-[70px] xl:max-h-[85px] w-auto">
           <Link href="/" aria-label="Home">
             <Image
               src={DssaLogo}
               alt="DSAA Logo"
-              // width={2000}
-              // height={2000}
+              width={2000}
+              height={2000}
               // responsive CSS sizes: smaller on mobile, original size on large screens
               className="mr-2 w-16 h-16 sm:w-12 sm:h-12 md:w-[70px] md:h-[70px] xl:w-[85px] xl:h-[85px] cursor-pointer"
               priority
