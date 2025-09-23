@@ -4,7 +4,7 @@ import PhoneIcon from '../../../public/phone.svg'
 import MailIcon from '../../../public/mail.svg'
 import LocationIcon from '../../../public/location.svg'
 // ...existing code...
-
+import IIITLogo from "../../../public/download.webp"; 
 function ContactForm() {
   return (
     <section className="w-full bg-white py-12 px-4 sm:py-16 sm:px-6">
@@ -29,7 +29,7 @@ function ContactForm() {
       <div className="flex-none w-10 h-10 md:w-12 md:h-12 bg-[#E0E9FF] rounded-md flex items-center justify-center overflow-hidden">
         <Image src={MailIcon} alt="mail" width={24} height={24} className="w-4 h-4 md:w-6 md:h-6" />
       </div>
-      <a href="mailto:dsaa2026@gmail.com" className="font-inter font-medium text-[16px] md:text-[18px] text-[#484848] hover:text-sky-500">dsaa2026@gmail.com</a>
+      <a href="mailto:dsaa2026@gmail.com" className="font-inter font-medium text-[16px] md:text-[18px] text-[#484848] hover:text-sky-500">dsaahelpdesk@gmail.com</a>
     </div>
 
     <div className="flex items-start gap-4 mb-4">
@@ -42,25 +42,31 @@ function ContactForm() {
       </div>
     </div>
 
-    {/* <div className="flex items-start gap-4 mb-6">
-      <div className="flex-none w-10 h-10 md:w-12 md:h-12 bg-[#E0E9FF] rounded-md flex items-center justify-center overflow-hidden">
-        <Image src={PhoneIcon} alt="phone" width={24} height={24} className="w-4 h-4 md:w-6 md:h-6" />
-      </div>
-      <div className="font-inter text-[15px] md:text-[16px] text-[#484848] leading-5">
-        <div className="font-medium">Technical and Website Support</div>
-        <div><a href="tel:+918106508700" className="hover:text-sky-500">Chandrasekhar +91 81065 08700</a></div>
-        <div><a href="tel:+919704565246" className="hover:text-sky-500">Pavan +91 9704565246</a></div>
-        <div className="mt-2"><a href="mailto:dsaahelpdesk@gmail.com" className="text-sky-500 hover:underline">dsaahelpdesk@gmail.com</a></div>
-      </div>
-    </div> */}
+    
   </div>
 
-        {/* <div
+        <div
           className="p-4 md:p-6 rounded-[12px]"
-          style={{ boxShadow: '0px 0px 50px 4px #49494914', backgroundColor: '#EFF4FF' }}
+          style={{ boxShadow: '0px 0px 50px 4px #49494914'}}
         >
-          <h3 className="font-inter font-semibold text-[20px] md:text-[24px] leading-[100%] text-[#010101] mb-4">Your Queries, Answered Here</h3>
-          <form className="space-y-4">
+          <a
+          href="https://www.iiit.ac.in/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block border border-transparent transition-all duration-500 ease-in-out
+             hover:bg-blue-900 hover:shadow-[0_0_15px_6px_rgba(0,0,139,0.5)]
+             border border-blue-900"
+        >
+          <Image
+            src={IIITLogo}
+            alt="IIIT Hyderabad Logo"
+            width={500} // adjust size
+            height={500}
+            className="mx-auto"
+          />
+        </a>
+          {/* <h3 className="font-inter font-semibold text-[20px] md:text-[24px] leading-[100%] text-[#010101] mb-4">Your Queries, Answered Here</h3> */}
+          {/* <form className="space-y-4">
             <div>
               <label className="font-inter font-medium text-[16px] leading-[100%] text-[#313030] block mb-2">Full Name <span className="text-[#313030]">*</span></label>
               <input type="text" placeholder="Enter your full name" className="w-full h-[41px] rounded-[8px] p-3 bg-[#FFFFFFCC] border border-transparent focus:outline-none focus:ring-0" />
@@ -84,8 +90,8 @@ function ContactForm() {
             <div>
               <button type="button" className="bg-[#155DFC] text-white px-4 py-2 rounded-md w-full md:w-auto cursor-pointer">SEND</button>
             </div>
-          </form>
-        </div> */}
+          </form> */}
+        </div>
       </div>
     </section>
   )
