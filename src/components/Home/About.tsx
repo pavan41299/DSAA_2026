@@ -9,7 +9,7 @@ function About() {
         </h2>
         <p className="font-inter text-justify font-medium text-[16px] sm:text-[16px] md:text-[16px] leading-[24px] sm:leading-[28px] md:leading-[32.05px] text-[#777D86] tracking-[0%] max-w-5xl mx-auto">
           The 13th IEEE International Conference on Data Science and Advanced
-          Analytics (DSAA) will be held in Aerocity, New Delhi, India on
+          Analytics (DSAA) will be held in New Delhi, India on
           October 6-9, 2026.
         </p>
         <p className="font-inter text-justify font-medium text-[16px] sm:text-[16px] md:text-[16px] leading-[24px] sm:leading-[28px] md:leading-[32.05px] text-[#777D86] tracking-[0%] max-w-5xl mx-auto">

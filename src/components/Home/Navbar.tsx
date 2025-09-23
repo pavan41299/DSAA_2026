@@ -39,8 +39,9 @@ const navItems = [
   "Program",
   "Attend",
   "Organizers",
+  "Venue",
   "Sponsors",
-  "IEEE CIS Travel Grant",
+  // "IEEE CIS Travel Grant",
 ];
 
 // Map nav labels to actual routes (pages created in the app)
@@ -52,7 +53,8 @@ const navLinks: Record<string, string> = {
   Attend: '/attend',
   Organization: '/organizing-committee',
   Sponsors: '/sponsor',
-  'IEEE CIS Travel Grant': '/travel-grant',
+  Venue: '/attend',
+  // 'IEEE CIS Travel Grant': '/travel-grant',
 }
 
 function Navbar() {

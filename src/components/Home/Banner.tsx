@@ -74,15 +74,15 @@ import Image from 'next/image';
 import BannerImage from "../../../public/19 sept india gae.jpg";
 import BannerImage2 from "../../../public/19 Sep jantar.jpg";
 import BannerImage3 from "../../../public/19 sept dances copy.jpg";
-import BannerImage4 from "../../../public/19 SEP NOIDA.jpg";
-import BannerImage5 from "../../../public/19 sept kerala.jpg";
+// import BannerImage4 from "../../../public/19 SEP NOIDA.jpg";
+// import BannerImage5 from "../../../public/19 sept kerala.jpg";
 
 const images = [
   { src: BannerImage, alt: "Banner 1" },
   { src: BannerImage2, alt: "Banner 2" },
   { src: BannerImage3, alt: "Banner 3" },
-  { src: BannerImage4, alt: "Banner 4" },
-  { src: BannerImage5, alt: "Banner 5" },
+  // { src: BannerImage4, alt: "Banner 4" },
+  // { src: BannerImage5, alt: "Banner 5" },
 ];
 
 const Banner: React.FC = () => {
