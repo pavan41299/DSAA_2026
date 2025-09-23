@@ -18,7 +18,7 @@ function ContactForm() {
         <Image src={LocationIcon} alt="location" width={24} height={24} className="w-4 h-4 md:w-6 md:h-6 object-contain" />
       </div>
       <address className="not-italic font-inter text-[15px] md:text-[16px] text-[#484848] leading-5">
-        DSAA 2026 Secretariat, <br />Prof. P. Krishna Reddy <br /> Data Sciences and Analytics Center (DSAC)<br />
+      Prof. P. Krishna Reddy <br /> DSAA 2026 Secretariat <br />Data Sciences and Analytics Center (DSAC)<br />
         International Institute of Information Technology<br />
         Prof. C R Rao Road<br />
         Gachibowli, Hyderabad 500 032 Telangana, India
@@ -29,7 +29,7 @@ function ContactForm() {
       <div className="flex-none w-10 h-10 md:w-12 md:h-12 bg-[#E0E9FF] rounded-md flex items-center justify-center overflow-hidden">
         <Image src={MailIcon} alt="mail" width={24} height={24} className="w-4 h-4 md:w-6 md:h-6" />
       </div>
-      <a href="mailto:dsaa2026@gmail.com" className="font-inter font-medium text-[16px] md:text-[18px] text-[#484848] hover:text-sky-500">dsaahelpdesk@gmail.com</a>
+      <a href="mailto:dsaa2026india@gmail.com" className="font-inter font-medium text-[16px] md:text-[18px] text-[#484848] hover:text-sky-500">dsaa2026india@gmail.com</a>
     </div>
 
     <div className="flex items-start gap-4 mb-4">
@@ -54,7 +54,7 @@ function ContactForm() {
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block border border-transparent transition-all duration-500 ease-in-out
-             hover:bg-blue-900 hover:shadow-[0_0_15px_6px_rgba(0,0,139,0.5)]
+             hover:bg-blue-900 hover:shadow-[0_0_15px_6px_rgba(0,0,60,0.5)]
              border border-blue-900"
         >
           <Image

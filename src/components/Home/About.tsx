@@ -76,7 +76,7 @@ function About() {
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block border border-transparent transition-all duration-500 ease-in-out
-             hover:bg-blue-900 hover:shadow-[0_0_15px_6px_rgba(0,0,139,0.5)]
+             hover:bg-blue-900 hover:shadow-[0_0_15px_6px_rgba(0,0,60,0.5)]
              border border-blue-900"
         >
           <Image

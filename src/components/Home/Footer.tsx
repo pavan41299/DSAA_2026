@@ -47,7 +47,7 @@ export default function Footer() {
                 <li className="flex items-start gap-3">
                   <MapPin className="mt-0.5 h-9 w-9 text-slate-400" aria-hidden="true" />
                   <address className="not-italic leading-6">
-                   4th Floor, Kohli Center on Intelligent Systems, International Institute of Information Technology<br />
+                   International Institute of Information Technology (IIIT-H) <br />
                     Prof. C R Rao Road<br />
                     Gachibowli, Hyderabad 500 032 Telangana, INDIA
                   </address>
@@ -58,7 +58,7 @@ export default function Footer() {
                     href="mailto:dsaahelpdesk@gmail.com"
                     className="underline-offset-2 hover:text-sky-400 hover:underline focus:outline-none focus:ring-2 focus:ring-sky-400/50"
                   >
-                    dsaahelpdesk@gmail.com
+                    dsaa2026india@gmail.com
                   </a>
                 </li>
               </ul>
