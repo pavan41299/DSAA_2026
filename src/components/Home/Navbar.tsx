@@ -33,7 +33,7 @@ const dropdownItems = {
   "Venue": [
     { name: "Conference Venue ", link: "/venue" },
     { name: "Tourism at Delhi, India ", link: "/about-delhi" },
-    { name: "Accomodation Details", link: "/attend" }
+    { name: "Accomodation Details", link: "/venue" }
   ]
   
 };
