@@ -18,10 +18,10 @@ function ContactForm() {
         <Image src={LocationIcon} alt="location" width={24} height={24} className="w-4 h-4 md:w-6 md:h-6 object-contain" />
       </div>
       <address className="not-italic font-inter text-[15px] md:text-[16px] text-[#484848] leading-5">
-        Data Sciences and Analytics Center<br />
-        4th Floor, Kohli Center on Intelligent Systems, International Institute of Information Technology<br />
+        DSAA 2026 Secretariat, <br />Prof. P. Krishna Reddy <br /> Data Sciences and Analytics Center (DSAC)<br />
+        International Institute of Information Technology<br />
         Prof. C R Rao Road<br />
-        Gachibowli, Hyderabad 500 032 Telangana, INDIA
+        Gachibowli, Hyderabad 500 032 Telangana, India
       </address>
     </div>
 
@@ -29,7 +29,7 @@ function ContactForm() {
       <div className="flex-none w-10 h-10 md:w-12 md:h-12 bg-[#E0E9FF] rounded-md flex items-center justify-center overflow-hidden">
         <Image src={MailIcon} alt="mail" width={24} height={24} className="w-4 h-4 md:w-6 md:h-6" />
       </div>
-      <a href="mailto:dsaahelpdesk@gmail.com" className="font-inter font-medium text-[16px] md:text-[18px] text-[#484848] hover:text-sky-500">dsaahelpdesk@gmail.com</a>
+      <a href="mailto:dsaa2026@gmail.com" className="font-inter font-medium text-[16px] md:text-[18px] text-[#484848] hover:text-sky-500">dsaa2026@gmail.com</a>
     </div>
 
     <div className="flex items-start gap-4 mb-4">
@@ -37,12 +37,12 @@ function ContactForm() {
         <Image src={PhoneIcon} alt="phone" width={24} height={24} className="w-4 h-4 md:w-6 md:h-6" />
       </div>
       <div className="font-inter text-[15px] md:text-[16px] text-[#484848] leading-5">
-        <div className="font-medium">Local transportation and Regional Support</div>
-        <a href="tel:+919811130391" className="hover:text-sky-500">Mr. Sanjay +91 98111 30391</a>
+        <div className="font-medium">P. Krishna Reddy </div>
+        <a href="tel:+919849329324" className="hover:text-sky-500">Contact +91 98493 29324 (Whats App Enabled) </a>
       </div>
     </div>
 
-    <div className="flex items-start gap-4 mb-6">
+    {/* <div className="flex items-start gap-4 mb-6">
       <div className="flex-none w-10 h-10 md:w-12 md:h-12 bg-[#E0E9FF] rounded-md flex items-center justify-center overflow-hidden">
         <Image src={PhoneIcon} alt="phone" width={24} height={24} className="w-4 h-4 md:w-6 md:h-6" />
       </div>
@@ -52,10 +52,10 @@ function ContactForm() {
         <div><a href="tel:+919704565246" className="hover:text-sky-500">Pavan +91 9704565246</a></div>
         <div className="mt-2"><a href="mailto:dsaahelpdesk@gmail.com" className="text-sky-500 hover:underline">dsaahelpdesk@gmail.com</a></div>
       </div>
-    </div>
+    </div> */}
   </div>
 
-        <div
+        {/* <div
           className="p-4 md:p-6 rounded-[12px]"
           style={{ boxShadow: '0px 0px 50px 4px #49494914', backgroundColor: '#EFF4FF' }}
         >
@@ -85,7 +85,7 @@ function ContactForm() {
               <button type="button" className="bg-[#155DFC] text-white px-4 py-2 rounded-md w-full md:w-auto cursor-pointer">SEND</button>
             </div>
           </form>
-        </div>
+        </div> */}
       </div>
     </section>
   )
