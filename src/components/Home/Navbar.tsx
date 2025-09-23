@@ -28,6 +28,12 @@ const dropdownItems = {
   "Organizers": [
     { name: "Organizing Committee", link: "/organizing-committee" },
     { name: "Program Committee", link: "/program-committee" }
+  ],
+
+  "Venue": [
+    { name: "Conference Venue ", link: "/venue" },
+    { name: "Tourism at Delhi, India ", link: "/about-delhi" },
+    { name: "Accomodation Details", link: "/attend" }
   ]
   
 };
