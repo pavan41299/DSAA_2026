@@ -7,12 +7,12 @@ function About() {
         <h2 className="font-inter font-semibold text-[26px] sm:text-[28px] md:text-[28px] leading-[110%] sm:leading-[100%] tracking-[0%] text-center align-middle text-black mb-6 sm:mb-10">
           About IEEE DSAA 2026
         </h2>
-        <p className="font-inter text-justify font-medium text-[16px] sm:text-[16px] md:text-[16px] leading-[24px] sm:leading-[28px] md:leading-[32.05px] text-[#777D86] tracking-[0%] max-w-5xl mx-auto">
+        <p className="font-inter text-black text-justify font-medium text-[16px] sm:text-[16px] md:text-[16px] leading-[24px] sm:leading-[28px] md:leading-[32.05px] text-[#777D86] tracking-[0%] max-w-5xl mx-auto">
           The 13th IEEE International Conference on Data Science and Advanced
           Analytics (DSAA) will be held in New Delhi, India on
           October 6-9, 2026, at the Pride Plaza Hotel, Aerocity New Delhi.
         </p>
-        <p className="font-arial text-black text-justify font-medium text-[16px] sm:text-[16px] md:text-[16px] leading-[24px] sm:leading-[28px] md:leading-[32.05px] text-[#777D86] tracking-[0%] max-w-5xl mx-auto">
+        <p className="font-inter text-black text-justify font-medium text-[16px] sm:text-[16px] md:text-[16px] leading-[24px] sm:leading-[28px] md:leading-[32.05px] text-[#777D86] tracking-[0%] max-w-5xl mx-auto">
           It features its strong interdisciplinary synergy between statistics,
           computing and information/intelligence sciences, and cross-domain
           interactions between academia and business for data science and
