@@ -37,7 +37,7 @@ function AboutSpecialSessions() {
         </div>
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
-            The DSAA'2026 track brings together researchers, industry experts, practitioners, and potential
+            The DSAA&apos; 2026 track brings together researchers, industry experts, practitioners, and potential
             users who are interested in cultivating specialized and important aspects of data
             science and analytics.
           </div>
