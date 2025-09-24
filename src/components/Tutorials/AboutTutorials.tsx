@@ -33,7 +33,18 @@ function AboutTutorials() {
             <li>Interdisciplinary data science (data science applications in physics, energy, material science, astronomy, or other sciences)</li>
           </ul>
         </div>
-
+        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-8">
+          <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-4">
+            Important Dates
+          </h3>
+          <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
+            <li><b>Tutorials Proposals Due:</b> March 16th, 2026</li>
+            <li><b>Tutorials Proposals Notification:</b> March 30th, 2026</li>
+            <li><b>Tutorials Paper Submission:</b> May 2nd, 2026</li>
+            <li><b>Tutorials Paper Notification:</b> July 24th, 2026</li>
+            <li><b>Tutorials Paper Camera-Ready:</b> August 21st, 2026</li>
+          </ul>
+        </div>
         {/* Tutorial Proposal Requirements */}
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
           <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
@@ -68,6 +79,20 @@ function AboutTutorials() {
           </div>
         </div>
       </div>
+
+      <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8">
+          <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
+            Enquiries
+          </h3>
+          General enquiries about Tutorials submissions should be directed to Track Chairs.
+
+          <div className="mt-4 font-inter text-[15px] md:text-[16px] text-[#232B3A]">
+            <b>Special Sessions Chairs:</b><br />
+            P. Radha Krishna , NIT Warangal, India<br />
+            Benjamin Fung, McGill University, Canada<br />
+            Evangelos E. Papalexakis, University of California, Riverside, United States
+          </div>
+        </div>
     </section>
   );
 }

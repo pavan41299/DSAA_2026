@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutResearchTrack() {
   return (
-    <section className="w-full bg-white py-12 px-4 sm:py-16 sm:px-6">
+    <section className="w-full bg-white py-12 px-4 sm:py-16 sm:px-6 max-w-5xl mx-auto">
       <div className="max-w-[1700px] mx-auto">
         {/* ...existing About section... */}
         <h2 className="font-inter font-bold text-[28px] md:text-[40px] text-center text-[#101828] mb-3">
@@ -35,7 +35,18 @@ function AboutResearchTrack() {
             Submissions for the DSAA&apos;2026 Research Track should very clearly specify the problem being solved, what methodologies were used to solve the problem, what data was used, how the results were evaluated, and how the solution is being used.
           </div>
         </div>
-
+        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-8 max-w-5xl mx-auto">
+          <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-4">
+            Important Dates
+          </h3>
+          <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
+            <li><b>Research Track Proposals Due:</b> March 16th, 2026</li>
+            <li><b>Research Track Proposals Notification:</b> March 30th, 2026</li>
+            <li><b>Research Track Paper Submission:</b> May 2nd, 2026</li>
+            <li><b>Research Track Paper Notification:</b> July 24th, 2026</li>
+            <li><b>Research Track Paper Camera-Ready:</b> August 21st, 2026</li>
+          </ul>
+        </div>
         {/* Paper Submissions */}
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6 max-w-5xl mx-auto">
           <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
@@ -112,9 +123,9 @@ function AboutResearchTrack() {
             Research Track Chairs
           </div>
           <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 space-y-1">
-            <li>Tanmoy Chakraborty, IIT Delhi</li>
-            <li>Sharma Chakravarthy, The University of Texas at Arlington</li>
-            <li>Longbing Cao, Macquarie University at Sydney </li>
+            <li>Tanmoy Chakraborty, Indian Institute of Technology, Delhi, India</li>
+            <li>Sharma Chakravarthy, The University of Texas, Arlington, United States</li>
+            <li>Longbing Cao, Macquarie University, Sydney, Australia </li>
           </ul>
         </div>
       </div>

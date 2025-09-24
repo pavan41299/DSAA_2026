@@ -14,6 +14,7 @@ const dropdownItems = {
     { name: "Research Track", link: "/calls/research-track" },
     { name: "Applications Track", link: "/calls/application-track" },
     { name: "Industry Track", link: "/calls/industry-track" },
+    { name: "Journal Track", link: "/calls/journal-track" },
     { name: "Special Sessions", link: "/calls/special-sessions" },
     { name: "Tutorials", link: "/calls/tutorials" }
   ],

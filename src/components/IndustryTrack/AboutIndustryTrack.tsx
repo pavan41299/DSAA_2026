@@ -27,7 +27,18 @@ function AboutIndustryTrack() {
             To qualify for the Industry Track, the submission is expected to address real-world problems using real-world data, and demonstrate innovation, insight, and technical depth.
           </div>
         </div>
-
+        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-8">
+          <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-4">
+            Important Dates
+          </h3>
+          <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
+            <li><b>Industry Track Proposals Due:</b> March 16th, 2026</li>
+            <li><b>Industry Track Proposals Notification:</b> March 30th, 2026</li>
+            <li><b>Industry Track Paper Submission:</b> May 2nd, 2026</li>
+            <li><b>Industry Track Paper Notification:</b> July 24th, 2026</li>
+            <li><b>Industry Track Paper Camera-Ready:</b> August 21st, 2026</li>
+          </ul>
+        </div>
         {/* Paper Submissions */}
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
           <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
@@ -92,11 +103,12 @@ function AboutIndustryTrack() {
             Industry Track Chairs
           </div>
           <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 space-y-1">
-            <li>To be announced</li>
-            <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 space-y-1">
-            <li>Arvindh Agrawal, IBM India </li>
+            <li>Arvind Agarwal, IBM, India</li>
+            <li>Rajeev Gupta, Microsoft</li>
+            {/* <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 space-y-1">
+            
             <li>Mounia Lalmas, Spotify </li>
-          </ul>
+          </ul> */}
           </ul>
         </div>
       </div>

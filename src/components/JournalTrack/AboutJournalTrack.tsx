@@ -1,12 +1,12 @@
 import React from "react";
 
-function AboutApplicationsTrack() {
+function AboutJournalTrack() {
   return (
     <section className="w-full bg-white py-12 px-4 sm:py-16 sm:px-6 max-w-5xl mx-auto">
       <div className="max-w-[1700px] mx-auto">
         {/* Heading and subtitle */}
         <h2 className="font-inter font-bold text-[32px] md:text-[40px] text-center text-[#101828] mb-3">
-          About DSAA Application Track
+          About DSAA Journal Track
         </h2>
         <div className="font-inter text-[16px] md:text-[18px] text-center text-[#4A5565] mb-8">
           Important deadlines and milestones for DSAA 2026. Mark your calendar and stay updated.
@@ -15,7 +15,7 @@ function AboutApplicationsTrack() {
         {/* About Card */}
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
-            The DSAA&apos;2026 Applications Track solicits high-quality, original papers presenting applications and best practices of Data Science and Advanced Analytics across various disciplines and domains, including business, government, health and medical science, physical sciences, and social sciences.
+            The DSAA&apos;2026 Journal solicits high-quality, original papers presenting applications and best practices of Data Science and Advanced Analytics across various disciplines and domains, including business, government, health and medical science, physical sciences, and social sciences.
           </div>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
             Submissions are expected to address problems on real-life data and the results can ideally be reproducible through a public Git repository. Furthermore, submitted papers are expected to provide interesting, insightful results to policy-makers, end-users, or practitioners of Data Science and Advanced Analytics, or to highlight new challenges for researchers motivated by the specific needs and characteristics of application areas.
@@ -36,7 +36,7 @@ function AboutApplicationsTrack() {
             <li>Reflections and lessons for better data/analytics practices</li>
           </ul>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
-            Submissions for the DSAA&apos;2026 Applications Track should very clearly specify the problem being solved, what methodologies were used to solve the problem, what data was used, how the results were evaluated, and how the solution is being used.
+            Submissions for the DSAA&apos;2026 Journal should very clearly specify the problem being solved, what methodologies were used to solve the problem, what data was used, how the results were evaluated, and how the solution is being used.
           </div>
         </div>
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-8">
@@ -44,11 +44,11 @@ function AboutApplicationsTrack() {
             Important Dates
           </h3>
           <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
-            <li><b>Applications Track Proposals Due:</b> March 16th, 2026</li>
-            <li><b>Applications Track Proposals Notification:</b> March 30th, 2026</li>
-            <li><b>Applications Track Paper Submission:</b> May 2nd, 2026</li>
-            <li><b>Applications Track Paper Notification:</b> July 24th, 2026</li>
-            <li><b>Applications Track Paper Camera-Ready:</b> August 21st, 2026</li>
+            <li><b>Journal Proposals Due:</b> March 16th, 2026</li>
+            <li><b>Journal Proposals Notification:</b> March 30th, 2026</li>
+            <li><b>Journal Paper Submission:</b> May 2nd, 2026</li>
+            <li><b>Journal Paper Notification:</b> July 24th, 2026</li>
+            <li><b>Journal Paper Camera-Ready:</b> August 21st, 2026</li>
           </ul>
         </div>
         {/* Paper Submissions */}
@@ -112,14 +112,16 @@ function AboutApplicationsTrack() {
             Enquiries
           </h3>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
-            General enquiries about Applications Track submissions should be directed to Track Chairs.
+            General enquiries about Journal submissions should be directed to Track Chairs.
           </div>
           <div className="font-inter font-semibold text-[16px] md:text-[18px] text-[#232B3A] mb-2">
-            Applications Track Chairs
+            Journal Chairs
           </div>
           <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 space-y-1">
-            <li>Partha Pratim Roy, Indian Institute of Technology, Dhanbad, India </li>
-            <li>Ladjel Bellatreche,  ENSMA , France </li>
+            <li>Dr. Kalidas, Indian Institute of Technology, Tirupati, India </li>
+            <li>Lan Du, Monash University, Australia</li>
+            <li>Hady Lauw, Singapore Management University, Singapore</li>
+            <li>Longbing Cao, Macquarie University, Australia</li>
           </ul>
           {/* <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 space-y-1">
             <li>Barbara Hammer, Bielefeld University, Germany</li>
@@ -130,4 +132,4 @@ function AboutApplicationsTrack() {
     </section>
   );
 }
-export default AboutApplicationsTrack;
+export default AboutJournalTrack;

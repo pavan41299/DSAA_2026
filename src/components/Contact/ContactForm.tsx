@@ -4,7 +4,7 @@ import PhoneIcon from '../../../public/phone.svg'
 import MailIcon from '../../../public/mail.svg'
 import LocationIcon from '../../../public/location.svg'
 // ...existing code...
-import IIITLogo from "../../../public/download.webp"; 
+import IIITLogo from "../../../public/IIIT LOGO.png"; 
 function ContactForm() {
   return (
     <section className="w-full bg-white py-12 px-4 sm:py-16 sm:px-6">
