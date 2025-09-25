@@ -55,7 +55,7 @@ function AboutApplicationsTrack() {
         {/* Paper Submission */}
         <p><strong>Paper Submission</strong></p>
         <p>
-          All papers should be submitted electronically via Open Review (under the "Application, Data and Benchmark" Track).
+          All papers should be submitted electronically via Open Review (under the Application, Data and Benchmark Track).
         </p>
         <p>
           The length of each paper submitted to the Research tracks should be no more than seven (7) pages of technical content plus additional pages solely for references and should be formatted following the standard 2-column U.S. letter style of IEEE Conference template. For further information and instructions, see the IEEE Proceedings Author Guidelines.
