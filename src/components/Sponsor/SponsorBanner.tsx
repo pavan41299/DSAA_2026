@@ -14,7 +14,7 @@ function SponsorBanner() {
           <li>
             <Image src="/chevrons-right.svg" alt=">" width={16} height={16} className="opacity-60" />
           </li>
-          <li className="font-medium text-[#111827]">Sponsor</li>
+          <li className="font-medium text-[#111827]">Sponsors</li>
         </ol>
       </nav>
     </section>

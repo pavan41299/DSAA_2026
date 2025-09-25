@@ -4,9 +4,9 @@ import Image from 'next/image'
 
 function JournalBanner() {
   return (
-    <section className="w-full bg-[#F1F5FC] py-10 px-4 flex flex-col items-center justify-center md:h-[276px]">
+    <section className="w-full bg-[#F1F5FC] py-10 px-4 flex flex-col items-center justify-center md:h-[276px] text-justify">
       <h1 className="font-inter font-semibold text-[28px] sm:text-[36px] md:text-[44px] text-center text-black mb-3">
-      Call for Paper - Journal Track
+      Call for Paper - Special Track on Large Language Models
       </h1>
       <nav aria-label="breadcrumb" className="w-full flex justify-center">
         <ol className="flex items-center gap-2 text-[14px] sm:text-[16px] md:text-[18px] text-[#6B7280]">
@@ -16,7 +16,7 @@ function JournalBanner() {
           <li>
             <Image src="/chevrons-right.svg" alt=">" width={16} height={16} className="opacity-60" />
           </li>
-          <li className="font-medium text-[#111827]">Journal Track</li>
+          <li className="font-medium text-[#111827]">Special Track on Large Language Models</li>
         </ol>
       </nav>
     </section>

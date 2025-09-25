@@ -9,6 +9,7 @@ function ContactForm() {
   return (
     <section className="w-full bg-white py-12 px-4 sm:py-16 sm:px-6">
     <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-start">
+      
   <div className="md:h-full md:flex md:flex-col md:justify-center px-4 md:px-0">
     <h3 className="font-inter font-semibold text-[20px] md:text-[24px] leading-[100%] tracking-[0%] mb-4">Contact Details</h3>
     <p className="mb-4 font-inter text-[14px] md:text-[15px] text-[#686868]">Local & technical contacts, plus the postal address and helpdesk email.</p>

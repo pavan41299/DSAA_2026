@@ -6,7 +6,7 @@ function TutorialsBanner() {
   return (
     <section className="w-full bg-[#F1F5FC] py-10 px-4 flex flex-col items-center justify-center md:h-[276px]">
       <h1 className="font-inter font-semibold text-[28px] sm:text-[36px] md:text-[44px] text-center text-black mb-3">
-        Call for Tutorials
+      Call for Papers – Survey and Vision Track
       </h1>
       <nav aria-label="breadcrumb" className="w-full flex justify-center">
         <ol className="flex items-center gap-2 text-[14px] sm:text-[16px] md:text-[18px] text-[#6B7280]">
@@ -16,7 +16,7 @@ function TutorialsBanner() {
           <li>
             <Image src="/chevrons-right.svg" alt=">" width={16} height={16} className="opacity-60" />
           </li>
-          <li className="font-medium text-[#111827]">Tutorials</li>
+          <li className="font-medium text-[#111827]">Survey and Vision Track</li>
         </ol>
       </nav>
     </section>

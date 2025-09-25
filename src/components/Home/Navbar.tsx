@@ -12,18 +12,18 @@ import DssaLogo from "../../../public/png dsaa d.png";
 const dropdownItems = {
   "Calls": [
     { name: "Research Track", link: "/calls/research-track" },
-    { name: "Applications Track", link: "/calls/application-track" },
-    { name: "Industry Track", link: "/calls/industry-track" },
-    { name: "Journal Track", link: "/calls/journal-track" },
-    { name: "Special Sessions", link: "/calls/special-sessions" },
-    { name: "Tutorials", link: "/calls/tutorials" }
+    { name: "Application, Data and Benchmark Track", link: "/calls/application-track" },
+    { name: "Doctoral Consortium Track", link: "/calls/industry-track" },
+    { name: "Large Large Models Track", link: "/calls/journal-track" },
+    { name: "Survey and Vision Track", link: "/calls/tutorials" },
+    { name: "Special Sessions", link: "/calls/special-sessions" }
   ],
   "Program": [
     { name: "Technical Program", link: "/program/technical-program" },
     { name: "Keynote Speakers", link: "/program/keynote-speakers" },
     { name: "Camera-Ready Instructions", link: "/program/camera-ready-instructions" },
-    { name: "Special Sessions", link: "/program/special-sessions" },
-    { name: "Tutorial", link: "/program/tutorial" }
+    // { name: "Special Sessions", link: "/program/special-sessions" },
+    // { name: "Tutorial", link: "/program/tutorial" }
   ],
   // Organization pages are top-level routes added to the project
   "Organizers": [
@@ -48,6 +48,7 @@ const navItems = [
   "Organizers",
   "Venue",
   "Sponsors",
+  "Contact Us"
   // "IEEE CIS Travel Grant",
 ];
 
@@ -61,6 +62,8 @@ const navLinks: Record<string, string> = {
   Organization: '/organizing-committee',
   Sponsors: '/sponsor',
   Venue: '/attend',
+  'Contact Us': '/contact',
+
   // 'IEEE CIS Travel Grant': '/travel-grant',
 }
 
@@ -203,13 +206,13 @@ function Navbar() {
         </ul>
 
         {/* Desktop Contact Button (>=1280px) */}
-        <div className="hidden xl:block">
-          <Link
+        <div className="hidden xl:block"> 
+          {/* <Link
             href="/contact"
-            className="w-[160px] h-[46px] flex items-center justify-center px-4 py-2 rounded-[12px] bg-[#155DFC] uppercase font-inter font-medium text-[16px] leading-[28px] text-white text-center hover:bg-[#0E44C0] transition-colors duration-200"
+            className="w-[160px] h-[46px] flex items-center justify-center px-4 py-2 rounded-[12px] uppercase font-inter font-medium text-[16px] leading-[28px]  text-center hover:bg-[#0E44C0] transition-colors duration-200"
           >
             Contact Us
-          </Link>
+          </Link> */}
         </div>
 
         {/* Hamburger (<=1280px) */}

@@ -8,7 +8,7 @@ const committees = [
     title: "Honorary Chairs",
     members: [
       {
-        photo: "/MaleDummy.jpeg",
+        photo: "/Sandeep Kumar Shukla.jpg",
         name: "Sandeep Kumar Shukla",
         university: "Director, IIIT Hyderabad",
       },
@@ -23,12 +23,12 @@ const committees = [
         university: "IIIT Hyderabad",
       },
       {
-        photo: "/FemaleDummy.jpeg",
+        photo: "/Prof. Jaideep Srivastava.webp",
         name: "Jaideep Srivastava",
         university: "University of Minnesota",
       },
       {
-        photo: "/MaleDummy.jpeg",
+        photo: "/Masaru Kitsuregawa, The University of Tokyo.jpg",
         name: "Masaru Kitsuregawa",
         university: "The University of Tokyo",
       },
@@ -38,7 +38,7 @@ const committees = [
     title: "PC Chairs - Research Track",
     members: [
       {
-        photo: "/members/default.png",
+        photo: "/Tanmoy Chakraborty.png",
         name: "Tanmoy Chakraborty",
         university: "IIT Delhi",
       },
@@ -48,7 +48,7 @@ const committees = [
         university: "The University of Texas at Arlington",
       },
       {
-        photo: "/members/default.png",
+        photo: "/Longbing Cao.webp",
         name: "Longbing Cao",
         university: "Macquarie University, Australia",
       },
@@ -58,7 +58,7 @@ const committees = [
     title: "PC Chairs - Application Track",
     members: [
       {
-        photo: "/members/default.png",
+        photo: "/Partha Pratim Roy, Indian Institute of Technology.jpg",
         name: "Partha Pratim Roy",
         university: "IIT (ISM) Dhanbad, India",
       },
@@ -73,7 +73,7 @@ const committees = [
     title: "PC Chairs - Industry Track",
     members: [
       {
-        photo: "/members/default.png",
+        photo: "/Arvind-Agrawal.jpg",
         name: "Arvind Agarwal",
         university: "IBM India",
       },
@@ -88,7 +88,7 @@ const committees = [
     title: "Journal Track Chairs",
     members: [
       {
-        photo: "/members/default.png",
+        photo: "/kalidas.jpg",
         name: "Dr. Kalidas",
         university: "IIT Tirupati, India",
       },
@@ -103,7 +103,7 @@ const committees = [
         university: "Singapore Management University",
       },
       {
-        photo: "/members/default.png",
+        photo: "/Longbing Cao.webp",
         name: "Longbing Cao",
         university: "Macquarie University, Australia",
       },
@@ -113,7 +113,7 @@ const committees = [
     title: "Special Session Chairs",
     members: [
       {
-        photo: "/members/default.png",
+        photo: "/Kamal-latest.png",
         name: "Kamal Karlapalem",
         university: "IIIT Hyderabad",
       },
@@ -143,7 +143,7 @@ const committees = [
         university: "McGill University, Canada",
       },
       {
-        photo: "/members/default.png",
+        photo: "/Evangelos E. Papalexakis.jpeg",
         name: "Evangelos E. Papalexakis",
         university: "University of California, Riverside",
       },
@@ -153,7 +153,7 @@ const committees = [
     title: "Diversity & Inclusion Chair",
     members: [
       {
-        photo: "/members/default.png",
+        photo: "/Dr Sanju Tiwari, Sharda University, India.jpeg",
         name: "Dr. Sanju Tiwari",
         university: "Sharda University, India",
       },
@@ -163,7 +163,7 @@ const committees = [
     title: "Publicity Chairs",
     members: [
       {
-        photo: "/members/default.png",
+        photo: "/Xiaohan Yu, Macquarie University.jpeg",
         name: "Xiaohan Yu",
         university: "Macquarie University, Australia",
       },
@@ -178,7 +178,7 @@ const committees = [
     title: "Proceedings Chair",
     members: [
       {
-        photo: "/members/default.png",
+        photo: "/R. Uday Kiran.jpg",
         name: "R. Uday Kiran",
         university: "The University of Aizu, Japan",
       },
@@ -188,7 +188,7 @@ const committees = [
     title: "Sponsorship Chair",
     members: [
       {
-        photo: "/members/default.png",
+        photo: "/PKReddysmart.jpg",
         name: "P. Krishna Reddy",
         university: "IIIT Hyderabad",
       },
@@ -198,7 +198,7 @@ const committees = [
     title: "Finance Chair",
     members: [
       {
-        photo: "/members/default.png",
+        photo: "/Vikram-Pudi.png",
         name: "Vikram Pudi",
         university: "IIIT Hyderabad",
       },
@@ -240,8 +240,8 @@ function OrganizingCommitteeContent() {
                   src={member.photo}
                   alt={member.name}
                   width={150}
-                  height={150}
-                  className="rounded-full object-cover mb-4"
+                  height={200}
+                  className="object-cover mb-4 w-[150px] h-[200px] rounded-[30%]"
                 />
                 <h3 className="text-lg font-semibold text-gray-900">
                   {member.name}

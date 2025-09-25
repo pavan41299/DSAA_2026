@@ -5,7 +5,7 @@ import VenueContent from '@/components/Venue/VenueContent'
 export default function AttendPage() {
   return (
     <main>
-      <VenueBanner />
+      {/* <VenueBanner /> */}
       <VenueContent />
     </main>
   )

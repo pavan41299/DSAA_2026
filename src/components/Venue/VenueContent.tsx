@@ -4,6 +4,16 @@ import VenueImage from "../../../public/prideplaza.webp";
 function AttendContent() {
   return (
     <div className="max-w-6xl mx-auto py-12 px-4">
+    <h1 className="font-inter font-semibold 
+        text-[20px] sm:text-[22px] md:text-[24px] lg:text-[28px]  
+        text-center text-[#101828]">Conference Venue</h1>
+        <div className="text-center">
+      <hr className="mt-2 border-t-2 border-[#00008b] w-3/12 mx-auto" />
+    </div>
+    {/*  banner with blue line  on above */}
+
+
+    <div className="max-w-6xl mx-auto py-12 px-4">
       <div className="w-full flex flex-col items-center text-center">
         {/* Venue Image */}
         <div className="w-full max-w-4xl mb-8">
@@ -23,18 +33,7 @@ function AttendContent() {
 
           {/* Venue Description */}
           <p className="font-inter text-[16px] md:text-[18px] leading-[28px] text-[#475467] text-justify max-w-4xl mx-auto">
-            The 13th IEEE International Conference on Data Science and Advanced
-            Analytics (DSAA 2026) will be hosted at the{" "}
-            <span className="font-semibold text-[#101828]">
-              Pride Plaza Hotel, Aerocity, New Delhi
-            </span>
-            . Located just minutes away from Indira Gandhi International Airport,
-            the 5-star luxury hotel offers world-class conference facilities with
-            over 12,000 sq. ft. of event space, state-of-the-art audiovisual
-            equipment, and elegant banquet halls. Attendees will also enjoy
-            premium accommodations, diverse dining options, spa and fitness
-            amenities, making it an ideal setting for a global academic and
-            industry gathering.
+          Asset 5-A, Hospitality District, Indira Gandhi International Airport, Aerocity, New Delhi, Delhi 110037.
           </p>
         </section>
       
@@ -51,6 +50,7 @@ function AttendContent() {
         </a>
       </div>
       </div>
+    </div>
     </div>
   );
 }
