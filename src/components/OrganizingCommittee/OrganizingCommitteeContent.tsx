@@ -12,6 +12,11 @@ const committees = [
         name: "Sandeep Kumar Shukla",
         university: "Director, IIIT Hyderabad",
       },
+      {
+        photo: "/dddas.jpg",
+        name: "Debabratha Das",
+        university: "Director, IIIT Bangalore",
+      },
     ],
   },
   {
@@ -43,7 +48,7 @@ const committees = [
         university: "IIT Delhi",
       },
       {
-        photo: "/members/default.png",
+        photo: "/Sharma Chakravarthy, The University of Texas at Arlington.jpg",
         name: "Sharma Chakravarthy",
         university: "The University of Texas at Arlington",
       },
@@ -63,7 +68,7 @@ const committees = [
         university: "IIT (ISM) Dhanbad, India",
       },
       {
-        photo: "/members/default.png",
+        photo: "/ladej.png",
         name: "Ladjel Bellatreche",
         university: "ENSMA, France",
       },
@@ -78,7 +83,7 @@ const committees = [
         university: "IBM India",
       },
       {
-        photo: "/members/default.png",
+        photo: "/Rajeev Gupta.jpg",
         name: "Rajeev Gupta",
         university: "Microsoft",
       },
@@ -93,12 +98,12 @@ const committees = [
         university: "IIT Tirupati, India",
       },
       {
-        photo: "/members/default.png",
+        photo: "/LanDU.png",
         name: "Lan Du",
         university: "Monash University, Australia",
       },
       {
-        photo: "/members/default.png",
+        photo: "/Hady Lauw.png",
         name: "Hady Lauw",
         university: "Singapore Management University",
       },
@@ -118,12 +123,12 @@ const committees = [
         university: "IIIT Hyderabad",
       },
       {
-        photo: "/members/default.png",
+        photo: "/Carson Leung.jpg",
         name: "Carson Leung",
         university: "University of Manitoba, Canada",
       },
       {
-        photo: "/members/default.png",
+        photo: "/Defu Lian.jpeg",
         name: "Defu Lian",
         university: "University of Science and Technology of China",
       },
@@ -133,12 +138,12 @@ const committees = [
     title: "Tutorial Chairs",
     members: [
       {
-        photo: "/members/default.png",
+        photo: "/rk.jpg",
         name: "P. Radha Krishna",
         university: "NIT Warangal",
       },
       {
-        photo: "/members/default.png",
+        photo: "/Benjamin Fung.webp",
         name: "Benjamin Fung",
         university: "McGill University, Canada",
       },
@@ -168,7 +173,7 @@ const committees = [
         university: "Macquarie University, Australia",
       },
       {
-        photo: "/members/default.png",
+        photo: "/OIP.webp",
         name: "Qi Zhang",
         university: "Tongji University, China",
       },
@@ -208,7 +213,7 @@ const committees = [
     title: "Registration & Local Arrangement Chairs",
     members: [
       {
-        photo: "/members/default.png",
+        photo: "/VK.jpg",
         name: "Vikram Goyal",
         university: "IIIT Delhi",
       },
