@@ -54,7 +54,7 @@ function AboutResearchTrack() {
   </h3>
 
   <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
-    All papers should be submitted electronically via <b>Open Review</b> (under the "Research" Track).
+    All papers should be submitted electronically via <b>Open Review</b> (under the Research Track).
   </p>
 
   <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
@@ -71,7 +71,7 @@ function AboutResearchTrack() {
 
   <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 mb-4 space-y-2">
     <li>Technical quality</li>
-    <li>Relevance to the conference's topics of interest</li>
+    <li>Relevance to the conference&apos;s topics of interest</li>
     <li>Originality</li>
     <li>Significance</li>
     <li>Clarity</li>
@@ -143,7 +143,7 @@ function AboutResearchTrack() {
           </div>
           <ol className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-decimal pl-5 mb-3 space-y-1">
             <li>
-              <span className="font-semibold">Reproducibility & Supplementary</span> – The advancement of data science and analytics depends heavily on reproducibility. We strongly recommend that the authors release their code and data to the public. Authors can provide an optional two (2) page supplement at the end of their submitted paper (it needs to be in the same PDF file after the paper's references). This supplement can only be used to include (i) information necessary for reproducing the experimental results reported in the paper (e.g., various algorithmic and model parameters and configurations, hyper-parameter search spaces, details related to dataset filtering and train/test splits, software versions, detailed hardware configuration, etc.), and (ii) any data, pseudo-code and proofs that due to space limitations, could not be included in the main manuscript.
+              <span className="font-semibold">Reproducibility & Supplementary</span>  The advancement of data science and analytics depends heavily on reproducibility. We strongly recommend that the authors release their code and data to the public. Authors can provide an optional two (2) page supplement at the end of their submitted paper (it needs to be in the same PDF file after the paper&apos;s references). This supplement can only be used to include (i) information necessary for reproducing the experimental results reported in the paper (e.g., various algorithmic and model parameters and configurations, hyper-parameter search spaces, details related to dataset filtering and train/test splits, software versions, detailed hardware configuration, etc.), and (ii) any data, pseudo-code and proofs that due to space limitations, could not be included in the main manuscript.
             </li>
             <li>
               <span className="font-semibold">Authorship</span> – The list of authors at the time of submission is final and cannot be changed.
