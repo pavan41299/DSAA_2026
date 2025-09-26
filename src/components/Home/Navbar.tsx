@@ -13,10 +13,14 @@ const dropdownItems = {
   "Calls": [
     { name: "Research Track", link: "/calls/research-track" },
     { name: "Application, Data and Benchmark Track", link: "/calls/application-track" },
-    { name: "Doctoral Consortium Track", link: "/calls/industry-track" },
-    { name: "Large Large Models Track", link: "/calls/journal-track" },
-    { name: "Survey and Vision Track", link: "/calls/tutorials" },
-    { name: "Special Sessions", link: "/calls/special-sessions" }
+    { name: "Industry Track", link: "/calls/industry-track" },
+    { name: "Large Large Models Track", link: "/calls/llm-track" },
+    { name: "Survey and Vision Track", link: "/calls/survey-track" },
+    { name: "Doctoral Consortium Track", link: "/calls/doctoral-track" },
+    { name: "Special Sessions", link: "/calls/special-sessions" },
+    { name: "Tutorials", link: "/calls/tutorials" }
+
+
   ],
   "Program": [
     { name: "Technical Program", link: "/program/technical-program" },
@@ -27,8 +31,8 @@ const dropdownItems = {
   ],
   // Organization pages are top-level routes added to the project
   "Organizers": [
-    { name: "Organizing Committee", link: "/organizing-committee" },
-    { name: "Program Committee", link: "/program-committee" }
+    { name: "Organizing Committee", link: "/organizers/organizing-committee" },
+    { name: "Program Committee", link: "/organizers/program-committee" }
   ],
 
   "Venue": [
@@ -59,7 +63,7 @@ const navLinks: Record<string, string> = {
   Calls: '/calls/research-track',
   Program: '/program/technical-program',
   Attend: '/attend',
-  Organization: '/organizing-committee',
+  Organization: '/organizers/organizing-committee',
   Sponsors: '/sponsor',
   Venue: '/attend',
   'Contact Us': '/contact',

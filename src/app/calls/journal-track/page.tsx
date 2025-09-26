@@ -6,9 +6,9 @@ import React from 'react'
 function page() {
   return (
     <>
-      <JournalBanner />
+      {/* <JournalBanner /> */}
       {/*  <DeadLines />     */}
-      <AboutJournalTrack />
+      {/* <AboutJournalTrack /> */}
     </>
   )
 }

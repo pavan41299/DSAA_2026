@@ -6,7 +6,9 @@ function AboutSpecialSessions() {
         <h2 className="font-inter font-bold text-[32px] md:text-[40px] text-center text-[#101828] mb-3">
         About DSAA Special Session Proposals
         </h2>
-
+        <div className="font-inter text-[16px] md:text-[18px] text-center text-[#4A5565] mb-8">
+          Important deadlines and milestones for DSAA 2026. Mark your calendar and stay updated.
+        </div>
         {/* Important Dates */}
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-8">
           <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-4">
