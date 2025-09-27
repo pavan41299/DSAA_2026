@@ -5,7 +5,7 @@ import TutorialsBanner from '@/components/Tutorials/TutorialsBanner'
 function page() {
   return (
     <>
-      <TutorialsBanner />
+      {/* <TutorialsBanner /> */}
       {/*  <DeadLines />     */}
       <AboutTutorials />
     </>

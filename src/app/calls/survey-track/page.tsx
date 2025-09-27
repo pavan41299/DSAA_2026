@@ -5,7 +5,7 @@ import SurveyBanner from '@/components/Survey/SurveyBanner'
 function page() {
   return (
     <>
-      <SurveyBanner />
+      {/* <SurveyBanner /> */}
       {/*  <DeadLines />     */}
       <AboutSurvey />
     </>

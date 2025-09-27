@@ -6,11 +6,11 @@ function AboutDoctoralTrack(){
       <div className="max-w-[1700px] mx-auto">
         {/* Heading and subtitle */}
         <h2 className="font-inter font-bold text-[32px] md:text-[40px] text-center text-[#101828] mb-3">
-          About DSAA Doctoral Consortium
+          Call for Paper -  Doctoral Consortium Track
         </h2>
-        <div className="font-inter text-[16px] md:text-[18px] text-center text-[#4A5565] mb-8">
+        {/* <div className="font-inter text-[16px] md:text-[18px] text-center text-[#4A5565] mb-8">
           Opportunities for doctoral students to discuss research interests and receive guidance from established researchers in data science and analytics.
-        </div>
+        </div> */}
 
         {/* About Card */}
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-8 max-w-5xl mx-auto">
