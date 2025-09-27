@@ -92,7 +92,7 @@ function AboutIndustryTrack() {
             Industry Track Chairs
           </div>
           <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 space-y-1">
-            <li>To be announced</li>
+            {/* <li>To be announced</li> */}
             <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 space-y-1">
             <li>Arvindh Agrawal, IBM India </li>
             <li>Mounia Lalmas, Spotify </li>

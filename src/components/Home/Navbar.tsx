@@ -31,8 +31,8 @@ const dropdownItems = {
   ],
   // Organization pages are top-level routes added to the project
   "Organizers": [
-    { name: "Organizing Committee", link: "organizing-committee" },
-    { name: "Program Committee", link: "program-committee" }
+    { name: "Organizing Committee", link: "/organizing-committee" },
+    { name: "Program Committee", link: "/program-committee" }
   ],
 
   "Venue": [
@@ -63,7 +63,7 @@ const navLinks: Record<string, string> = {
   Calls: '/calls/research-track',
   Program: '/program/technical-program',
   Attend: '/attend',
-  Organization: '/organizers/organizing-committee',
+  Organization: '/organizing-committee',
   Sponsors: '/sponsor',
   Venue: '/attend',
   'Contact Us': '/contact',
