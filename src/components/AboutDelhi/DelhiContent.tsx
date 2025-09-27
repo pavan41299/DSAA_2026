@@ -28,12 +28,6 @@ const spots = [
     // imgSrc: "/red-fort.jpg",
   },
   {
-    name: "Humayun’s Tomb",
-    description:
-      "A Mughal-era architectural marvel surrounded by Persian-style gardens, precursor to the Taj Mahal.",
-    // imgSrc: "/humayuns-tomb.jpg",
-  },
-  {
     name: "Lotus Temple",
     description:
       "A Baháʼí House of Worship shaped like a lotus. Open to all religions, offering peace and meditation.",
@@ -45,36 +39,36 @@ const spots = [
       "A modern Hindu temple and cultural complex with breathtaking carvings, exhibitions, and water shows.",
     // imgSrc: "/akshardham.jpg",
   },
-  {
-    name: "Jama Masjid",
-    description:
-      "One of the largest mosques in India with a massive courtyard and panoramic views from its minarets.",
-    imgSrc: "/jama-masjid.jpg",
-  },
-  {
-    name: "Lodhi Garden",
-    description:
-      "Historic gardens featuring tombs of the Lodi dynasty, popular for morning walks and photography.",
-    imgSrc: "/lodhi-garden.jpg",
-  },
-  {
-    name: "Chandni Chowk",
-    description:
-      "A bustling old market with street food, spices, jewelry, and cultural heritage in Old Delhi.",
-    imgSrc: "/chandni-chowk.jpg",
-  },
-  {
-    name: "Connaught Place",
-    description:
-      "Colonial-era circular market hub with shops, restaurants, cafes, and vibrant nightlife.",
-    imgSrc: "/connaught-place.jpg",
-  },
-  {
-    name: "Purana Qila (Old Fort)",
-    description:
-      "Among Delhi’s oldest forts, with boating options and historical ruins, especially beautiful at dusk.",
-    imgSrc: "/purana-qila.jpg",
-  },
+  // {
+  //   name: "Jama Masjid",
+  //   description:
+  //     "One of the largest mosques in India with a massive courtyard and panoramic views from its minarets.",
+  //   imgSrc: "/jama-masjid.jpg",
+  // },
+  // {
+  //   name: "Lodhi Garden",
+  //   description:
+  //     "Historic gardens featuring tombs of the Lodi dynasty, popular for morning walks and photography.",
+  //   imgSrc: "/lodhi-garden.jpg",
+  // },
+  // {
+  //   name: "Chandni Chowk",
+  //   description:
+  //     "A bustling old market with street food, spices, jewelry, and cultural heritage in Old Delhi.",
+  //   imgSrc: "/chandni-chowk.jpg",
+  // },
+  // {
+  //   name: "Connaught Place",
+  //   description:
+  //     "Colonial-era circular market hub with shops, restaurants, cafes, and vibrant nightlife.",
+  //   imgSrc: "/connaught-place.jpg",
+  // },
+  // {
+  //   name: "Purana Qila (Old Fort)",
+  //   description:
+  //     "Among Delhi’s oldest forts, with boating options and historical ruins, especially beautiful at dusk.",
+  //   imgSrc: "/purana-qila.jpg",
+  // },
   
 ];
 const spotsAroundDelhi = [
@@ -99,13 +93,13 @@ const spotsAroundDelhi = [
     distance: "180 km",
     time: "3 hrs",
   },
-  {
-    name: "Neemrana (Rajasthan)",
-    img: "/tourist/neemrana.jpg",
-    desc: "Famous for Neemrana Fort Palace and zip-lining adventure.",
-    distance: "120 km",
-    time: "2 hrs",
-  },
+  // {
+  //   name: "Neemrana (Rajasthan)",
+  //   img: "/tourist/neemrana.jpg",
+  //   desc: "Famous for Neemrana Fort Palace and zip-lining adventure.",
+  //   distance: "120 km",
+  //   time: "2 hrs",
+  // },
   {
     name: "Rishikesh (Uttarakhand)",
     img: "/tourist/rishikesh.jpg",
@@ -127,13 +121,13 @@ const spotsAroundDelhi = [
     distance: "300 km",
     time: "7 hrs",
   },
-  {
-    name: "Jim Corbett National Park",
-    img: "/tourist/corbett.jpg",
-    desc: "India’s oldest national park, famous for tigers and safaris.",
-    distance: "240 km",
-    time: "5 hrs",
-  },
+  // {
+  //   name: "Jim Corbett National Park",
+  //   img: "/tourist/corbett.jpg",
+  //   desc: "India’s oldest national park, famous for tigers and safaris.",
+  //   distance: "240 km",
+  //   time: "5 hrs",
+  // },
 ];
 export default TouristSpots;
 function TouristSpots() {
@@ -215,13 +209,13 @@ function TouristSpots() {
         ))}
       </div>
       <div className="mt-8 text-center">
+        For more places and details : -   
       <a
         href="https://delhitourism.travel/places-to-visit-in-delhi"
         target="_blank"
         rel="noopener noreferrer"
         className="font-inter text-blue-600 hover:text-blue-800 underline"
-      >
-        Explore Places to Visit in Delhi (Delhi Tourism)
+      > Explore Places to Visit in Delhi (Delhi Tourism)
       </a>
     </div>
 
