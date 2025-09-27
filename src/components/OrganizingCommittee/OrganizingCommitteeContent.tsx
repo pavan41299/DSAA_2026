@@ -118,7 +118,7 @@ const committees = [
     title: "Special Session Chairs",
     members: [
       {
-        photo: "/Kamal-latest.png",
+        photo: "/Kamal.png",
         name: "Kamal Karlapalem",
         university: "IIIT Hyderabad",
       },
