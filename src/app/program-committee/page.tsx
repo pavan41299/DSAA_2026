@@ -5,7 +5,7 @@ import ProgramCommitteeContent from '@/components/ProgramCommittee/ProgramCommit
 export default function ProgramCommitteePage() {
   return (
     <main>
-      <ProgramCommitteeBanner />
+      {/* <ProgramCommitteeBanner /> */}
       <ProgramCommitteeContent />
     </main>
   )

@@ -6,10 +6,20 @@ function AboutResearchTrack() {
       <div className="max-w-[1700px] mx-auto">
         {/* ...existing About section... */}
         <h2 className="font-inter font-bold text-[28px] md:text-[40px] text-center text-[#101828] mb-3">
-          About DSAA Research Track
+        Call for Paper - Research Track
         </h2>
-        <div className="font-inter text-[16px] md:text-[18px] text-center text-[#4A5565] mb-8">
+        {/* <div className="font-inter text-[16px] md:text-[18px] text-center text-[#4A5565] mb-8">
           Important deadlines and milestones for DSAA 2026. Mark your calendar and stay updated.
+        </div> */}
+        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-8 max-w-5xl mx-auto">
+          <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-4">
+            Important Dates
+          </h3>
+          <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
+            <li><b>Paper Submission:</b> May 1, 2026</li>
+            <li><b>Paper Notification:</b> July 24, 2026</li>
+            <li><b>Paper Camera-Ready:</b> August 21, 2026</li>
+          </ul>
         </div>
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6 max-w-5xl mx-auto">
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
@@ -37,16 +47,7 @@ function AboutResearchTrack() {
             Submissions for the DSAA&apos;2026 Research Track should very clearly specify the problem being solved, what methodologies were used to solve the problem, what data was used, how the results were evaluated, and how the solution is being used.
           </div>
         </div>
-        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-8 max-w-5xl mx-auto">
-          <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-4">
-            Important Dates
-          </h3>
-          <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
-          <li><b>Research Track Paper Submission:</b> April 30, 2026</li>
-          <li><b>Research Track Paper Notification:</b> July 18, 2026</li>
-          <li><b>Research Track Paper Camera-Ready:</b> August 1, 2026</li>
-          </ul>
-        </div>
+        
         {/* Paper Submissions */}
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6 max-w-5xl mx-auto">
   <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-4">

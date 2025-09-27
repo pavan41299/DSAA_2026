@@ -4,7 +4,7 @@ import IndustryBanner from '@/components/IndustryTrack/IndustryBanner'
 function page() {
   return (
     <>
-      <IndustryBanner />
+      {/* <IndustryBanner /> */}
       {/*  <DeadLines />     */}
       <AboutIndustryTrack />
     </>

@@ -4,13 +4,24 @@ function AboutTutorials() {
       <div className="max-w-[1700px] mx-auto">
         {/* Heading and subtitle */}
         <h2 className="font-inter font-bold text-[32px] md:text-[40px] text-center text-[#101828] mb-3">
-          About DSAA Tutorials
+          Call for Tutorials
         </h2>
-        <div className="font-inter text-[16px] md:text-[18px] text-center text-[#4A5565] mb-8">
+        {/* <div className="font-inter text-[16px] md:text-[18px] text-center text-[#4A5565] mb-8">
           Important deadlines and milestones for DSAA 2026. Mark your calendar and stay updated.
-        </div>
+        </div> */}
 
         {/* About Card */}
+        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-8 max-w-5xl mx-auto">
+                <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-4">
+                  Important Dates
+                </h3>
+                <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
+                  <li><b>Tutorials Submission :</b>   April 20th, 2026</li>
+                  <li><b>Tutorials Notification :</b> May 16th, 2026</li>
+                  {/* <li><b>Paper Camera-Ready:</b> August 21, 2026</li> */}
+                </ul>
+              </div>
+
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
             We solicit proposals for tutorials at the 2026 IEEE International Conference on Data Science and Advanced Analytics (DSAA&apos;2026) on theoretical foundations, algorithms and techniques, and hands-on data science and analytics. The goal of the tutorials is to reach a wide audience and thus should not only provide a basic introduction, but also cover the most important topics in depth.
@@ -65,6 +76,13 @@ function AboutTutorials() {
           </h3>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
             Tutorial proposals should be submitted via email to the Tutorials Chairs.
+            <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 space-y-1">
+            
+            
+            <li>Benjamin Fung, McGill University, Canada</li>
+            <li>P. Radha Krishna, NIT Warangal, India</li>
+            <li>Sanjay Madria, Missouri University of Science and Technology, USA</li>
+          </ul>
           </div>
         </div>
       </div>

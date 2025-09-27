@@ -5,7 +5,7 @@ import TechnicalProgramInstructions from '@/components/Program/TechnicalProgramI
 function page() {
   return (
     <>
-      <TechnicalProgramBanner />
+      {/* <TechnicalProgramBanner /> */}
       <TechnicalProgramInstructions />
     </>
   )

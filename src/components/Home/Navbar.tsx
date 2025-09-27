@@ -25,12 +25,12 @@ const dropdownItems = {
   "Program": [
     { name: "Technical Program", link: "/program/technical-program" },
     { name: "Keynote Speakers", link: "/program/keynote-speakers" },
-    { name: "Camera-Ready Instructions", link: "/program/camera-ready-instructions" },
+    // { name: "Camera-Ready Instructions", link: "/program/camera-ready-instructions" },
     // { name: "Special Sessions", link: "/program/special-sessions" },
     // { name: "Tutorial", link: "/program/tutorial" }
   ],
   // Organization pages are top-level routes added to the project
-  "Organizers": [
+  "Organization": [
     { name: "Organizing Committee", link: "/organizing-committee" },
     { name: "Program Committee", link: "/program-committee" }
   ],
@@ -38,7 +38,7 @@ const dropdownItems = {
   "Venue": [
     { name: "Conference Venue ", link: "/venue" },
     { name: "Tourism at Delhi, India ", link: "/about-delhi" },
-    { name: "Accomodation Details", link: "/venuestay" }
+    // { name: "Accomodation Details", link: "/venuestay" }
   ]
   
 };
@@ -49,7 +49,7 @@ const navItems = [
   "Calls",
   "Program",
   "Attend",
-  "Organizers",
+  "Organization",
   "Venue",
   "Sponsors",
   "Contact Us"
@@ -65,7 +65,7 @@ const navLinks: Record<string, string> = {
   Attend: '/attend',
   Organization: '/organizing-committee',
   Sponsors: '/sponsor',
-  Venue: '/attend',
+  Venue: '/venue',
   'Contact Us': '/contact',
 
   // 'IEEE CIS Travel Grant': '/travel-grant',

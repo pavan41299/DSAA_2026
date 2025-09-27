@@ -8,11 +8,14 @@ import IIITLogo from "../../../public/IIIT LOGO.png";
 function ContactForm() {
   return (
     <section className="w-full bg-white py-12 px-4 sm:py-16 sm:px-6">
+      <h3 className="font-inter text-center font-semibold text-[40px] md:text-[40px] leading-[100%] tracking-[0%] mb-14">
+        Contact Us
+      </h3>
     <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-start">
       
   <div className="md:h-full md:flex md:flex-col md:justify-center px-4 md:px-0">
     <h3 className="font-inter font-semibold text-[20px] md:text-[24px] leading-[100%] tracking-[0%] mb-4">Contact Details</h3>
-    <p className="mb-4 font-inter text-[14px] md:text-[15px] text-[#686868]">Local & technical contacts, plus the postal address and helpdesk email.</p>
+    <p className="mb-4 font-inter text-[14px] md:text-[15px] text-[#686868]"> </p>
 
     <div className="flex items-start gap-4 mb-6">
       <div className="flex-none w-10 h-10 md:w-12 md:h-12 bg-[#E0E9FF] rounded-md flex items-center justify-center overflow-hidden">
@@ -20,8 +23,7 @@ function ContactForm() {
       </div>
       <address className="not-italic font-inter text-[15px] md:text-[16px] text-[#484848] leading-5">
       Prof. P. Krishna Reddy <br /> DSAA 2026 Secretariat <br />Data Sciences and Analytics Center (DSAC)<br />
-        International Institute of Information Technology<br />
-        Prof. C R Rao Road<br />
+        International Institute of Information Technology (IIIT-H)<br />
         Gachibowli, Hyderabad 500 032 Telangana, India
       </address>
     </div>

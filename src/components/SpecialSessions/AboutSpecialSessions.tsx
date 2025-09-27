@@ -4,24 +4,24 @@ function AboutSpecialSessions() {
       <div className="max-w-[1700px] mx-auto">
         {/* Heading */}
         <h2 className="font-inter font-bold text-[32px] md:text-[40px] text-center text-[#101828] mb-3">
-        About DSAA Special Session Proposals
+        Call for Proposal - Special Session Proposals
         </h2>
-        <div className="font-inter text-[16px] md:text-[18px] text-center text-[#4A5565] mb-8">
+        {/* <div className="font-inter text-[16px] md:text-[18px] text-center text-[#4A5565] mb-8">
           Important deadlines and milestones for DSAA 2026. Mark your calendar and stay updated.
-        </div>
+        </div> */}
         {/* Important Dates */}
-        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-8">
-          <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-4">
-            Important Dates
-          </h3>
-          <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
-            <li><b>Special Session Proposals Due:</b> March 16, 2026</li>
-            <li><b>Special Session Proposals Notification:</b> March 30, 2026</li>
-            <li><b>Special Session Paper Submission:</b> May 2, 2026</li>
-            <li><b>Special Session Paper Notification:</b> July 24, 2026</li>
-            <li><b>Special Session Paper Camera-Ready:</b> August 21, 2026</li>
-          </ul>
-        </div>
+        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-8 max-w-5xl mx-auto">
+                <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-4">
+                  Important Dates
+                </h3>
+                <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
+                  <li><b>Special Session Proposals Due :</b> March 16, 2026</li>
+                  <li><b>Special Session Proposals Notification : </b>March 30, 2026</li>
+                  <li><b>Special Session Paper Submission:</b> May 2, 2026</li>
+                  <li><b>Special Session Paper Notification :</b> July 24, 2026</li>
+                  <li><b>Special Session Paper Camera-Ready :</b> August 21, 2026</li>
+                </ul>
+              </div>  
 
         {/* About DSAA Special Sessions */}
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
@@ -132,8 +132,9 @@ function AboutSpecialSessions() {
             Special Sessions Chairs
           </div>
           <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 space-y-1">
-            <li>Kamal Karlapalem, IIIT Hyderabad, India</li>
+            
             <li>Carson K. Leung, University of Manitoba, Canada</li>
+            <li>Kamal Karlapalem, IIIT Hyderabad, India</li>
             <li>Defu Lian, University of Science and Technology of China, China</li>
           </ul>
         </div>

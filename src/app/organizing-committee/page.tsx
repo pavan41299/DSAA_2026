@@ -5,7 +5,7 @@ import OrganizingCommitteeContent from '@/components/OrganizingCommittee/Organiz
 export default function OrganizingCommitteePage() {
   return (
     <main>
-      <OrganizingCommitteeBanner />
+      {/* <OrganizingCommitteeBanner /> */}
       <OrganizingCommitteeContent />
     </main>
   )

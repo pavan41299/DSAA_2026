@@ -5,7 +5,7 @@ import AttendContent from '@/components/Attend/AttendContent'
 export default function AttendPage() {
   return (
     <main>
-      <AttendBanner />
+      {/* <AttendBanner /> */}
       <AttendContent />
     </main>
   )

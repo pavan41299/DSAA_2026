@@ -1,7 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import DssaLogo from "../../../public/PKReddy.jpg"
-// import DssaLogo from "../../../public/Dr. Sarah Chen.png"
 
 const committees = [
   {
@@ -10,12 +8,12 @@ const committees = [
       {
         photo: "/Sandeep Kumar Shukla.jpg",
         name: "Sandeep Kumar Shukla",
-        university: "Director, IIIT Hyderabad",
+        university: "Director, IIIT Hyderabad, India",
       },
       {
         photo: "/dddas.jpg",
         name: "Debabratha Das",
-        university: "Director, IIIT Bangalore",
+        university: "Director, IIIT Bangalore, India",
       },
     ],
   },
@@ -90,22 +88,43 @@ const committees = [
     ],
   },
   {
+    title: "PC Chairs - Special Track - Surveys & Vision",
+    members: [
+      { photo: "", name: "To be announced", university: "" },
+      { photo: "", name: "To be announced", university: "" },
+    ],
+  },
+  {
+    title: "PC Chairs - Special Track - Large Language Models",
+    members: [
+      { photo: "", name: "To be announced", university: "" },
+      { photo: "", name: "To be announced", university: "" },
+    ],
+  },
+  {
+    title: "PhD Consortium Track Chairs",
+    members: [
+      { photo: "", name: "To be announced", university: "" },
+      { photo: "", name: "To be announced", university: "" },
+    ],
+  },
+  {
     title: "Journal Track Chairs",
     members: [
       {
-        photo: "/kalidas.jpg",
-        name: "Dr. Kalidas",
-        university: "IIT Tirupati, India",
-      },
+        photo: "/Hady Lauw.png",
+        name: "Hady Lauw",
+        university: "Singapore Management University",
+      },      
       {
         photo: "/LanDU.png",
         name: "Lan Du",
         university: "Monash University, Australia",
       },
       {
-        photo: "/Hady Lauw.png",
-        name: "Hady Lauw",
-        university: "Singapore Management University",
+        photo: "/kalidas.jpg",
+        name: "Dr. Kalidas Yeturu",
+        university: "IIT Tirupati, India",
       },
       {
         photo: "/Longbing Cao.webp",
@@ -117,15 +136,16 @@ const committees = [
   {
     title: "Special Session Chairs",
     members: [
-      {
-        photo: "/Kamal.png",
-        name: "Kamal Karlapalem",
-        university: "IIIT Hyderabad",
-      },
+      
       {
         photo: "/Carson Leung.jpg",
         name: "Carson Leung",
         university: "University of Manitoba, Canada",
+      },
+      {
+        photo: "/Kamal.png",
+        name: "Kamal Karlapalem",
+        university: "IIIT Hyderabad",
       },
       {
         photo: "/Defu Lian.jpeg",
@@ -137,20 +157,21 @@ const committees = [
   {
     title: "Tutorial Chairs",
     members: [
-      {
-        photo: "/rk.jpg",
-        name: "P. Radha Krishna",
-        university: "NIT Warangal",
-      },
+      
       {
         photo: "/Benjamin Fung.webp",
         name: "Benjamin Fung",
         university: "McGill University, Canada",
       },
       {
-        photo: "/Evangelos E. Papalexakis.jpeg",
-        name: "Evangelos E. Papalexakis",
-        university: "University of California, Riverside",
+        photo: "/rk.jpg",
+        name: "P. Radha Krishna",
+        university: "NIT Warangal",
+      },
+      {
+        photo: "/Madria.png",
+        name: "Sanjay Madria",
+        university: "Missouri University of Science and Technology, USA",
       },
     ],
   },
@@ -168,9 +189,9 @@ const committees = [
     title: "Publicity Chairs",
     members: [
       {
-        photo: "/Xiaohan Yu, Macquarie University.jpeg",
-        name: "Xiaohan Yu",
-        university: "Macquarie University, Australia",
+        photo: "/vinu.jpg",
+        name: "Vinu Ellampallil Venugopal",
+        university: "IIIT Bangalore, India",
       },
       {
         photo: "/OIP.webp",
@@ -193,9 +214,9 @@ const committees = [
     title: "Sponsorship Chair",
     members: [
       {
-        photo: "/PKReddysmart.jpg",
-        name: "P. Krishna Reddy",
-        university: "IIIT Hyderabad",
+        photo: "/Kedar.jpg",
+        name: "Kedar Kulkarni",
+        university: "Reliance Industries Ltd.",
       },
     ],
   },
@@ -224,6 +245,9 @@ const committees = [
 function OrganizingCommitteeContent() {
   return (
     <div className="max-w-6xl mx-auto py-12 px-4">
+      <h3 className="font-inter text-center font-semibold text-[36px] md:text-[44px] leading-tight mb-12 text-[#101828]">
+        Organizing Committee
+      </h3>
       {committees.map((committee, index) => (
         <div key={index} className="mb-12">
           <h5
@@ -242,7 +266,7 @@ function OrganizingCommitteeContent() {
                 className="flex flex-col items-center text-center border rounded-2xl shadow-sm p-6 hover:shadow-md transition w-64"
               >
                 <Image
-                  src={member.photo}
+                  src={member.photo || "/blank.jpg"}
                   alt={member.name}
                   width={150}
                   height={200}

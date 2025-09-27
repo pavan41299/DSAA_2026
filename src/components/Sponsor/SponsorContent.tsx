@@ -21,11 +21,15 @@ function SponsorContent() {
   ];
 
   return (
-    <div className="max-w-4xl mx-auto text-center py-12">
+    
+    <div className="w-full bg-white py-12 px-4 sm:py-16 sm:px-6 max-w-4xl mx-auto text-center ">
+      <h3 className="font-inter text-center font-semibold text-[40px] md:text-[40px] leading-[100%] tracking-[0%] mb-14">
+        Sponsors
+      </h3>
       {/* Title */}
       {/* <h2 className="text-2xl font-semibold text-gray-900 mb-2">Sponsors</h2>
       <div className="border-t-2 border-blue-500 w-24 mx-auto mb-8"></div> */}
-
+      
       {/* Logos */}
       <div className="flex flex-wrap justify-center gap-16">
         {sponsors.map((sponsor, idx) => (

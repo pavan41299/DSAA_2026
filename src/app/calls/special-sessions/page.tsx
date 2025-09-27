@@ -5,7 +5,7 @@ import SpecialSessionsBanner from '@/components/SpecialSessions/SpecialSessionsB
 function page() {
   return (
     <>
-      <SpecialSessionsBanner />
+      {/* <SpecialSessionsBanner /> */}
       {/*  <DeadLines />     */}
       <AboutSpecialSessions />
     </>

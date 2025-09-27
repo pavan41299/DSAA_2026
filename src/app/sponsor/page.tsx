@@ -5,7 +5,7 @@ import SponsorContent from '@/components/Sponsor/SponsorContent'
 function page() {
   return (
     <>
-      <SponsorBanner />
+      {/* <SponsorBanner /> */}
       <SponsorContent />
     </>
   )

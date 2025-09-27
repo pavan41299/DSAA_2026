@@ -5,7 +5,7 @@ import ContactForm from '@/components/Contact/ContactForm'
 function page() {
   return (
     <>
-      <ContactBanner />
+      {/* <ContactBanner /> */}
       <ContactForm />
     </>
   )

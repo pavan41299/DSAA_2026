@@ -6,13 +6,24 @@ function AboutIndustryTrack() {
       <div className="max-w-[1700px] mx-auto">
         {/* Heading and subtitle */}
         <h2 className="font-inter font-bold text-[32px] md:text-[40px] text-center text-[#101828] mb-3">
-          About DSAA Industry Track
+          Call for Paper - Industry Track
         </h2>
-        <div className="font-inter text-[16px] md:text-[18px] text-center text-[#4A5565] mb-8">
+        {/* <div className="font-inter text-[16px] md:text-[18px] text-center text-[#4A5565] mb-8">
           Important deadlines and milestones for DSAA 2026. Mark your calendar and stay updated.
-        </div>
+        </div> */}
 
         {/* About Card */}
+        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-8 max-w-5xl mx-auto">
+          <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-4">
+            Important Dates
+          </h3>
+          <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
+            <li><b>Paper Submission:</b> May 1, 2026</li>
+            <li><b>Paper Notification:</b> July 24, 2026</li>
+            <li><b>Paper Camera-Ready:</b> August 21, 2026</li>
+          </ul>
+        </div>
+
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6 text-justify">
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
             The DSAA&apos;2026 Industry Track solicits industry contributions in data science and analytics, in any business domain, to be presented as a talk or poster in a dedicated session.
@@ -95,7 +106,7 @@ function AboutIndustryTrack() {
             {/* <li>To be announced</li> */}
             <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 space-y-1">
             <li>Arvindh Agrawal, IBM India </li>
-            <li>Mounia Lalmas, Spotify </li>
+            <li>Rajeev Gupta, Microsoft </li>
           </ul>
           </ul>
         </div>

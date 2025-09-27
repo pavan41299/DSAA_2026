@@ -5,7 +5,7 @@ import KeynoteSpeakersContent from '@/components/Program/KeynoteSpeakersContent'
 function page() {
   return (
     <>
-      <KeynoteSpeakersBanner />
+      {/* <KeynoteSpeakersBanner /> */}
       <KeynoteSpeakersContent />
     </>
   )

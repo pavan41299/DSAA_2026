@@ -13,6 +13,18 @@ function AboutDoctoralTrack(){
         </div>
 
         {/* About Card */}
+        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-8 max-w-5xl mx-auto">
+                <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-4">
+                  Important Dates
+                </h3>
+                <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
+                  <li><b>Paper Submission:</b> May 1, 2026</li>
+                  <li><b>Paper Notification:</b> July 24, 2026</li>
+                  <li><b>Paper Camera-Ready:</b> August 21, 2026</li>
+                </ul>
+              </div>
+
+
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6 text-justify">
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
             The DSAA&apos;2026 Doctoral Consortium provides an opportunity for doctoral students to discuss and explore their research interests and career objectives with a panel of established researchers in data science and analytics.
@@ -29,16 +41,7 @@ function AboutDoctoralTrack(){
         </div>
 
         {/* Important Dates */}
-        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-8">
-          <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-4">
-            Important Dates
-          </h3>
-          <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
-            <li><b>Paper Submission:</b> April 30, 2026</li>
-            <li><b>Paper Notification:</b> July 18, 2026</li>
-            <li><b>Paper Camera-ready:</b> August 1, 2026</li>
-          </ul>
-        </div>
+        
 
         {/* Paper Submissions */}
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
