@@ -49,10 +49,10 @@ function AboutIndustryTrack() {
           </div>
           <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 mb-3 space-y-1">
             <li>
-              <span className="font-semibold">Regular Papers:</span> maximum 4 pages (including references, excluding appendix if any), formatted per IEEE Conference 2-column U.S. letter style.
+              <span className="font-semibold">Regular Papers:</span> maximum 4 pages + References, formatted per IEEE Conference 2-column U.S. letter style.
             </li>
             <li>
-              <span className="font-semibold">Short Papers:</span> maximum 2 pages (including references, excluding appendix if any), same format.
+              <span className="font-semibold">Short Papers:</span> maximum 2 pages + References, same format.
             </li>
           </ul>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-2">
