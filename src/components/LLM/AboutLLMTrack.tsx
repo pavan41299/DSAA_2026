@@ -49,7 +49,7 @@ function AboutLLMTrack() {
           </div>
   
           {/* Important Dates */}
-          <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-8">
+          {/* <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-8">
             <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-4">
               Important Dates
             </h3>
@@ -58,7 +58,7 @@ function AboutLLMTrack() {
               <li><b>Paper Notification:</b> July 18, 2026</li>
               <li><b>Paper Camera-ready:</b> August 1, 2026</li>
             </ul>
-          </div>
+          </div> */}
   
           {/* Paper Submissions */}
           <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
