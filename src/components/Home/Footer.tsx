@@ -8,19 +8,26 @@ type LinkItem = {
 }
 
 const quickLinks: LinkItem[] = [
-  { label: "Call for Papers", href: "/calls/research-track" },
-  { label: "For Authors", href: "/for-authors" },
-  { label: "Program", href: "/program/technical-program" },
-  { label: "Key Dates", href: "/key-dates" },
-  { label: "Attend / Registration", href: "/attend" },
-  { label: "Sponsor", href: "/sponsor" },
+  { label: "Research Track", href: "/calls/research-track" },
+  { label: "Application Track", href: "/calls/application-track" },
+  { label: "Industry Track", href: "/calls/industry-track" },
+  { label: "LLM Track", href: "/calls/llm-track" },
+  { label: "Survey and Vision Track", href: "/calls/survey-track" },
+  { label: "Doctoral Consortium Track", href: "/calls/doctoral-track" },
+  { label: "Special sessions ", href: "/calls/special-sessions" },
+  { label: "Tutorials", href: "/calls/tutorials" },
+
+  // { label: "Program", href: "/program/technical-program" },
+  // { label: "Key Dates", href: "/key-dates" },
+  // { label: "Attend / Registration", href: "/attend" },
+  // { label: "Sponsor", href: "/sponsor" },
 ]
 
 const resources: LinkItem[] = [
-  { label: "Submission Guidelines", href: "/for-authors" },
-  { label: "Camera-Ready Instructions", href: "/program/camera-ready-instructions" },
+  // { label: "Submission Guidelines", href: "/for-authors" },
+  // { label: "Camera-Ready Instructions", href: "/program/camera-ready-instructions" },
   { label: "Registration & Travel", href: "/attend" },
-  { label: "Accommodation", href: "/attend" },
+  { label: "Conference Venue", href: "/venue" },
 ]
 
 const organizationLinks: LinkItem[] = [
@@ -49,7 +56,7 @@ export default function Footer() {
                   <address className="not-italic leading-6">
                    International Institute of Information Technology (IIIT-H) <br />
                     Prof. C R Rao Road<br />
-                    Gachibowli, Hyderabad 500 032 Telangana, INDIA
+                    Gachibowli, Hyderabad, Telangana, India  500032
                   </address>
                 </li>
                 <li className="flex items-start gap-3">
@@ -143,25 +150,25 @@ export default function Footer() {
             © 2026 IEEE International Conference on Data Science and Advanced Analytics. All rights reserved.
           </p>
           <ul className="flex flex-wrap items-center gap-x-6 gap-y-2">
-            <li>
+            {/* <li>
               <Link
                 href=""
                 className="hover:text-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-400/50"
               >
                 Privacy Policy
               </Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Link href="" className="hover:text-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-400/50">
                 Terms of Use
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
-                href=""
+                href="https://secure.ethicspoint.com/domain/media/en/gui/20410/index.html"
                 className="hover:text-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-400/50"
               >
-                Code of Conduct
+                IEEE Code of Conduct
               </Link>
             </li>
           </ul>

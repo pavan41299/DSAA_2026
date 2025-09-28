@@ -14,7 +14,7 @@ const dropdownItems = {
     { name: "Research Track", link: "/calls/research-track" },
     { name: "Application, Data and Benchmark Track", link: "/calls/application-track" },
     { name: "Industry Track", link: "/calls/industry-track" },
-    { name: "Large Large Models Track", link: "/calls/llm-track" },
+    { name: "Large Language Models Track", link: "/calls/llm-track" },
     { name: "Survey and Vision Track", link: "/calls/survey-track" },
     { name: "Doctoral Consortium Track", link: "/calls/doctoral-track" },
     { name: "Special Sessions", link: "/calls/special-sessions" },

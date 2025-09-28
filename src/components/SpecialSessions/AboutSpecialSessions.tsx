@@ -68,7 +68,7 @@ function AboutSpecialSessions() {
         </div>
 
         {/* Submission Process */}
-        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
+        {/* <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
           <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
             Submission of a Special Session Proposal
           </h3>
@@ -78,7 +78,7 @@ function AboutSpecialSessions() {
           <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
             To submit a paper to a special session, go to: …, and select the appropriate Special Session.
           </p>
-        </div>
+        </div> */}
 
         {/* After Acceptance */}
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
