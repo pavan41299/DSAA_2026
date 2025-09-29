@@ -4,7 +4,7 @@ function TouristSpots() {
   return (
     <section className="max-w-4xl mx-auto py-16 px-6 text-center">
       <h3 className="font-inter font-semibold text-[36px] md:text-[44px] leading-tight mb-12 text-[#101828]">
-        Your Gateway to India
+        Tourism Links
       </h3>
 
       <div className="flex flex-col gap-6 items-center">
@@ -14,7 +14,7 @@ function TouristSpots() {
           rel="noopener noreferrer"
           className="font-inter text-xl md:text-2xl text-blue-600 hover:text-blue-800 underline"
         >
-          Discover India
+          India Tourism
         </a>
 
         <a
@@ -23,7 +23,7 @@ function TouristSpots() {
           rel="noopener noreferrer"
           className="font-inter text-xl md:text-2xl text-blue-600 hover:text-blue-800 underline"
         >
-          Explore Delhi
+          Delhi Tourism
         </a>
       </div>
     </section>

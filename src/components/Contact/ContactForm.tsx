@@ -23,8 +23,10 @@ function ContactForm() {
       </div>
       <address className="not-italic font-inter text-[15px] md:text-[16px] text-[#484848] leading-5">
       Prof. P. Krishna Reddy <br /> DSAA 2026 Secretariat <br />Data Sciences and Analytics Center (DSAC)<br />
-        International Institute of Information Technology (IIIT-H)<br />
-        Gachibowli, Hyderabad 500 032 Telangana, India
+        International Institute of Information <br></br>Technology - Hyderabad (IIIT-H)<br />
+        Gachibowli, Hyderabad,Telangana, India.
+        <br></br>
+        Pin Code :  500032 
       </address>
     </div>
 
@@ -41,7 +43,7 @@ function ContactForm() {
       </div>
       <div className="font-inter text-[15px] md:text-[16px] text-[#484848] leading-5">
         <div className="font-medium">P. Krishna Reddy </div>
-        <a href="tel:+919849329324" className="hover:text-sky-500">Contact +91 98493 29324 (Whats App Enabled) </a>
+        <a href="tel:+919849329324" className="hover:text-sky-500">Contact +91 9849329324 (WhatsApp Enabled) </a>
       </div>
     </div>
 
