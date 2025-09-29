@@ -45,18 +45,23 @@ function AboutIndustryTrack() {
             Paper Submissions
           </h3>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
-            All papers should be submitted electronically via OpenReview.
+            All papers should be submitted electronically via <b>OpenReview</b> (under the Industry Track).
           </div>
-          <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 mb-3 space-y-1">
-            <li>
-              <span className="font-semibold">Regular Papers:</span> maximum 4 pages + References, formatted per IEEE Conference 2-column U.S. letter style.
-            </li>
-            <li>
+          {/* <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 mb-3 space-y-1">
+            <li> */}
+              <span className="font-semibold">Regular Papers:</span> Maximum 4 pages + References, formatted per IEEE Conference 2-column U.S. letter style.
+            {/* </li> */}
+            {/* <li>
               <span className="font-semibold">Short Papers:</span> maximum 2 pages + References, same format.
-            </li>
-          </ul>
+            </li> */}
+          {/* </ul> */}
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-2">
-            For further details, see the <span className="font-semibold">IEEE Proceedings Author Guidelines.</span>
+            For further details, see the <a
+    href="https://www.ieee.org/conferences/publishing/templates"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-[#1D4ED8] hover:underline"
+    > IEEE Proceedings Author Guidelines.</a>
           </div>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-2">
             <span className="font-semibold">Double-blind review:</span> DSAA&apos;2026 operates a double-blind review process. Submissions must not include author names or other identifying information. These will be added only after acceptance.
@@ -72,7 +77,7 @@ function AboutIndustryTrack() {
             Proceedings and Indexing
           </h3>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
-            All accepted regular and short papers will be published by <span className="font-semibold">IEEE</span>, submitted for inclusion in the <span className="font-semibold">IEEE Xplore Digital Library</span>, and for <span className="font-semibold">EI indexing</span> through <span className="font-semibold">INSPEC</span>.
+            All accepted papers will be published by IEEE, submitted for inclusion in the IEEE Xplore Digital Library, and for EI indexing through INSPEC.
           </div>
         </div>
 

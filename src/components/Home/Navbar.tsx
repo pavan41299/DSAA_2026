@@ -299,15 +299,15 @@ function Navbar() {
             ))}
           </ul>
           
-          <div ref={addToRefs} className="pt-2">
+          {/* <div ref={addToRefs} className="pt-2">
             <Link
               href="/contact"
-              className="w-full block text-center px-4 py-3.5 rounded-[12px] bg-[#155DFC] uppercase font-inter font-medium text-[16px] leading-[24px] text-white hover:bg-[#0E44C0] transition-colors duration-200"
+              className="w-full block text-center px-4 py-3.5 rounded-[12px] uppercase font-inter font-medium text-[16px] leading-[24px] text-white hover:bg-[#0E44C0] transition-colors duration-200"
               onClick={() => setIsOpen(false)}
             >
-              Contact Us
-            </Link>
-          </div>
+              {/* Contact Us */}
+            {/* </Link> */}
+          {/* </div> */}
         </div>
       </div>
     </nav>

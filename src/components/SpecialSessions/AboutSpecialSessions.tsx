@@ -63,7 +63,7 @@ function AboutSpecialSessions() {
             <li>Expected number of submissions.</li>
           </ol>
           <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
-            Special session proposals will be reviewed based on the above criteria and their relationship to the main conference topics. Preference may be given to timely topics that inspire highly interactive discussions and showcase the impact of data science and analytics.
+            Special Session Proposals will be reviewed based on the above criteria and their relationship to the main conference topics. Preference may be given to timely topics that inspire highly interactive discussions and showcase the impact of data science and analytics.
           </p>
         </div>
 
@@ -110,7 +110,7 @@ function AboutSpecialSessions() {
             Proceedings and Indexing
           </h3>
           <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
-            All accepted full-length and short special session papers will be published by <b>IEEE</b> in the DSAA main conference proceedings under its Special Session scheme and submitted for inclusion in the <b>IEEE Xplore Digital Library</b>.
+            All accepted Special Session Proposals will be published by IEEE in the DSAA main conference proceedings under its Special Session scheme and submitted for inclusion in the IEEE Xplore Digital Library.
           </p>
           <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mt-2">
             Organizers may also arrange special issues for extended journal versions of the papers.
@@ -123,7 +123,7 @@ function AboutSpecialSessions() {
             Enquiries
           </h3>
           <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
-            General enquiries about Special Sessions proposals should be sent directly to the Special Sessions Chairs.
+            General enquiries about Special Sessions Proposals should be sent directly to the Special Sessions Chairs.
           </p>
           <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
             Specific inquiries about a Special Session should be submitted to the session organizers, who are advised to set up a joint email address once their proposal is accepted.

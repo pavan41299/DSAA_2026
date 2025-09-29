@@ -23,17 +23,20 @@ const committees = [
       {
         photo: "/PKReddysmart.jpg",
         name: "P. Krishna Reddy",
-        university: "IIIT Hyderabad",
+        university: "IIIT Hyderabad, India",
+
+        
+
       },
       {
         photo: "/Prof. Jaideep Srivastava.webp",
         name: "Jaideep Srivastava",
-        university: "University of Minnesota",
+        university: "University of Minnesota, USA",
       },
       {
         photo: "/Masaru Kitsuregawa, The University of Tokyo.jpg",
         name: "Masaru Kitsuregawa",
-        university: "The University of Tokyo",
+        university: "The University of Tokyo, Japan",
       },
     ],
   },
@@ -43,12 +46,12 @@ const committees = [
       {
         photo: "/Tanmoy Chakraborty.png",
         name: "Tanmoy Chakraborty",
-        university: "IIT Delhi",
+        university: "IIT Delhi, India",
       },
       {
         photo: "/Sharma Chakravarthy, The University of Texas at Arlington.jpg",
         name: "Sharma Chakravarthy",
-        university: "The University of Texas at Arlington",
+        university: "The University of Texas at Arlington, USA",
       },
       {
         photo: "/Longbing Cao.webp",
@@ -78,12 +81,12 @@ const committees = [
       {
         photo: "/Arvind-Agrawal.jpg",
         name: "Arvind Agarwal",
-        university: "IBM India",
+        university: "IBM, India",
       },
       {
         photo: "/Rajeev Gupta.jpg",
         name: "Rajeev Gupta",
-        university: "Microsoft",
+        university: "Microsoft, India",
       },
     ],
   },
@@ -114,7 +117,7 @@ const committees = [
       {
         photo: "/Hady Lauw.png",
         name: "Hady Lauw",
-        university: "Singapore Management University",
+        university: "Singapore Management University, Singapore",
       },      
       {
         photo: "/LanDU.png",
@@ -145,12 +148,12 @@ const committees = [
       {
         photo: "/Kamal.png",
         name: "Kamal Karlapalem",
-        university: "IIIT Hyderabad",
+        university: "IIIT Hyderabad, India",
       },
       {
         photo: "/Defu Lian.jpeg",
         name: "Defu Lian",
-        university: "University of Science and Technology of China",
+        university: "University of Science and Technology of China, China",
       },
     ],
   },
@@ -166,7 +169,7 @@ const committees = [
       {
         photo: "/rk.jpg",
         name: "P. Radha Krishna",
-        university: "NIT Warangal",
+        university: "NIT Warangal, India",
       },
       {
         photo: "/Madria.png",
@@ -216,7 +219,7 @@ const committees = [
       {
         photo: "/Kedar.jpg",
         name: "Kedar Kulkarni",
-        university: "Reliance Industries Ltd.",
+        university: "Reliance Industries Ltd., India",
       },
     ],
   },
@@ -226,7 +229,7 @@ const committees = [
       {
         photo: "/Vikram-Pudi.png",
         name: "Vikram Pudi",
-        university: "IIIT Hyderabad",
+        university: "IIIT Hyderabad, India",
       },
     ],
   },
@@ -236,7 +239,7 @@ const committees = [
       {
         photo: "/VK.jpg",
         name: "Vikram Goyal",
-        university: "IIIT Delhi",
+        university: "IIIT Delhi, India",
       },
     ],
   },
@@ -248,6 +251,7 @@ function OrganizingCommitteeContent() {
       <h3 className="font-inter text-center font-semibold text-[36px] md:text-[44px] leading-tight mb-12 text-[#101828]">
         Organizing Committee
       </h3>
+      
       {committees.map((committee, index) => (
         <div key={index} className="mb-12">
           <h5

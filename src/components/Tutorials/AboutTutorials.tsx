@@ -26,7 +26,7 @@ function AboutTutorials() {
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
             We solicit proposals for tutorials at the 2026 IEEE International Conference on Data Science and Advanced Analytics (DSAA&apos;2026) on theoretical foundations, algorithms and techniques, and hands-on data science and analytics. The goal of the tutorials is to reach a wide audience and thus should not only provide a basic introduction, but also cover the most important topics in depth.
           </div>
-          <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-2 font-semibold">
+          <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-2">
             Example areas of interest include, but are not limited to:
           </div>
           <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 mb-4 space-y-1">

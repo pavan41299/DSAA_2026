@@ -66,12 +66,21 @@ function AboutLLMTrack() {
               Paper Submission
             </h3>
             <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
-              All papers should be submitted electronically via Open Review (under the &quot;Special Track on Large Language Models&quot;).
+              All papers should be submitted electronically via <b>Open Review</b> (under the Special Track on Large Language Models).
             </div>
-            <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 mb-3 space-y-1">
-              <li>The length of each paper submitted to the Special Track on Large Language Models track should be no more than seven (7) pages of technical content plus additional pages solely for references and should be formatted following the standard 2-column U.S. letter style of IEEE Conference template.</li>
-              <li>For further information and instructions, see the IEEE Proceedings Author Guidelines.</li>
-            </ul>
+            <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
+    The length of each paper submitted to the Research tracks should be no more than 
+    seven (7) pages of technical content plus additional pages solely for references 
+    and should be formatted following the standard 2-column U.S. letter style of the 
+    IEEE Conference template. For further information and instructions, see the 
+    <a
+    href="https://www.ieee.org/conferences/publishing/templates"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-[#1D4ED8] hover:underline"
+    > IEEE Proceedings Author Guidelines.</a>
+    
+  </p>
             <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-2">
               All submissions will be blind reviewed by the Program Committee for the Special Track on Large Language Models on the basis of technical quality, relevance to the conference&apos;s topics of interest, originality, significance, and clarity. Author names and affiliations must not appear in the submissions, and bibliographic references must be adjusted to preserve author anonymity. Submissions failing to comply with paper formatting and authors anonymity will be rejected without reviews.
             </div>
@@ -86,7 +95,7 @@ function AboutLLMTrack() {
               Proceedings and Indexing
             </h3>
             <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
-              All accepted full-length papers will be published by <span className="font-semibold">IEEE</span> and will be submitted for inclusion in the <span className="font-semibold">IEEE Xplore Digital Library</span>. The conference proceedings will be submitted for <span className="font-semibold">EI indexing</span> through <span className="font-semibold">INSPEC</span> by IEEE.
+              All accepted full-length papers will be published by IEEE and will be submitted for inclusion in the IEEE Xplore Digital Library. The conference proceedings will be submitted for EI indexing through INSPEC by IEEE.
             </div>
           </div>
   

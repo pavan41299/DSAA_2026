@@ -88,7 +88,7 @@ const images = [
 const Banner: React.FC = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel(
     { loop: true },
-    [Autoplay({ delay: 2500, stopOnInteraction: true })]
+    [Autoplay({ delay: 4000, stopOnInteraction: true })]
   );
 
   const [selectedIndex, setSelectedIndex] = useState(0);

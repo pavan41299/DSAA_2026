@@ -43,7 +43,7 @@ function AboutApplicationsTrack() {
           </div>
 
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
-            <span className="font-semibold">Topics of interests</span> include but are not limited to:
+            <span className="font-semibold"></span>Topics of interests include but are not limited to:
           </div>
 
           <ul className="list-disc list-inside font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
@@ -107,7 +107,7 @@ function AboutApplicationsTrack() {
         </div> */}
 
         {/* Paper Submissions */}
-        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6 max-w-5xl mx-auto">
+        {/* <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6 max-w-5xl mx-auto">
           <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-4">
             Paper Submissions
           </h3>
@@ -154,10 +154,57 @@ function AboutApplicationsTrack() {
             to DSAA&apos;2026 submission deadline, provided that the submitted paper&apos;s
             <b> title</b> and <b>abstract</b> differ from the arXiv version.
           </p>
-        </div>
-
-        {/* Proceedings and Indexing */}
+        </div> */}
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6 max-w-5xl mx-auto">
+  <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-4">
+    Paper Submissions
+  </h3>
+
+  <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
+    All papers should be submitted electronically via <b>Open Review</b> (under the Research Track).
+  </p>
+
+  <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
+    The length of each paper submitted to the Research tracks should be no more than 
+    seven (7) pages of technical content plus additional pages solely for references 
+    and should be formatted following the standard 2-column U.S. letter style of the 
+    IEEE Conference template. For further information and instructions, see the 
+    <a
+    href="https://www.ieee.org/conferences/publishing/templates"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-[#1D4ED8] hover:underline"
+    > IEEE Proceedings Author Guidelines.</a>
+    
+  </p>
+
+  <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
+    All submissions will be blind reviewed by the Program Committee on the basis of:
+  </p>
+
+  <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 mb-4 space-y-2">
+    <li>Technical quality</li>
+    <li>Relevance to the conference&apos;s topics of interest</li>
+    <li>Originality</li>
+    <li>Significance</li>
+    <li>Clarity</li>
+  </ul>
+
+  <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
+    Author names and affiliations must not appear in the submissions, and bibliographic references 
+    must be adjusted to preserve author anonymity. Submissions failing to comply with formatting 
+    or anonymity will be rejected without review.
+  </p>
+
+  <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
+    Because of the double-blind review process, non-anonymous papers that have been issued 
+    as technical reports or similar cannot be considered for DSAA&apos;2026. An exception applies 
+    to arXiv papers that were published in arXiv at least one month prior to the DSAA&apos;2026 
+    submission deadline, provided that the submitted paper&apos;s title and abstract differ from the arXiv version.
+  </p>
+</div>
+        {/* Proceedings and Indexing */}
+        {/* <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6 max-w-5xl mx-auto">
           <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
             Proceedings and Indexing
           </h3>
@@ -167,8 +214,20 @@ function AboutApplicationsTrack() {
             <b> IEEE Xplore Digital Library</b>. The conference proceedings will also
             be submitted for <b>EI indexing</b> through <b>INSPEC by IEEE</b>.
           </p>
+        </div> */}
+        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6 max-w-5xl mx-auto">
+          <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
+            Proceedings and Indexing
+          </h3>
+            <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] leading-relaxed">
+              All accepted full-length papers will be published by IEEE and will be submitted 
+              for inclusion in the IEEE Xplore Digital Library. The conference proceedings will also be 
+              submitted for EI indexing through INSPEC by IEEE.
+            </p>
+          {/* <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
+            All accepted full-length papers and short papers will be published by <span className="font-semibold">IEEE</span>, submitted for inclusion in the <span className="font-semibold">IEEE Xplore Digital Library</span>, and for EI indexing. through.<span className="font-semibold">INSPEC</span>.
+          </div> */}
         </div>
-
         {/* Important Policies */}
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6 max-w-5xl mx-auto">
           <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
@@ -176,7 +235,7 @@ function AboutApplicationsTrack() {
           </h3>
           <ol className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-decimal pl-5 mb-3 space-y-1">
             <li>
-              <span className="font-semibold">Reproducibility & Supplementary</span>  
+              <span className="font-semibold">Reproducibility & Supplementary </span>  
               The advancement of data science and analytics depends heavily on reproducibility.
               We strongly recommend that the authors release their code and data to the public.
               Authors can provide an optional two (2) page supplement at the end of their submitted

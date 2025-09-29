@@ -2,22 +2,22 @@ import React from "react";
 import Link from "next/link";
 
 const keyDates = [
-  { event: "Paper Submission Deadline", date: "May 1st, 2026" },
-  { event: "Paper Notification", date: "July 24th, 2026" },
-  { event: "Paper Camera-Ready", date: "August 21st, 2026" },
+  { event: "Paper Submission Deadline", date: "May 1, 2026" },
+  { event: "Paper Notification", date: "July 24, 2026" },
+  { event: "Paper Camera-Ready", date: "August 21, 2026" },
 
-  { event: "Special Session Proposals Due", date: "March 16th, 2026" },
-  { event: "Special Session Proposals Notification", date: "March 30th, 2026" },
+  { event: "Special Session Proposals Due", date: "March 16, 2026" },
+  { event: "Special Session Proposals Notification", date: "March 30, 2026" },
 
-  { event: "Special Session Paper Submission", date: "May 2nd, 2026" },
-  { event: "Special Session Paper Notification", date: "July 24th, 2026" },
-  { event: "Special Session Paper Camera-Ready", date: "August 21st, 2026" },
+  { event: "Special Session Paper Submission", date: "May 2, 2026" },
+  { event: "Special Session Paper Notification", date: "July 24, 2026" },
+  { event: "Special Session Paper Camera-Ready", date: "August 21, 2026" },
 
-  { event: "Tutorials Submission", date: "April 20th, 2026" },
-  { event: "Tutorials Notification", date: "May 16th, 2026" },
+  { event: "Tutorials Submission", date: "April 20, 2026" },
+  { event: "Tutorials Notification", date: "May 16, 2026" },
 
   // { event: "Early Bird Registration", date: "TBA" },
-  { event: "Conference Dates", date: "6-9 October 2026" },
+  { event: "Conference Dates", date: "October 6-9, 2026" },
 ];
 
 function KeyDatesContent() {

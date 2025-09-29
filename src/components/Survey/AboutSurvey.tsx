@@ -44,7 +44,7 @@ function AboutSurvey() {
             <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
               The DSAA&apos;2026 Survey and Vision Track solicits high-quality, original survey and vision papers that present a structured synthesis or positioning of a particular topic in data science and analytics, including but not limited to theoretical foundations, technical developments, practical advancement, applications, and risk mitigation. Papers accepted to the Survey and Vision Track will be published in the DSAA&apos;2026 conference proceedings (same as for the Research Track, and Application, Data and Benchmark Track).
             </div>
-            <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-2 font-semibold">
+            <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-2 ">
               Topics of interest include but are not limited to
             </div>
             <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 mb-4 space-y-1">
@@ -76,11 +76,16 @@ function AboutSurvey() {
               Paper Submission
             </h3>
             <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
-              All papers should be submitted electronically via Open Review (under the &quot;Survey and Vision Track&quot;).
+              All papers should be submitted electronically via <b>Open Review</b> (under the &quot;Survey and Vision Track&quot;).
             </div>
             <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 mb-3 space-y-1">
               <li>The length of each paper submitted to the Survey and Vision Track should be no more than ten (10) pages of technical content plus additional pages solely for references and should be formatted following the standard 2-column U.S. letter style of IEEE Conference template.</li>
-              <li>For further information and instructions, see the IEEE Proceedings Author Guidelines.</li>
+              <li>For further information and instructions, see the <a
+    href="https://www.ieee.org/conferences/publishing/templates"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-[#1D4ED8] hover:underline"
+    > IEEE Proceedings Author Guidelines.</a></li>
             </ul>
             <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-2">
               All submissions will be blind reviewed by the Program Committee for the Survey and Vision Track on the basis of technical quality, relevance to the conference&apos;s topics of interest, originality, significance, and clarity. Author names and affiliations must not appear in the submissions, and bibliographic references must be adjusted to preserve author anonymity. Submissions failing to comply with paper formatting and authors anonymity will be rejected without reviews.
@@ -96,7 +101,7 @@ function AboutSurvey() {
               Proceedings and Indexing
             </h3>
             <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
-              All accepted full-length papers will be published by <span className="font-semibold">IEEE</span> and will be submitted for inclusion in the <span className="font-semibold">IEEE Xplore Digital Library</span>. The conference proceedings will be submitted for <span className="font-semibold">EI indexing</span> through <span className="font-semibold">INSPEC</span> by IEEE.
+              All accepted full-length papers will be published by IEEE and will be submitted for inclusion in the IEEE Xplore Digital Library. The conference proceedings will be submitted for EI indexing through INSPEC by IEEE.
             </div>
           </div>
   
