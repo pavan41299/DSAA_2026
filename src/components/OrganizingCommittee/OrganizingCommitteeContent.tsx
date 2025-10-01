@@ -93,15 +93,18 @@ const committees = [
   {
     title: "PC Chairs - Special Track - Surveys & Vision",
     members: [
-      { photo: "", name: "To be announced", university: "" },
-      { photo: "", name: "To be announced", university: "" },
+      { photo: "/qing.jpg",
+         name: " Qingsong Wen", university: "USA" },
+      // { photo: "", name: "To be announced", university: "" },
     ],
   },
   {
     title: "PC Chairs - Special Track - Large Language Models",
     members: [
-      { photo: "", name: "To be announced", university: "" },
-      { photo: "", name: "To be announced", university: "" },
+      { photo: "/linset.jpeg", 
+        name: " Linsey Pan ", 
+        university: "SaleForce, USA" },
+      // { photo: "", name: "To be announced", university: "" },
     ],
   },
   {
@@ -197,9 +200,14 @@ const committees = [
         university: "IIIT Bangalore, India",
       },
       {
-        photo: "/OIP.webp",
+        photo: "/Zhangqi_cs.webp",
         name: "Qi Zhang",
         university: "Tongji University, China",
+      },
+      {
+        photo: "/veeraragahv.jpg",
+        name: "Veeraraghava Raju Hasti",
+        university: "University of Central Florida, USA",
       },
     ],
   },
