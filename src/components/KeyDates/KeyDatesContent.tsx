@@ -9,7 +9,7 @@ const keyDates = [
   { event: "Special Session Proposals Due", date: "March 16, 2026" },
   { event: "Special Session Proposals Notification", date: "March 30, 2026" },
 
-  { event: "Special Session Paper Submission", date: "May 2, 2026" },
+  { event: "Special Session Paper Submission", date: "May 1, 2026" },
   { event: "Special Session Paper Notification", date: "July 24, 2026" },
   { event: "Special Session Paper Camera-Ready", date: "August 21, 2026" },
 
