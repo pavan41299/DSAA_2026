@@ -103,15 +103,15 @@ const committees = [
     members: [
       { photo: "/linset.jpeg", 
         name: " Linsey Pan ", 
-        university: "SaleForce, USA" },
+        university: "Salesforce, USA" },
       // { photo: "", name: "To be announced", university: "" },
     ],
   },
   {
     title: "PhD Consortium Track Chairs",
     members: [
-      { photo: "", name: "To be announced", university: "" },
-      { photo: "", name: "To be announced", university: "" },
+      { photo: "/MaleDummy.jpeg", name: "To be announced", university: "" },
+      // { photo: "", name: "To be announced", university: "" },
     ],
   },
   {
@@ -200,7 +200,7 @@ const committees = [
         university: "IIIT Bangalore, India",
       },
       {
-        photo: "/Zhangqi_cs.webp",
+        photo: "/zhangqi_cs.png",
         name: "Qi Zhang",
         university: "Tongji University, China",
       },
