@@ -92,28 +92,28 @@ const committees = [
   },
   {
     title: "PC Chairs - Surveys & Vision Track ",
-    members: [
-      { photo: "/MaleDummy.jpeg", name: "To be announced", university: "" },
-      // { photo: "", name: "To be announced", university: "" },
-    ],
     // members: [
-    //   { photo: "/qing.jpg",
-    //      name: " Qingsong Wen", university: "USA" },
+    //   { photo: "/MaleDummy.jpeg", name: "To be announced", university: "" },
     //   // { photo: "", name: "To be announced", university: "" },
     // ],
+    members: [
+      { photo: "/qing.jpg",
+         name: " Qingsong Wen (to be confirmed)", university: "USA" },
+      // { photo: "", name: "To be announced", university: "" },
+    ],
   },
   {
     title: "PC Chairs - Large Language Models Track",
-    members: [
-      { photo: "/MaleDummy.jpeg", name: "To be announced", university: "" },
-      // { photo: "", name: "To be announced", university: "" },
-    ],
     // members: [
-    //   { photo: "/linset.jpeg", 
-    //     name: " Linsey Pan ", 
-    //     university: "Salesforce, USA" },
+    //   { photo: "/MaleDummy.jpeg", name: "To be announced", university: "" },
     //   // { photo: "", name: "To be announced", university: "" },
     // ],
+    members: [
+      { photo: "/linset.jpeg", 
+        name: " Linsey Pan (to be confirmed)", 
+        university: "Salesforce, USA" },
+      // { photo: "", name: "To be announced", university: "" },
+    ],
   },
   {
     title: "PhD Consortium Track Chairs",
