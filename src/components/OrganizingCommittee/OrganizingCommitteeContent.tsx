@@ -61,7 +61,7 @@ const committees = [
     ],
   },
   {
-    title: "PC Chairs - Application Track",
+    title: "PC Chairs - Application, Data and Benchmark Track",
     members: [
       {
         photo: "/Partha Pratim Roy, Indian Institute of Technology.jpg",
@@ -116,7 +116,7 @@ const committees = [
     ],
   },
   {
-    title: "PhD Consortium Track Chairs",
+    title: "Doctoral Consortium Track Chairs",
     members: [
       { photo: "/MaleDummy.jpeg", name: "To be announced", university: "" },
       // { photo: "", name: "To be announced", university: "" },
