@@ -17,8 +17,10 @@ const dropdownItems = {
     { name: "Large Language Models Track", link: "/calls/llm-track" },
     { name: "Survey and Vision Track", link: "/calls/survey-track" },
     { name: "Doctoral Consortium Track", link: "/calls/doctoral-track" },
+    { name: "Journal Track", link: "/calls/journal-track" },
     { name: "Special Sessions", link: "/calls/special-sessions" },
     { name: "Tutorials", link: "/calls/tutorials" }
+    
 
 
   ],
