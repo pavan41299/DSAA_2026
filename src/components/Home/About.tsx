@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image"; // ✅ Import Next.js Image
 import IIITLogo from "../../../public/IIIT LOGO.png"; // <-- Replace with your logo path
-
+import DSAAposter from "../../../public/Poster IEEE a3.jpg";
 function About() {
   return (
     <section className="max-w-[1600px] py-10 px-4 sm:py-14 sm:px-8 bg-white mx-auto">
@@ -32,7 +32,64 @@ function About() {
           original, and reproducible contributions to improving the practice of
           data science and analytics in real-world scenarios.
         </p>
+        {/* ✅ News Section */}
+          
+          <div className="max-w-5xl mx-auto mb-10 text-left font-inter text-[#777D86] text-[16px] leading-[28px] font-medium tracking-[0%]">
+            <h2 className="text-black text-[18px] font-semibold mb-4 uppercase tracking-wide">
+              News
+            </h2>
 
+            <ul className="list-disc pl-6 space-y-2">
+              {/* <li>
+                Best paper <span className="text-blue-700 hover:underline cursor-pointer">announced</span>.
+              </li>
+              <li>Draft program released.</li>
+              <li>
+                Journal Track & Late-Breaking &amp; PhD{" "}
+                <span className="bg-yellow-200 font-medium text-black">Abstract submission call</span> closed.
+              </li>*/}
+             
+              <li>
+                We have finalised the conference venue: DSAA’26 will be held at the Pride Plaza Hotel, Aerocity, New Delhi.
+              </li>
+              <li>
+                The program will start in the morning of 6th October and finish by 9th October.
+              </li>
+              <li>
+                Registration information will been <span className="text-green-700 font-medium">posted soon</span>.
+              </li>
+              <li>
+                Please pay attention to our{" "}
+                <a
+                  href="https://cis.ieee.org/activities/membership-activities/travel-grants"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-yellow-200 font-semibold text-black hover:text-blue-700 transition-all duration-200"
+                >
+                  IEEE travel grants
+                </a>
+                </li>
+
+              {/* <li>
+                Camera-ready instructions for accepted papers have been <span className="text-green-700 font-medium">updated</span>.
+              </li> */}
+            </ul>
+          </div>
+
+
+
+          {/* ✅ Centered Responsive PDF Image */}
+          <div className="flex justify-center mb-8">
+            <Image
+              src={DSAAposter}
+              alt="DSAA Poster 2026"
+              width={800}
+              height={800}
+              className="w-[70%] h-[70%] object-contain mx-auto rounded-lg shadow-lg"
+            />
+          </div>
+
+             
         {/* ✅ Clickable Logo */}
         <a
           href="https://www.iiit.ac.in/"
