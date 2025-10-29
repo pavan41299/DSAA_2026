@@ -27,7 +27,7 @@ const committees = [
         photo: "/MaleDummy.jpeg",
         name: "Prerna Gaur",
         university: "Netaji Subhash University of Technology, New Delhi, India",
-        url :"",
+        url :"https://www.nsut.ac.in/en/node/1214",
       },
       
     ],
@@ -123,12 +123,12 @@ const committees = [
       { photo: "/MaleDummy.jpeg",
         name: " Erol Gelenbe", 
         university: "Institute of Theoretical and Applied Informatics, Polish Academy of Sciences",
-        url: "", 
+        url: "https://www.computer.org/profiles/erol-gelenbe", 
      },
      { photo: "/MaleDummy.jpeg",
       name: " Satish Narayana Sreerama", 
       university: "University of Hyderabad, India",
-      url: "", 
+      url: "https://scis.uohyd.ac.in/~srirama/", 
    },
       
     ],
@@ -147,30 +147,34 @@ const committees = [
       { photo: "/MaleDummy.jpeg", 
         name: " Naresh Manwani", 
         university: "IIIT Hyderabad, India",
-        url: "",},
+        url: "https://www.iiit.ac.in/faculty/naresh-manwani/",},
 
       { photo: "/MaleDummy.jpeg", 
         name: " Chenlei Leng", 
         university: "Hong Kong Polytechnic University, China",
-        url: "", },
+        url: "https://www.polyu.edu.hk/ama/people/academic-staff/prof-leng-chenlei/", },
       // { photo: "", name: "To be announced", university: "" },
     ],
   },
   {
     title: "Doctoral Consortium Track Chairs",
     members: [
-      { photo: "/MaleDummy.jpeg", name: "Carlos Ordonez", university: "University of Houston, USA", url: "", },
+      { photo: "/MaleDummy.jpeg", 
+        name: "Carlos Ordonez", 
+        university: "University of Houston, USA", 
+        url: "https://www.uh.edu/nsm/physics/people/profiles/carlos-ordonez/index.php", },
       // { photo: "", name: "To be announced", university: "" },
 
-      { photo: "/MaleDummy.jpeg", 
+      { 
+        photo: "/MaleDummy.jpeg", 
         name: " Xudong Liu", 
         university: "The University of North Florida, USA",
-        url: "" },
+        url: "https://xudongliu.domains.unf.edu/" },
 
         { photo: "/MaleDummy.jpeg", 
           name: " Abhishek Santra", 
           university: "The University of Texas at Arlington, USA" ,
-          url: "",},
+          url: "https://www.uta.edu/academics/faculty/profile?user=abhishek.santra",},
           
     ],
   },
@@ -294,7 +298,7 @@ const committees = [
         photo: "/MaleDummy.jpeg",
         name: "Usman Naseem",
         university: "Macquarie University, Australia",
-        url: "https://google.com",
+        url: "https://researchers.mq.edu.au/en/persons/usman-naseem/",
       },
     ],
   },
@@ -311,7 +315,7 @@ const committees = [
         photo: "/MaleDummy.jpeg",
         name: "Yanqiu Wu",
         university: "Macquarie University, Australia",
-        url: "https://google.com",
+        url: "https://researchers.mq.edu.au/en/persons/yanqiu-wu/",
       },
     ],
   },
@@ -400,9 +404,22 @@ function OrganizingCommitteeContent() {
                   />
                 )}
 
+                {/* ✅ Name also clickable and turns blue on hover */}
+                {member.url ? (
+                  <a
+                    href={member.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg font-semibold text-gray-900 hover:text-blue-600 transition-colors duration-200"
+                  >
+                    {member.name}
+                  </a>
+                ) : (
+
                 <h3 className="text-lg font-semibold text-gray-900">
                   {member.name}
                 </h3>
+                )}
                 <p className="text-gray-600">{member.university}</p>
               </div>
             ))}
