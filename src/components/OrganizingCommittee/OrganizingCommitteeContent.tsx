@@ -24,7 +24,7 @@ const committees = [
     title: "Chair, IEEE India Council",
     members: [
       {
-        photo: "/MaleDummy.jpeg",
+        photo: "/Prerna Gaur.jpg",
         name: "Prerna Gaur",
         university: "Netaji Subhash University of Technology, New Delhi, India",
         url :"https://www.nsut.ac.in/en/node/1214",
@@ -51,7 +51,7 @@ const committees = [
         photo: "/Masaru Kitsuregawa, The University of Tokyo.jpg",
         name: "Masaru Kitsuregawa",
         university: "The University of Tokyo, Japan",
-        url :"https://www.tkl.iis.u-tokyo.ac.jp/db-core/members/kitsuregawa.en.html",
+        url :"https://www.tkl.iis.u-tokyo.ac.jp/Kilab/Members/memo/kitsure_e.html",
       },
     ],
   },
@@ -120,12 +120,12 @@ const committees = [
          university: "Squirrel Ai Learning, USA" ,
          url: "https://sites.google.com/site/qingsongwen8/",
       },
-      { photo: "/MaleDummy.jpeg",
+      { photo: "/Prof-Gelenbe.jpg",
         name: " Erol Gelenbe", 
         university: "Institute of Theoretical and Applied Informatics, Polish Academy of Sciences",
         url: "https://www.computer.org/profiles/erol-gelenbe", 
      },
-     { photo: "/MaleDummy.jpeg",
+     { photo: "/Satish Narayana Srirama.jpg",
       name: " Satish Narayana Sreerama", 
       university: "University of Hyderabad, India",
       url: "https://scis.uohyd.ac.in/~srirama/", 
@@ -141,15 +141,15 @@ const committees = [
     // ],
     members: [
       { photo: "/linset.jpeg", 
-        name: " Linsey Pan", 
-        university: "PayPal, USA",url: "", },
+        name: " Linsey Pang", 
+        university: "PayPal, USA",url: "https://siliconvalley.northeastern.edu/faculty/xiaolin-linsey-pang/", },
 
-      { photo: "/MaleDummy.jpeg", 
+      { photo: "/Naresh-Manwani.webp", 
         name: " Naresh Manwani", 
         university: "IIIT Hyderabad, India",
         url: "https://www.iiit.ac.in/faculty/naresh-manwani/",},
 
-      { photo: "/MaleDummy.jpeg", 
+      { photo: "/Prof Leng Chenlei.jpg", 
         name: " Chenlei Leng", 
         university: "Hong Kong Polytechnic University, China",
         url: "https://www.polyu.edu.hk/ama/people/academic-staff/prof-leng-chenlei/", },
@@ -159,19 +159,19 @@ const committees = [
   {
     title: "Doctoral Consortium Track Chairs",
     members: [
-      { photo: "/MaleDummy.jpeg", 
+      { photo: "/Carlos R Ordonez.jpg", 
         name: "Carlos Ordonez", 
         university: "University of Houston, USA", 
         url: "https://www.uh.edu/nsm/physics/people/profiles/carlos-ordonez/index.php", },
       // { photo: "", name: "To be announced", university: "" },
 
       { 
-        photo: "/MaleDummy.jpeg", 
+        photo: "/XUDONG LIU.jpg", 
         name: " Xudong Liu", 
         university: "The University of North Florida, USA",
         url: "https://xudongliu.domains.unf.edu/" },
 
-        { photo: "/MaleDummy.jpeg", 
+        { photo: "/Abhishek Santra.jpeg", 
           name: " Abhishek Santra", 
           university: "The University of Texas at Arlington, USA" ,
           url: "https://www.uta.edu/academics/faculty/profile?user=abhishek.santra",},
@@ -195,9 +195,9 @@ const committees = [
       },
       {
         photo: "/Benjamin Fung.webp",
-        name: "Benjamin Fun",
+        name: "Benjamin Fung",
         university: "McGill University, Canada",
-        url: "https://dmas.lab.mcgill.ca/fung/",
+        url: "https://dmas.lab.mcgill.ca/fung/contact.htm",
       },
 
       {
@@ -246,7 +246,7 @@ const committees = [
         photo: "/Benjamin Fung.webp",
         name: "Benjamin Fung",
         university: "McGill University, Canada",
-        url: "https://dmas.lab.mcgill.ca/fung/",
+        url: "https://dmas.lab.mcgill.ca/fung/contact.htm",
       },
       {
         photo: "/rk.jpg",
@@ -269,7 +269,7 @@ const committees = [
         photo: "/Dr Sanju Tiwari, Sharda University, India.jpeg",
         name: "Dr. Sanju Tiwari",
         university: "Sharda University, India",
-        url: "https://google.com",
+        url: "https://www.sharda.ac.in/faculty/details/dr-sanju-tiwari",
       },
     ],
   },
@@ -295,7 +295,7 @@ const committees = [
         url: "https://www.cecs.ucf.edu/faculty/veeraraghava-raju-hasti/",
       },
       {
-        photo: "/MaleDummy.jpeg",
+        photo: "/Naseem_Usman.jpg",
         name: "Usman Naseem",
         university: "Macquarie University, Australia",
         url: "https://researchers.mq.edu.au/en/persons/usman-naseem/",
@@ -312,7 +312,7 @@ const committees = [
         url: "https://u-aizu.ac.jp/research/faculty/detail?cd=90130&lng=en",
       },
       {
-        photo: "/MaleDummy.jpeg",
+        photo: "/Yanqiu Wu.jpeg",
         name: "Yanqiu Wu",
         university: "Macquarie University, Australia",
         url: "https://researchers.mq.edu.au/en/persons/yanqiu-wu/",

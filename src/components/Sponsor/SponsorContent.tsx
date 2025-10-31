@@ -78,11 +78,9 @@ function SponsorContent() {
       </div>
       
     </div>
-    
-
-
 
   );
 }
+
 
 export default SponsorContent;

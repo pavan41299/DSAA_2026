@@ -57,6 +57,7 @@ function PartnerContent() {
 
 
   );
+
 }
 
 export default PartnerContent;
