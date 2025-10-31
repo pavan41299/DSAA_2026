@@ -126,9 +126,10 @@ function AboutLLMTrack() {
               Special Track on Large Language Models Chairs
             </div>
             <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 space-y-1">
-              <li>TBA</li>
-              {/* <li>Linsey Pan, Salesforce, USA</li>
-              <li>Dongjin Song, University of Connecticut, USA</li> */}
+              <li>Linsey Pang, PayPal, USA</li>
+              <li>Naresh Manwani, IIIT Hyderabad, India</li>
+              <li>Chenlei Leng, Hong Kong Polytechnic University, China</li>
+              
             </ul>
           </div>
         </div>

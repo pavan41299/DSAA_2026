@@ -126,7 +126,7 @@ const committees = [
         url: "https://www.computer.org/profiles/erol-gelenbe", 
      },
      { photo: "/Satish Narayana Srirama.jpg",
-      name: " Satish Narayana Sreerama", 
+      name: " Satish Narayana Srirama", 
       university: "University of Hyderabad, India",
       url: "https://scis.uohyd.ac.in/~srirama/", 
    },

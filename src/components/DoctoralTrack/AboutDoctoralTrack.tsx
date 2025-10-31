@@ -168,8 +168,9 @@ function AboutDoctoralTrack(){
             Doctoral Consortium Chairs
           </div>
           <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 space-y-1">
-            TBA{/* <li>•</li>
-            <li>•</li> */}
+            <li>Carlos Ordonez, University of Houston, USA</li>
+            <li>Xudong Liu, The University of North Florida, USA</li>
+            <li>Abhishek Santra, The University of Texas at Arlington, USA</li>
           </ul>
         </div>
       </div>
