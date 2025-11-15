@@ -197,6 +197,7 @@ function AboutJournalTrack() {
           <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 space-y-1">
             <li>Hady Lauw, Singapore Management University, Singapore</li>
             <li>Lan Du, Monash University, Australia</li>
+            <li>Benjamin Fung, McGill University, Canada</li>
             <li>Dr. Kalidas Yeturu, IIT Tirupati, India</li>
             <li>Longbing Cao, Macquarie University, Australia</li>
           </ul>

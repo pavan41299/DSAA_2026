@@ -14,8 +14,10 @@ const quickLinks: LinkItem[] = [
   { label: "LLM Track", href: "/calls/llm-track" },
   { label: "Survey and Vision Track", href: "/calls/survey-track" },
   { label: "Doctoral Consortium Track", href: "/calls/doctoral-track" },
+  { label: "Journal Track", href: "/calls/journal-track" },
   { label: "Special sessions ", href: "/calls/special-sessions" },
   { label: "Tutorials", href: "/calls/tutorials" },
+  
 
   // { label: "Program", href: "/program/technical-program" },
   // { label: "Key Dates", href: "/key-dates" },
@@ -62,7 +64,7 @@ export default function Footer() {
                 <li className="flex items-start gap-3">
                   <Mail className="mt-0.5 h-4 w-4 text-slate-400" aria-hidden="true" />
                   <a
-                    href="mailto:dsaahelpdesk@gmail.com"
+                    href="mailto:dsaa2026india@gmail.com"
                     className="underline-offset-2 hover:text-sky-400 hover:underline focus:outline-none focus:ring-2 focus:ring-sky-400/50"
                   >
                     dsaa2026india@gmail.com
@@ -165,7 +167,7 @@ export default function Footer() {
             </li> */}
             <li>
               <Link
-                href="https://secure.ethicspoint.com/domain/media/en/gui/20410/index.html"
+                href="https://www.ieee.org/about/corporate/governance/code-of-conduct#:~:text=The%20IEEE%20Code%20of%20Conduct%20describes%20IEEE%20members%E2%80%99,the%20IEEE%20Board%20of%20Directors%20in%20June%202014."
                 className="hover:text-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-400/50"
               >
                 IEEE Code of Conduct

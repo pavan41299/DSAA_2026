@@ -142,7 +142,7 @@ const committees = [
     members: [
       { photo: "/linset.jpeg", 
         name: " Linsey Pang", 
-        university: "PayPal, USA",url: "https://siliconvalley.northeastern.edu/faculty/xiaolin-linsey-pang/", },
+        university: "PayPal, AI, US",url: "https://siliconvalley.northeastern.edu/faculty/xiaolin-linsey-pang/", },
 
       { photo: "/Naresh-Manwani.webp", 
         name: " Naresh Manwani", 
@@ -159,7 +159,7 @@ const committees = [
   {
     title: "Doctoral Consortium Track Chairs",
     members: [
-      { photo: "/Carlos R Ordonez.jpg", 
+      { photo: "/carlos.jpg", 
         name: "Carlos Ordonez", 
         university: "University of Houston, USA", 
         url: "https://www.uh.edu/nsm/physics/people/profiles/carlos-ordonez/index.php", },
@@ -294,12 +294,12 @@ const committees = [
         university: "University of Central Florida, USA",
         url: "https://www.cecs.ucf.edu/faculty/veeraraghava-raju-hasti/",
       },
-      {
-        photo: "/Naseem_Usman.jpg",
-        name: "Usman Naseem",
-        university: "Macquarie University, Australia",
-        url: "https://researchers.mq.edu.au/en/persons/usman-naseem/",
-      },
+      // {
+      //   photo: "/Naseem_Usman.jpg",
+      //   name: "Usman Naseem",
+      //   university: "Macquarie University, Australia",
+      //   url: "https://researchers.mq.edu.au/en/persons/usman-naseem/",
+      // },
     ],
   },
   {
