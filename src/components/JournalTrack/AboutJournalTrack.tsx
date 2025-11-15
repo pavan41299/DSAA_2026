@@ -33,7 +33,7 @@ function AboutJournalTrack() {
             
           </div>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
-          We invite submissions to the journal track of the 2026 IEEE International Conference on Data Science and Advanced Analytics (DSAA&apos;2026). This journal track is implemented in partnership with two Springer's journals, namely: Machine Learning Journal and International Journal of Data Science and Analytics (JDSA). A paper can only be submitted to either, but not both, journals. Accepted papers will be published in the corresponding journal, each with an extended abstract included in the DSAA&apos;2026 proceedings.
+          We invite submissions to the journal track of the 2026 IEEE International Conference on Data Science and Advanced Analytics (DSAA&apos;2026). This journal track is implemented in partnership with two Springer&apos;s journals, namely: Machine Learning Journal and International Journal of Data Science and Analytics (JDSA). A paper can only be submitted to either, but not both, journals. Accepted papers will be published in the corresponding journal, each with an extended abstract included in the DSAA&apos;2026 proceedings.
           </div>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
           <ul className="list-disc list-inside font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">            
