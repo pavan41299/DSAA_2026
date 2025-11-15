@@ -26,29 +26,32 @@ function AboutJournalTrack() {
         About DSAA Journal Track
         </h3>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
-            The DSAA&apos;2026 Journal Track solicits high-quality, original papers presenting novel issues of Data Science and Advanced Analytics across various disciplines and domains, including statistics, informatics, and computing, alongside shallow to deep representation, processing, analytics, learning, inference, optimization, visualization, and presentation.
+            
           </div>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
-          <span className="font-semibold"></span>Topics of interests include but are not limited to:
+          We invite submissions to the journal track of the 2026 IEEE International Conference on Data Science and Advanced Analytics (DSAA&apos;2026). This journal track is implemented in partnership with two Springer's journals, namely: Machine Learning Journal and International Journal of Data Science and Analytics (JDSA). A paper can only be submitted to either, but not both, journals. Accepted papers will be published in the corresponding journal, each with an extended abstract included in the DSAA&apos;2026 proceedings.
           </div>
-          <ul className="list-disc list-inside font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
-            <li>Data science foundations and theories</li>
-            <li>Mathematics and statistics for data science and analytics</li>
-            <li>Understanding data characteristics and complexities</li>
-            <li>Machine/deep/statistical learning-based algorithms</li>
-            <li>Advanced analytics and knowledge discovery methods</li>
-            <li>Computer vision and pattern recognition</li>
-            <li>Optimization theories and methods</li>
-            <li>Large-scale databases, big-data processing, distributed processing, and analytics</li>
-            <li>Model, analytics and learning actionability, reproducibility and provenance</li>
-            <li>Theories and methods for evaluation, explanation, visualization, and presentation</li>
-            <li>Ethical, trustworthy and responsible data analytics</li>
+          <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
+          <ul className="list-disc list-inside font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">            
+            <li>Machine Learning Journal (MLJ)</li>            
           </ul>
-          <br></br>
-
-          <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
-            Submissions for the DSAA&apos;2026 Journal Track should very clearly specify the problem being solved, what methodologies were used to solve the problem, what data was used, how the results were evaluated, and how the solution is being used.
+          <span className="font-semibold"></span>
+          The DSAA&apos;2026 Journal Track with the Machine Learning Journal will consolidate original submissions to the Special Issue on Large Language Modelling for Data Science. The Special Issue explores the intersection between LLMs and data science, addressing foundational advances and real-world applications. We invite high-quality contributions that extend the methodological, practical, and theoretical boundaries of how LLMs can accelerate discovery, enhance interpretability, and enable novel paradigms in data-driven science and engineering.
           </div>
+          <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
+          <ul className="list-disc list-inside font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">            
+            <li>International Journal of Data Science and Analytics (JDSA)</li>            
+          </ul>
+          <span className="font-semibold"></span>
+          A priority consideration is given to Data Science and Generative AI. This theme explores the bidirectional relationship between data science and generative AI. We invite contributions that advance the foundations of data science to support the development, training, evaluation, and responsible deployment of generative AI models, including work on data representation, curation, quality, interpretability, fairness, and governance. At the same time, we welcome research that leverages generative AI to transform data science practices, such as data preparation, augmentation, simulation, automated analysis, hypothesis generation, and scientific discovery. Submissions may cover theoretical advances, methodological innovations, system development, or novel applications that highlight how data science and generative AI mutually reinforce each other in both research and practice.
+          </div>
+          
+{/*           
+          <br></br> */}
+
+          {/* <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
+            Submissions for the DSAA&apos;2026 Journal Track should very clearly specify the problem being solved, what methodologies were used to solve the problem, what data was used, how the results were evaluated, and how the solution is being used.
+          </div> */}
         </div>
         
         {/* Paper Submissions */}
@@ -149,7 +152,7 @@ function AboutJournalTrack() {
             Important Policies
           </h3>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
-            All papers should be submitted electronically via OpenReview.
+            All papers should be submitted electronically.
           </div>
           <ol className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-decimal pl-5 mb-3 space-y-1">
             <li>
