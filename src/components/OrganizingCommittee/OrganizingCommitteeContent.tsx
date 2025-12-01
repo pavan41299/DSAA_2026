@@ -362,6 +362,23 @@ const committees = [
     ],
   },
   {
+    title: "Web Chairs",
+    members: [
+      {
+        photo: "/pavan_dsaa.png",
+        name: "Pavan Parvatam",
+        university: "IIIT Hyderabad, India",
+        url: "https://www.linkedin.com/in/pavan-kumar-parvatam-5a184b187/",
+      },
+      {
+        photo: "/RN051116006.png",
+        name: "Chandrasheker T",
+        university: "IIIT Hyderabad, India",
+        url: "https://scholar.google.com/citations?hl=en&user=MfEcRoMAAAAJ&view_op=list_works&sortby=pubdate",
+      },
+    ],
+  },
+  {
     title: "Registration & Local Arrangement Chairs",
     members: [
       {

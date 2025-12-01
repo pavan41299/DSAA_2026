@@ -175,7 +175,7 @@ function Navbar() {
               className="relative md:h-[80px] h-[70px] flex items-center"
               onMouseEnter={() => setHoveredItem(item)}
               onMouseLeave={() => setHoveredItem(null)}
-            >
+              >
               <Link
                 href={navLinks[item] || '/'}
                 className="font-inter font-normal text-[17px] leading-[28px] text-[#364153] hover:text-[#155DFC] transition-colors duration-200 flex items-center"
