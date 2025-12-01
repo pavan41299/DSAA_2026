@@ -47,11 +47,11 @@ const dropdownItems = {
 
 const navItems = [
   "Home",
+  "Organization",
   "Key Dates",
   "Calls",
   "Program",
-  "Attend",
-  "Organization",
+  "Attend",  
   "Venue",
   "Sponsors",
   "Contact Us"

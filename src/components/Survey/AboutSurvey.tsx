@@ -134,7 +134,7 @@ function AboutSurvey() {
             <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 space-y-1">
               {/* <li>Qingsong Wen, USA</li> */}
               <li>Qingsong Wen, Squirrel Ai Learning, USA</li>
-              <li>Erol Gelenbe, Institute of Theoretical and Applied Informatics, Polish Academy of Sciences</li>
+              <li>Erol Gelenbe, Institute of Theoretical and Applied Informatics, Polish Academy of Sciences, Poland</li>
               <li>Satish Narayana Srirama, University of Hyderabad, India</li>
             </ul>
           </div>

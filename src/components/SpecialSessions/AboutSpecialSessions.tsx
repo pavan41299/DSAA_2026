@@ -17,7 +17,7 @@ function AboutSpecialSessions() {
                 <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
                   <li><b>Special Session Proposals Due :</b> March 16, 2026</li>
                   <li><b>Special Session Proposals Notification : </b>March 30, 2026</li>
-                  <li><b>Special Session Paper Submission:</b> May 2, 2026</li>
+                  <li><b>Special Session Paper Submission:</b> May 1, 2026</li>
                   <li><b>Special Session Paper Notification :</b> July 24, 2026</li>
                   <li><b>Special Session Paper Camera-Ready :</b> August 21, 2026</li>
                 </ul>
@@ -49,6 +49,10 @@ function AboutSpecialSessions() {
           <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
             Special Session Proposal Submission and Review
           </h3>
+          <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
+            All papers should be submitted electronically via <b>Open Review</b> (under Special Session Proposal category).
+          </p>
+          
           <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
             Proposals for hosting special sessions at DSAA 2026 are welcome. The proposals must address:
           </p>
@@ -57,8 +61,8 @@ function AboutSpecialSessions() {
             <li>Abstract: A brief abstract (~100 words) describing the focus of the session.</li>
             <li>Aims and Scope.</li>
             <li>Rationale: Why the topic is novel, timely, and relevant to DSAA.</li>
-            <li>List related events organized in recent years with details (conference, year, submissions, accepted papers, participants).</li>
-            <li>Special Session Organizers: Names, affiliations, countries, email, short bios, and identify at least one contact organizer (all must agree to appear on the website).</li>
+            <li>List related events organized in recent years with details (conference, year, number of submissions, number of accepted papers, number of participants).</li>
+            <li>Special Session Organizers: Names, affiliations, countries, email, short bios (relevant qualifications and experience), and identify at least one contact organizer (all must agree to appear on the website).</li>
             <li>A list of qualified committee members who would be invited.</li>
             <li>Expected number of submissions.</li>
           </ol>

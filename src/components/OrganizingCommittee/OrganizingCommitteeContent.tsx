@@ -122,7 +122,7 @@ const committees = [
       },
       { photo: "/Prof-Gelenbe.jpg",
         name: " Erol Gelenbe", 
-        university: "Institute of Theoretical and Applied Informatics, Polish Academy of Sciences",
+        university: "Institute of Theoretical and Applied Informatics, Polish Academy of Sciences, Poland",
         url: "https://www.computer.org/profiles/erol-gelenbe", 
      },
      { photo: "/Satish Narayana Srirama.jpg",
