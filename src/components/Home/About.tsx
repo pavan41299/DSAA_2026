@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image"; // ✅ Import Next.js Image
 import IIITLogo from "../../../public/IIIT LOGO.png"; // <-- Replace with your logo path
-import DSAAposter from "../../../public/Poster IEEE a3.jpg";
+import DSAAposter from "../../../public/PosterCODS.jpg";
 function About() {
   return (
     <section className="max-w-[1600px] py-10 px-4 sm:py-14 sm:px-8 bg-white mx-auto">

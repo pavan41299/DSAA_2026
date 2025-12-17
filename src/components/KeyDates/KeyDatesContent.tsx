@@ -16,6 +16,14 @@ const keyDates = [
   { event: "Tutorials Submission", date: "April 20, 2026" },
   { event: "Tutorials Notification", date: "May 16, 2026" },
 
+  { event: "Journal Call for Papers", date: "September, 2025" },
+  // { event: "First round : Manuscript submission", date: "May 16, 2026" },
+  { event: "Journal - First round : Manuscript submission", date: "February 15, 2026" },
+  { event: "Journal - Second round : Manuscript submission", date: "March 15, 2026" },
+  { event: "Journal - Third round : Manuscript submission", date: "April 15, 2026" },
+  { event: "Journal - Final decision notification", date: "July 15, 2026" },
+  { event: "Journal - Revised manuscript deadline", date: "August 1, 2026" },
+
   // { event: "Early Bird Registration", date: "TBA" },
   { event: "Conference Dates", date: "October 6-9, 2026" },
 ];
