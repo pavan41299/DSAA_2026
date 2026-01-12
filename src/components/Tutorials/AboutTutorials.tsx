@@ -109,7 +109,7 @@ function AboutTutorials() {
           Submission Instructions
           </h3>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
-          Tutorial proposals should be submitted via email to the Tutorials Chairs at DSAA2026TutorialChairs(at)gmail.com. 
+          Tutorial proposals should be submitted via email to the Tutorials Chairs at <DSAA2026TutorialChairs(at)gmail.com>
           </div>
         </div>
 
