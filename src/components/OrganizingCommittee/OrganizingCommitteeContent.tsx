@@ -224,7 +224,7 @@ const committees = [
         photo: "/kalidas.jpg",
         name: "Dr. Kalidas Yeturu",
         university: "IIT Tirupati, India",
-        url: "https://old.iittp.ac.in/dr-kalidas-yeturu",
+        url: "https://cse.iittp.ac.in/people/faculty/dr-kalidas-yeturu",
       },
       {
         photo: "/Longbing Cao.webp",
