@@ -16,15 +16,17 @@ function AboutTutorials() {
                   Important Dates
                 </h3>
                 <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
-                  <li><b>Tutorials Submission :</b>   April 20th, 2026</li>
-                  <li><b>Tutorials Notification :</b> May 16th, 2026</li>
-                  {/* <li><b>Paper Camera-Ready:</b> August 21, 2026</li> */}
+                  <li><b>Tutorial Proposal Submission :</b>   April 20th, 2026</li>
+                  <li><b>Tutorial Notification :</b> May 16th, 2026</li>
+                  <li><b>Survey Paper Submission :</b> July 4, 2026</li>
+                  <li><b>Survey Paper Notification :</b> July 24, 2026</li>
+                  <li><b>Survey Paper Camera-Ready :</b> August 21, 2026</li>
                 </ul>
               </div>
 
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
-            We solicit proposals for tutorials at The 13th IEEE International Conference on Data Science and Advanced Analytics  (DSAA&apos;2026) on theoretical foundations, algorithms and techniques, and hands-on data science and analytics. The goal of the tutorials is to reach a wide audience and thus should not only provide a basic introduction, but also cover the most important topics in depth.
+            We solicit proposals for tutorials at the 2026 IEEE International Conference on Data Science and Advanced Analytics  (DSAA&apos;2026) on theoretical foundations, algorithms and techniques, and hands-on data science and analytics. The goal of the tutorials is to reach a wide audience and thus should not only provide a basic introduction, but also cover the most important topics in depth.. To further maximize knowledge mobilization, presenters of the accepted tutorials have the option to submit a maximum of 10-page survey paper on the same topic of tutorial. The survey paper will be published as part of the DSAA proceedings.
           </div>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-2">
             Example areas of interest include, but are not limited to:
@@ -32,6 +34,7 @@ function AboutTutorials() {
           <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 mb-4 space-y-1">
             <li>Data science foundations and theories</li>
             <li>Mathematics and statistics for data science</li>
+            <li>Retrieval-augmented generation (RAG) with LLM</li>
             <li>Data quality and misinformation challenges</li>
             <li>Trustworthy analytics</li>
             <li>Explainable artificial intelligence</li>
@@ -40,7 +43,8 @@ function AboutTutorials() {
             <li>Graph/network analytics</li>
             <li>Time series / data stream mining</li>
             <li>Anomaly or imbalanced domain learning analytics</li>
-            <li>Intersection of epidemiology and data science</li>
+            <li>Data science for cybersecurity</li>
+            <li>Sustainability and AI</li>
             <li>Interdisciplinary data science (data science applications in physics, energy, material science, astronomy, or other sciences)</li>
           </ul>
         </div>
@@ -51,7 +55,7 @@ function AboutTutorials() {
             Tutorial Proposal Requirements
           </h3>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
-            Tutorial proposals should be no more than 2 pages in double column format with font size 10pt + up to 2 pages for references, following the standard IEEE template.
+          Tutorial proposals should be no more than 2 pages and formatted following the standard 2-column U.S. letter style of IEEE Conference template. See the IEEE proceedings author guidelines for further instructions.
           </div>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
             The recommended duration of a tutorial is half-day: 2h:45 min.
@@ -75,7 +79,7 @@ function AboutTutorials() {
             Submission Instructions
           </h3>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
-            Tutorial proposals should be submitted via email to the Tutorials Chairs.
+            Tutorial proposals should be submitted via email to the Tutorials Chairs. 
             <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 space-y-1">
             
             
