@@ -25,6 +25,9 @@ function AboutTutorials() {
               </div>
 
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
+          <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-4">
+            About DSAA Tutorials
+          </h3>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
             We solicit proposals for tutorials at the 2026 IEEE International Conference on Data Science and Advanced Analytics  (DSAA&apos;2026) on theoretical foundations, algorithms and techniques, and hands-on data science and analytics. The goal of the tutorials is to reach a wide audience and thus should not only provide a basic introduction, but also cover the most important topics in depth.. To further maximize knowledge mobilization, presenters of the accepted tutorials have the option to submit a maximum of 10-page survey paper on the same topic of tutorial. The survey paper will be published as part of the DSAA proceedings.
           </div>
@@ -52,13 +55,13 @@ function AboutTutorials() {
         {/* Tutorial Proposal Requirements */}
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
           <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
-            Tutorial Proposal Requirements
+            Tutorial Proposal
           </h3>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
           Tutorial proposals should be no more than 2 pages and formatted following the standard 2-column U.S. letter style of IEEE Conference template. See the IEEE proceedings author guidelines for further instructions.
           </div>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
-            The recommended duration of a tutorial is half-day: 2h:45 min.
+            The recommended duration of a tutorial is half-day: 2hours:45 minutes.
           </div>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-2">
             The tutorial proposal should include the following information:
@@ -79,7 +82,7 @@ function AboutTutorials() {
             Submission Instructions
           </h3>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
-            Tutorial proposals should be submitted via email to the Tutorials Chairs. 
+            Tutorial proposals should be submitted via email to the Tutorials Chairs at DSAA2026TutorialChairs(at)gmail.com. 
             <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 space-y-1">
             
             
