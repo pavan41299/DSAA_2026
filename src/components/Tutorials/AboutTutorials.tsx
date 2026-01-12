@@ -86,6 +86,24 @@ function AboutTutorials() {
           </div>
         </div>
 
+        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
+          <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
+          Registration
+          </h3>
+          <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
+          If the tutorial presenters choose to publish a survey paper, at least one of the presenters must register the DSAA conference in full. If the tutorial presenters choose to deliver the tutorials without publishing a survey paper, then DSAA will provide one free registration.
+          </div>
+        </div>
+
+        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
+          <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
+          Enquiries
+          </h3>
+          <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
+          General enquiries about Tutorials submissions should be sent to the Tutorials Chairs. Please also refer to the DSAA 2026 website for more information about the conference: https://dsaa2026.dsaa.co/
+          </div>
+        </div>
+
         {/* Submission Instructions */}
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
           <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
