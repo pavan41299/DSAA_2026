@@ -59,7 +59,7 @@ function AboutTutorials() {
           </h3>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
           Tutorial proposals should be no more than 2 pages and formatted following the standard 2-column U.S. letter style of IEEE Conference template. See the IEEE proceedings author guidelines 
-          <a href="https://www.ieee.org/conferences/publishing/templates" className="text-[#1D4ED8] hover:underline">IEEE Proceedings Author Guidelines.</a> for further instructions.
+          <a href="https://www.ieee.org/conferences/publishing/templates" target="_blank" rel="noopener noreferrer" className="text-[#1D4ED8] hover:underline"> IEEE Proceedings Author Guidelines.</a> for further instructions.
           </div>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
             The recommended duration of a tutorial is half-day: 2hours:45 minutes.
@@ -84,7 +84,7 @@ function AboutTutorials() {
           </h3>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
           Presenters of the accepted tutorials have the option to submit a survey paper by the deadline specified at the top of this call. Should the presenters choose to submit a survey paper, the list of authors on the survey paper must be identical to the list of presenters in the accepted tutorial. No new authors could be added. The survey paper should be no more than seven (7) pages of technical content plus additional pages solely for references and should be formatted following the standard 2-column U.S. letter style of the IEEE Conference template. See the IEEE Proceedings Author Guidelines 
-          <a href="https://www.ieee.org/conferences/publishing/templates" className="text-[#1D4ED8] hover:underline">IEEE Proceedings Author Guidelines.</a> for further instructions. The accepted survey paper will be published as part of the DSAA proceedings. The Tutorial Chairs reserve the rights to reject the survey paper if the quality does not meet the publication standard, and to withdraw the survey paper from the proceedings if the presenter(s) fail to deliver the in-person tutorial in the DSAA conference.
+          <a href="https://www.ieee.org/conferences/publishing/templates" target="_blank" rel="noopener noreferrer" className="text-[#1D4ED8] hover:underline"> IEEE Proceedings Author Guidelines.</a> for further instructions. The accepted survey paper will be published as part of the DSAA proceedings. The Tutorial Chairs reserve the rights to reject the survey paper if the quality does not meet the publication standard, and to withdraw the survey paper from the proceedings if the presenter(s) fail to deliver the in-person tutorial in the DSAA conference.
           </div>
         </div>
 
@@ -102,7 +102,7 @@ function AboutTutorials() {
           Enquiries
           </h3>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
-          General enquiries about Tutorials submissions should be sent to the Tutorials Chairs. Please also refer to the DSAA 2026 website for more information about the conference: https://dsaa2026.dsaa.co/
+          General enquiries about Tutorials submissions should be sent to the Tutorials Chairs. Please also refer to the DSAA 2026 website for more information about the conference: <a href="https://dsaa2026.dsaa.co/" target="_blank" rel="noopener noreferrer" className="text-[#1D4ED8] hover:underline">https://dsaa2026.dsaa.co/</a>
           </div>
         </div>
 
@@ -112,7 +112,7 @@ function AboutTutorials() {
           </h3>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
           Tutorial proposals should be submitted via email to the Tutorials Chairs at 
-          <a href="mailto:DSAA2026TutorialChairs@gmail.com" className="text-[#1D4ED8] hover:underline">DSAA2026TutorialChairs(at)gmail.com</a>. 
+          <a href="mailto:DSAA2026TutorialChairs@gmail.com" className="text-[#1D4ED8] hover:underline"> DSAA2026TutorialChairs(at)gmail.com</a>. 
           </div>
         </div>
 
