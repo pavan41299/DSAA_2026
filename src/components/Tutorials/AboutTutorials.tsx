@@ -104,17 +104,24 @@ function AboutTutorials() {
           </div>
         </div>
 
+        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
+          <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
+          Submission Instructions
+          </h3>
+          <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
+          Tutorial proposals should be submitted via email to the Tutorials Chairs at DSAA2026TutorialChairs(at)gmail.com. 
+          </div>
+        </div>
+
         {/* Submission Instructions */}
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
           <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
-            Submission Instructions
+          Tutorials Chairs
           </h3>
-          <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
-            Tutorial proposals should be submitted via email to the Tutorials Chairs at DSAA2026TutorialChairs(at)gmail.com. 
+          <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">           
             <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 space-y-1">
-            
-            
-            <li>Benjamin Fung, McGill University, Canada</li>
+                      
+            <li>Benjamin C. M. Fung, McGill University, Canada</li>
             <li>P. Radha Krishna, NIT Warangal, India</li>
             <li>Sanjay Madria, Missouri University of Science and Technology, USA</li>
           </ul>
