@@ -74,6 +74,16 @@ function AboutTutorials() {
             <li>Each presenter&apos;s short biographical sketch, emphasizing relevant qualifications and lecturing experience.</li>
             <li>Reference (and provide links if available) previously given relevant tutorials, from the same authors or others. If (part of) the intended tutorial material has been presented elsewhere, the proposal should indicate those respective events (and dates) and describe how much the proposal tutorial is similar / different from previous editions.</li>
           </ul>
+          All tutorials must be delivered in-person. Online presentations are not acceptable. Presenters will be required to make their tutorial slides available at least one week before the event, which will then be published on the DSAA 2026 website, and thus be made available to the conference attendees free of charge. Accepted tutorials will be presented during the main DSAA conference as parallel sessions. The decisions on the accepted tutorials are final and are not dependent on the outcome of the survey papers described below.
+        </div>
+
+        <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
+          <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
+          Survey Paper
+          </h3>
+          <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
+          Presenters of the accepted tutorials have the option to submit a survey paper by the deadline specified at the top of this call. Should the presenters choose to submit a survey paper, the list of authors on the survey paper must be identical to the list of presenters in the accepted tutorial. No new authors could be added. The survey paper should be no more than seven (7) pages of technical content plus additional pages solely for references and should be formatted following the standard 2-column U.S. letter style of the IEEE Conference template. See the IEEE Proceedings Author Guidelines. The accepted survey paper will be published as part of the DSAA proceedings. The Tutorial Chairs reserve the rights to reject the survey paper if the quality does not meet the publication standard, and to withdraw the survey paper from the proceedings if the presenter(s) fail to deliver the in-person tutorial in the DSAA conference.
+          </div>
         </div>
 
         {/* Submission Instructions */}
