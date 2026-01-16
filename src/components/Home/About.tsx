@@ -58,7 +58,7 @@ function About() {
               <li>
                 Registration information will been <span className="text-green-700 font-medium">posted soon</span>.
               </li>
-              <li>
+              {/* <li>
                 Please pay attention to our{" "}
                 <a
                   href="https://cis.ieee.org/activities/membership-activities/travel-grants"
@@ -68,7 +68,7 @@ function About() {
                 >
                   IEEE travel grants
                 </a>
-                </li>
+                </li> */}
 
               {/* <li>
                 Camera-ready instructions for accepted papers have been <span className="text-green-700 font-medium">updated</span>.
@@ -79,7 +79,7 @@ function About() {
 
 
           {/* ✅ Centered Responsive PDF Image */}
-          <div className="flex justify-center mb-8">
+          {/* <div className="flex justify-center mb-8">
             <Image
               src={DSAAposter}
               alt="DSAA Poster 2026"
@@ -87,7 +87,7 @@ function About() {
               height={800}
               className="w-[70%] h-[70%] object-contain mx-auto rounded-lg shadow-lg"
             />
-          </div>
+          </div> */}
 
              
         {/* ✅ Clickable Logo */}
