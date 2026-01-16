@@ -8,11 +8,11 @@ function SponsorContent() {
       logo: "/ieee.png",
       url: "https://www.ieee.org/",
     },
-    {
-      name: "IEEE CIS",
-      logo: "/ieee_cis.png",
-      url: "https://cis.ieee.org/",
-    },
+    // {
+    //   name: "IEEE CIS",
+    //   logo: "/ieee_cis.png",
+    //   url: "https://cis.ieee.org/",
+    // },
     {
       name: "IIIT Hyderabad",
       logo: "/download.webp",
