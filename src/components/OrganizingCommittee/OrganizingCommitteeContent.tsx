@@ -56,7 +56,7 @@ const committees = [
     title: "General Co-Chairs",
     members: [
       {
-        photo: "/PKReddysmart.jpg",
+        photo: "/PKReddy_new.jpg",
         name: "P. Krishna Reddy",
         university: "IIIT Hyderabad, India",
         url :"https://www.iiit.ac.in/faculty/krishna-reddy-p/",
