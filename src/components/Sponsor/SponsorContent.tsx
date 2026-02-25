@@ -3,11 +3,7 @@ import Image from 'next/image'
 
 function SponsorContent() {
   const sponsors = [
-    {
-      name: "IEEE",
-      logo: "/ieee.png",
-      url: "https://www.ieee.org/",
-    },
+    
     // {
     //   name: "IEEE CIS",
     //   logo: "/ieee_cis.png",
