@@ -167,7 +167,7 @@ export default function Footer() {
             </li> */}
             <li>
               <Link
-                href="https://www.ieee.org/about/corporate/governance/code-of-conduct#:~:text=The%20IEEE%20Code%20of%20Conduct%20describes%20IEEE%20members%E2%80%99,the%20IEEE%20Board%20of%20Directors%20in%20June%202014."
+                href="https://www.DSAA.org/about/corporate/governance/code-of-conduct#:~:text=The%20DSAA%20Code%20of%20Conduct%20describes%20DSAA%20members%E2%80%99,the%20DSAA%20Board%20of%20Directors%20in%20June%202014."
                 className="hover:text-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-400/50"
               >
                 

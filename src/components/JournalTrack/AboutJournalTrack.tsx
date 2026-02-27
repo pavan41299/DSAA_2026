@@ -33,7 +33,7 @@ function AboutJournalTrack() {
             
           </div>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
-          We invite submissions to the journal track of the 2026 IEEE International Conference on Data Science and Advanced Analytics (DSAA&apos;2026). This journal track is implemented in partnership with two Springer&apos;s journals, namely: Machine Learning Journal and International Journal of Data Science and Analytics (JDSA). A paper can only be submitted to either, but not both, journals. Accepted papers will be published in the corresponding journal, registered and presented at the DSAA&apos;2026 conference in person.
+          We invite submissions to the journal track of the 2026 DSAA International Conference on Data Science and Advanced Analytics (DSAA&apos;2026). This journal track is implemented in partnership with two Springer&apos;s journals, namely: Machine Learning Journal and International Journal of Data Science and Analytics (JDSA). A paper can only be submitted to either, but not both, journals. Accepted papers will be published in the corresponding journal, registered and presented at the DSAA&apos;2026 conference in person.
 
           </div>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
@@ -86,13 +86,13 @@ function AboutJournalTrack() {
 
   <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
     Each paper submitted to the Journal tracks should be formatted by following the standard 2-column U.S. letter style of the 
-    IEEE Conference template. For further information and instructions, see the 
+    DSAA Conference template. For further information and instructions, see the 
     <a
-    href="https://www.ieee.org/conferences/publishing/templates"
+    href="https://www.DSAA.org/conferences/publishing/templates"
     target="_blank"
     rel="noopener noreferrer"
     className="text-[#1D4ED8] hover:underline"
-    > IEEE Proceedings Author Guidelines.</a>
+    > DSAA Proceedings Author Guidelines.</a>
     <br>
     
     </br>
@@ -134,14 +134,14 @@ function AboutJournalTrack() {
           </div>
           <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 mb-3 space-y-1">
             <li>
-              Full Papers: maximum 10 pages, formatted per IEEE Conference 2-column U.S. letter style.
+              Full Papers: maximum 10 pages, formatted per DSAA Conference 2-column U.S. letter style.
             </li>
             <li>
               Short Papers: maximum 5 pages, same format.
             </li>
           </ul>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-2">
-            For further details, see the <span className="font-semibold">IEEE Proceedings Author Guidelines.</span>
+            For further details, see the <span className="font-semibold">DSAA Proceedings Author Guidelines.</span>
           </div>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-2">
             All submissions will be double-blind reviewed by the Program Committee based on <span className="font-semibold">technical quality, relevance, originality, significance, and clarity.</span> Submissions not complying with formatting or anonymity will be rejected.

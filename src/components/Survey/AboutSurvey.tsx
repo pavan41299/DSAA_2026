@@ -79,13 +79,13 @@ function AboutSurvey() {
               All papers should be submitted electronically via <b>Open Review</b> (under the &quot;Survey and Vision Track&quot;).
             </div>
             <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 mb-3 space-y-1">
-              <li>The length of each paper submitted to the Survey and Vision Track should be no more than ten (10) pages of technical content plus additional pages solely for references and should be formatted following the standard 2-column U.S. letter style of IEEE Conference template.</li>
+              <li>The length of each paper submitted to the Survey and Vision Track should be no more than ten (10) pages of technical content plus additional pages solely for references and should be formatted following the standard 2-column U.S. letter style of DSAA Conference template.</li>
               <li>For further information and instructions, see the <a
-    href="https://www.ieee.org/conferences/publishing/templates"
+    href="https://www.DSAA.org/conferences/publishing/templates"
     target="_blank"
     rel="noopener noreferrer"
     className="text-[#1D4ED8] hover:underline"
-    > IEEE Proceedings Author Guidelines.</a></li>
+    > DSAA Proceedings Author Guidelines.</a></li>
             </ul>
             <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-2">
               All submissions will be blind reviewed by the Program Committee for the Survey and Vision Track on the basis of technical quality, relevance to the conference&apos;s topics of interest, originality, significance, and clarity. Author names and affiliations must not appear in the submissions, and bibliographic references must be adjusted to preserve author anonymity. Submissions failing to comply with paper formatting and authors anonymity will be rejected without reviews.
@@ -101,7 +101,7 @@ function AboutSurvey() {
               Proceedings and Indexing
             </h3>
             <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
-              All accepted full-length papers will be published by IEEE and will be submitted for inclusion in the IEEE Xplore Digital Library. The conference proceedings will be submitted for EI indexing through INSPEC by IEEE.
+              All accepted full-length papers will be published by DSAA and will be submitted for inclusion in the DSAA Xplore Digital Library. The conference proceedings will be submitted for EI indexing through INSPEC by DSAA.
             </div>
           </div>
   
@@ -115,8 +115,8 @@ function AboutSurvey() {
               <li><span className="font-semibold">Authorship</span> – The list of authors at the time of submission is final and cannot be changed.</li>
               <li><span className="font-semibold">Dual Submissions</span> – DSAA is an archival publication venue; submissions that have been previously published, accepted, or are currently under-review at peer-review publication venues are not permitted. DSAA has a strict no dual submission policy.</li>
               <li><span className="font-semibold">Conflicts of Interest (COI)</span> – COIs must be declared at the time of submission in the submission system. COIs include employment at the same institution at the time of submission or in the past three years, collaborations during the past three years, advisor/advisee relationships, plus family and close friends. Program chairs are not allowed to submit any papers. Track chairs and special session chairs and other function chairs are not allowed to make submissions to their own tracks.</li>
-              <li><span className="font-semibold">Attendance</span> – At least one author of each accepted paper must register in full and attend the conference to present the paper. No-show papers will be removed from the IEEE Xplore proceedings.</li>
-              <li><span className="font-semibold">AI-generated Text</span> – The use of artificial intelligence (AI)-generated text in an article shall be disclosed in the acknowledgements section of any paper submitted to an IEEE Conference or Periodical. The sections of the paper that use AI-generated text shall have a citation to the AI system used to generate the text.</li>
+              <li><span className="font-semibold">Attendance</span> – At least one author of each accepted paper must register in full and attend the conference to present the paper. No-show papers will be removed from the DSAA Xplore proceedings.</li>
+              <li><span className="font-semibold">AI-generated Text</span> – The use of artificial intelligence (AI)-generated text in an article shall be disclosed in the acknowledgements section of any paper submitted to an DSAA Conference or Periodical. The sections of the paper that use AI-generated text shall have a citation to the AI system used to generate the text.</li>
             </ol>
           </div>
   

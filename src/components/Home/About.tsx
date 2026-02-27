@@ -61,12 +61,12 @@ function About() {
               {/* <li>
                 Please pay attention to our{" "}
                 <a
-                  href="https://cis.ieee.org/activities/membership-activities/travel-grants"
+                  href="https://cis.DSAA.org/activities/membership-activities/travel-grants"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-yellow-200 font-semibold text-black hover:text-blue-700 transition-all duration-200"
                 >
-                  IEEE travel grants
+                  DSAA travel grants
                 </a>
                 </li> */}
 

@@ -72,7 +72,7 @@ import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
 // import BannerImage from "../../../public/22 Oct india gae.jpg";
-import BannerImage from "../../../public/removed-ieee.png";
+import BannerImage from "../../../public/removed-DSAA.png";
 // import BannerImage2 from "../../../public/19 Sep jantar.jpg";
 // import BannerImage3 from "../../../public/19 sept dances copy.jpg";
 // import BannerImage4 from "../../../public/19 SEP NOIDA.jpg";

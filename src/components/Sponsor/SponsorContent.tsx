@@ -5,9 +5,9 @@ function SponsorContent() {
   const sponsors = [
     
     // {
-    //   name: "IEEE CIS",
-    //   logo: "/ieee_cis.png",
-    //   url: "https://cis.ieee.org/",
+    //   name: "DSAA CIS",
+    //   logo: "/DSAA_cis.png",
+    //   url: "https://cis.DSAA.org/",
     // },
     {
       name: "IIIT Hyderabad",
@@ -20,14 +20,14 @@ function SponsorContent() {
   // function PartnerContent() {
   //   const partners = [
   //     {
-  //       name: "IEEE",
-  //       logo: "/ieee.png",
-  //       url: "https://www.ieee.org/",
+  //       name: "DSAA",
+  //       logo: "/DSAA.png",
+  //       url: "https://www.DSAA.org/",
   //     },
   //     {
-  //       name: "IEEE CIS",
-  //       logo: "/ieee_cis.png",
-  //       url: "https://cis.ieee.org/",
+  //       name: "DSAA CIS",
+  //       logo: "/DSAA_cis.png",
+  //       url: "https://cis.DSAA.org/",
   //     },
   //     {
   //       name: "IIIT Hyderabad",
