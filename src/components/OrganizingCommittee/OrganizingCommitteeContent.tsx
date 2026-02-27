@@ -20,28 +20,28 @@ const committees = [
       },
     ],
   },
-  {
-    title: "DSAA Chairs ",
-    members: [
-      {
-        photo: "/Prerna Gaur.jpg",
-        topText: "Chairperson of DSAA Delhi Section for 2024–25",
-        name: "Prerna Gaur",
-        university: "Chair, DSAA India Council, Netaji Subhash University of Technology, New Delhi, India",
-        url :"https://www.nsut.ac.in/en/node/1214",
-      },
-      {
-        photo: "/Hoda.jpeg",
-        topText: "Chairperson of DSAA Delhi Section for 2024–25",
-        name: "M. N. Hoda",
-        university: "Chair, DSAA Delhi Section, BVICAM, New Delhi, India",
-        url :"https://bvicam.in/Home/AcaDirector",
-      },
-      
-    ],
-  },
   // {
-  //   title: "Chair, DSAA Delhi Section",
+  //   title: "IEEE Chairs ",
+  //   members: [
+  //     {
+  //       photo: "/Prerna Gaur.jpg",
+  //       topText: "Chairperson of IEEE Delhi Section for 2024–25",
+  //       name: "Prerna Gaur",
+  //       university: "Chair, IEEE India Council, Netaji Subhash University of Technology, New Delhi, India",
+  //       url :"https://www.nsut.ac.in/en/node/1214",
+  //     },
+  //     {
+  //       photo: "/Hoda.jpeg",
+  //       topText: "Chairperson of IEEE Delhi Section for 2024–25",
+  //       name: "M. N. Hoda",
+  //       university: "Chair, IEEE Delhi Section, BVICAM, New Delhi, India",
+  //       url :"https://bvicam.in/Home/AcaDirector",
+  //     },
+      
+  //   ],
+  // },
+  // {
+  //   title: "Chair, IEEE Delhi Section",
   //   members: [
   //     {
   //       photo: "/Hoda.jpeg",
