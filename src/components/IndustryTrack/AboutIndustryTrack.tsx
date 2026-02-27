@@ -77,7 +77,7 @@ function AboutIndustryTrack() {
             Proceedings and Indexing
           </h3>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
-            All accepted papers will be published by DSAA, submitted for inclusion in the DSAA Xplore Digital Library, and for EI indexing through INSPEC.
+            TBA. 
           </div>
         </div>
 

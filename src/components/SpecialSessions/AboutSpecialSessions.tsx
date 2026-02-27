@@ -114,7 +114,7 @@ function AboutSpecialSessions() {
             Proceedings and Indexing
           </h3>
           <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
-            All accepted Special Session Proposals will be published by DSAA in the DSAA main conference proceedings under its Special Session scheme and submitted for inclusion in the DSAA Xplore Digital Library.
+            TBA.
           </p>
           <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mt-2">
             Organizers may also arrange special issues for extended journal versions of the papers.
