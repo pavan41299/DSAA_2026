@@ -73,7 +73,7 @@ function AboutDoctoralTrack(){
             Proceedings and Indexing
           </h3>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
-          All accepted full-length papers will be published by DSAA and will be submitted for inclusion in the DSAA Xplore Digital Library. The conference proceedings will also be submitted for EI indexing through INSPEC by DSAA.
+          TBA.
           </div>
         </div>
 

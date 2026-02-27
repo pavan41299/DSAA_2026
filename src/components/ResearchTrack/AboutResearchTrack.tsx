@@ -133,9 +133,7 @@ function AboutResearchTrack() {
             Proceedings and Indexing
           </h3>
             <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] leading-relaxed">
-              All accepted full-length papers will be published by DSAA and will be submitted 
-              for inclusion in the DSAA Xplore Digital Library. The conference proceedings will also be 
-              submitted for EI indexing through INSPEC by DSAA.
+              TBA.
             </p>
           {/* <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
             All accepted full-length papers and short papers will be published by <span className="font-semibold">DSAA</span>, submitted for inclusion in the <span className="font-semibold">DSAA Xplore Digital Library</span>, and for EI indexing. through.<span className="font-semibold">INSPEC</span>.
