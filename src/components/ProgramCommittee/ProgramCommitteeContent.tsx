@@ -1,74 +1,211 @@
-import React from 'react'
-import Image from 'next/image'
+import React from "react";
+import Image from "next/image";
+import { url } from "inspector";
+
+const committees = [
+    {
+    title: "PC Chairs - Research Track",
+    members: [
+      {
+        photo: "/Tanmoy Chakraborty.png",
+        name: "Tanmoy Chakraborty",
+        university: "IIT Delhi, India",
+        url :"https://web.iitd.ac.in/~tanchak/",
+      },
+      {
+        photo: "/Sharma Chakravarthy, The University of Texas at Arlington.jpg",
+        name: "Sharma Chakravarthy",
+        university: "The University of Texas at Arlington, USA",
+        url :"https://www.uta.edu/academics/faculty/profile?user=sharmac",
+      },
+      {
+        photo: "/Longbing Cao.webp",
+        name: "Longbing Cao",
+        university: "Macquarie University, Australia",
+        url :"https://researchers.mq.edu.au/en/persons/longbing-cao/",
+      },
+    ],
+  },
+  {
+    title: "PC Chairs - Application, Data and Benchmark Track",
+    members: [
+      {
+        photo: "/Partha Pratim Roy, Indian Institute of Technology.jpg",
+        name: "Partha Pratim Roy",
+        university: "IIT (ISM) Dhanbad, India",
+        url :"https://www.iitism.ac.in/faculty-details?faculty=parthapratim",
+      },
+      {
+        photo: "/ladej.png",
+        name: "Ladjel Bellatreche",
+        university: "ENSMA, France",
+        url :"https://www.lias-lab.fr/members/bellatreche/",
+      },
+    ],
+  },
+  {
+    title: "PC Chairs - Industry Track",
+    members: [
+      {
+        photo: "/Arvind-Agrawal.jpg",
+        name: "Arvind Agarwal",
+        university: "IBM, India",
+        url :"",
+      },
+      {
+        photo: "/Rajeev Gupta.jpg",
+        name: "Rajeev Gupta",
+        university: "Microsoft, India",
+        url :"",
+      },
+    ],
+  },
+  {
+    title: "PC Chairs - Surveys & Vision Track ",
+    members: [
+      { photo: "/qing.jpg",
+         name: " Qingsong Wen", 
+         university: "Squirrel Ai Learning, USA" ,
+         url: "https://sites.google.com/site/qingsongwen8/",
+      },
+      { photo: "/Prof-Gelenbe.jpg",
+        name: " Erol Gelenbe", 
+        university: "Institute of Theoretical and Applied Informatics, Polish Academy of Sciences, Poland",
+        url: "https://www.computer.org/profiles/erol-gelenbe", 
+     },
+     { photo: "/Satish Narayana Srirama.jpg",
+      name: " Satish Narayana Srirama", 
+      university: "University of Hyderabad, India",
+      url: "https://scis.uohyd.ac.in/~srirama/", 
+   },
+      
+    ],
+  },
+  {
+    title: "PC Chairs - Large Language Models Track",
+    
+    members: [
+      { photo: "/linset.jpeg", 
+        name: " Linsey Pang", 
+        university: "PayPal, AI, US",url: "https://siliconvalley.northeastern.edu/faculty/xiaolin-linsey-pang/", },
+
+      { photo: "/Naresh-Manwani.webp", 
+        name: " Naresh Manwani", 
+        university: "IIIT Hyderabad, India",
+        url: "https://www.iiit.ac.in/faculty/naresh-manwani/",},
+
+      { photo: "/Prof Leng Chenlei.jpg", 
+        name: " Chenlei Leng", 
+        university: "Hong Kong Polytechnic University, China",
+        url: "https://www.polyu.edu.hk/ama/people/academic-staff/prof-leng-chenlei/", },
+      // { photo: "", name: "To be announced", university: "" },
+    ],
+  },
+  {
+    title: "Doctoral Consortium Track Chairs",
+    members: [
+      { photo: "/carlos.jpg", 
+        name: "Carlos Ordonez", 
+        university: "University of Houston, USA", 
+        url: "https://www.uh.edu/nsm/physics/people/profiles/carlos-ordonez/index.php", },
+      // { photo: "", name: "To be announced", university: "" },
+
+      { 
+        photo: "/XUDONG LIU.jpg", 
+        name: " Xudong Liu", 
+        university: "The University of North Florida, USA",
+        url: "https://xudongliu.domains.unf.edu/" },
+
+        { photo: "/Abhishek Santra.jpeg", 
+          name: " Abhishek Santra", 
+          university: "The University of Texas at Arlington, USA" ,
+          url: "https://www.uta.edu/academics/faculty/profile?user=abhishek.santra",},
+          
+    ],
+  },
+      
+  
+];
 
 function ProgramCommitteeContent() {
   return (
-    // <div className="max-w-6xl mx-auto py-12 px-4">
-    //   <div className="w-full flex justify-center">
-    //   <section className="w-full py-8 md:py-14 px-4">
-    //     <h2 className="font-inter font-semibold text-[24px] sm:text-[28px] md:text-[32px] lg:text-[40px] leading-[36px] sm:leading-[42px] md:leading-[48px] lg:leading-[60px] text-center text-[#101828] mb-6 md:mb-10">
-    //     Coming Soon
-    //     </h2>
-    //   </section>
-    //   </div>
-    // </div>
-    <section className="w-full bg-white py-1 px-4 sm:py-2 sm:px-6 max-w-5xl mx-auto">
-      
-      <div className="max-w-6xl mx-auto py-12 px-4">
+    <div className="max-w-6xl mx-auto py-12 px-4">
       <h3 className="font-inter text-center font-semibold text-[36px] md:text-[44px] leading-tight mb-12 text-[#101828]">
-  Program Committee
-</h3>
-</div>
-
-<section className="w-full py-1 md:py-4 px-4">
-  <div className="max-w-6xl mx-auto">
-    <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6 text-left text-[16px] md:text-[18px] text-[#344054]">
+        Technical Program Committee
+      </h3>
       
-      <li><span className="font-semibold">Sandeep Kumar Shukla</span><br/>Director, IIIT Hyderabad, India</li>
-      <li><span className="font-semibold">Debabratha Das</span><br/>Director, IIIT Bangalore, India</li>
-      <li><span className="font-semibold">P. Krishna Reddy</span><br/>IIIT Hyderabad, India</li>
-      <li><span className="font-semibold">Jaideep Srivastava</span><br/>University of Minnesota, USA</li>
-      <li><span className="font-semibold">Masaru Kitsuregawa</span><br/>The University of Tokyo, Japan</li>
-      <li><span className="font-semibold">Tanmoy Chakraborty</span><br/>IIT Delhi, India</li>
-      <li><span className="font-semibold">Sharma Chakravarthy</span><br/>University of Texas at Arlington, USA</li>
-      <li><span className="font-semibold">Longbing Cao</span><br/>Macquarie University, Australia</li>
-      <li><span className="font-semibold">Partha Pratim Roy</span><br/>IIT (ISM) Dhanbad, India</li>
-      <li><span className="font-semibold">Ladjel Bellatreche</span><br/>ENSMA, France</li>
-      <li><span className="font-semibold">Arvind Agarwal</span><br/>IBM, India</li>
-      <li><span className="font-semibold">Rajeev Gupta</span><br/>Microsoft, India</li>
-      <li><span className="font-semibold">Qingsong Wen</span><br/>Squirrel Ai Learning, USA</li>
-      <li><span className="font-semibold">Erol Gelenbe</span><br/>Institute of Theoretical and Applied Informatics, Polish Academy of Sciences, Poland</li>
-      <li><span className="font-semibold">Satish Narayana Srirama</span><br/>University of Hyderabad, India</li>
-      <li><span className="font-semibold">Linsey Pang</span><br/>PayPal AI, USA</li>
-      <li><span className="font-semibold">Naresh Manwani</span><br/>IIIT Hyderabad, India</li>
-      <li><span className="font-semibold">Chenlei Leng</span><br/>Hong Kong Polytechnic University, China</li>
-      <li><span className="font-semibold">Carlos Ordonez</span><br/>University of Houston, USA</li>
-      <li><span className="font-semibold">Xudong Liu</span><br/>University of North Florida, USA</li>
-      <li><span className="font-semibold">Abhishek Santra</span><br/>University of Texas at Arlington, USA</li>
+      {committees.map((committee, index) => (
+        <div key={index} className="mb-12">
+          <h5
+            className="font-inter font-semibold 
+            text-[20px] sm:text-[22px] md:text-[24px] lg:text-[28px] 
+            leading-[28px] sm:leading-[32px] md:leading-[36px] lg:leading-[40px] 
+            text-center text-[#101828] mb-10"
+          >
+            {committee.title}
+          </h5>
 
-    </ul>
-  </div>
-</section>
+          <div className="flex flex-wrap justify-center gap-8">
+            {committee.members.map((member, idx) => (
+              <div
+                key={idx}
+                className="flex flex-col items-center text-center border rounded-2xl shadow-sm p-6 hover:shadow-md transition w-64"
+              >
+                
+                {/* ✅ Clickable Image if URL exists */}
+                {member.url ? (
+                  <a
+                    href={member.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:scale-105 transition-transform duration-300"
+                  >
+                    <Image
+                      src={member.photo || "/blank.jpg"}
+                      alt={member.name}
+                      width={150}
+                      height={200}
+                      className="object-cover mb-4 w-[150px] h-[200px] rounded-[30%]"
+                    />
+                  </a>
+                ) : (
+                  <Image
+                    src={member.photo || "/blank.jpg"}
+                    alt={member.name}
+                    width={150}
+                    height={200}
+                    className="object-cover mb-4 w-[150px] h-[200px] rounded-[30%]"
+                  />
+                )}
 
-{/* Technical Program Committee Subsection */}
-<section className="w-full py-6 px-4">
-  <div className="max-w-6xl mx-auto text-center">
-    <h4 className="font-inter font-semibold text-[24px] md:text-[30px] leading-tight mb-6 text-[#101828]">
-      Technical Program Committee
-    </h4>
+                {/* ✅ Name also clickable and turns blue on hover */}
+                {member.url ? (
+                  <a
+                    href={member.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg font-semibold text-gray-900 hover:text-blue-600 transition-colors duration-200"
+                  >
+                    {member.name}
+                  </a>
+                ) : (
 
-    <p className="text-[18px] md:text-[20px] text-[#667085] font-medium">
-      To Be Announced (TBA)
-    </p>
-  </div>
-</section>
+                <h3 className="text-lg font-semibold text-gray-900">
+                  {member.name}
+                </h3>
+                )}
+                <p className="text-gray-600">{member.university}</p>
+              </div>
+            ))}
+          </div>
 
-    </section>
-  )
+          {index !== committees.length - 1 && (
+            <div className="border-t border-blue-800 mt-12"></div>
+          )}
+        </div>
+      ))}
+    </div>
+  );
 }
 
-export default ProgramCommitteeContent
-
-
-
-
+export default ProgramCommitteeContent;
