@@ -214,7 +214,7 @@ function ProgramCommitteeContent() {
         </h5>
         <div className="flex flex-wrap justify-center gap-8">
           <div className="flex flex-col items-center text-center border rounded-2xl shadow-sm p-6 hover:shadow-md transition w-64">
-            <Image src="/maleDummy.jpeg" alt="TBA" width={150} height={200} className="object-cover mb-4 w-[150px] h-[200px] rounded-[30%]" />
+            <Image src="/MaleDummy.jpeg" alt="TBA" width={150} height={200} className="object-cover mb-4 w-[150px] h-[200px] rounded-[30%]" />
             <h3 className="text-lg font-semibold text-gray-900">To be announced</h3>
           </div>
           <div className="flex flex-col items-center text-center border rounded-2xl shadow-sm p-6 hover:shadow-md transition w-64">
