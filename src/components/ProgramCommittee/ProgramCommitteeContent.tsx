@@ -204,6 +204,25 @@ function ProgramCommitteeContent() {
           )}
         </div>
       ))}
+      <div>
+        <h5 className="font-inter font-semibold 
+            text-[20px] sm:text-[22px] md:text-[24px] lg:text-[28px] 
+            leading-[28px] sm:leading-[32px] md:leading-[36px] lg:leading-[40px] 
+            text-center text-[#101828] mb-10"
+          >
+          Programming Committee Chairs
+        </h5>
+        <div className="flex flex-wrap justify-center gap-8">
+          <div className="flex flex-col items-center text-center border rounded-2xl shadow-sm p-6 hover:shadow-md transition w-64">
+            <Image src="/maleDummy.jpeg" alt="TBA" width={150} height={200} className="object-cover mb-4 w-[150px] h-[200px] rounded-[30%]" />
+            <h3 className="text-lg font-semibold text-gray-900">To be announced</h3>
+          </div>
+          <div className="flex flex-col items-center text-center border rounded-2xl shadow-sm p-6 hover:shadow-md transition w-64">
+            <Image src="/FemaleDummy.jpeg" alt="TBA" width={150} height={200} className="object-cover mb-4 w-[150px] h-[200px] rounded-[30%]" />
+            <h3 className="text-lg font-semibold text-gray-900">To be announced</h3>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
