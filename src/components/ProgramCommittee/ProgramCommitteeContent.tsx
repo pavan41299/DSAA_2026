@@ -112,28 +112,16 @@ const committees = [
       },
     ],
   },
-  {
-    
-    title: "Additional Programming Committee Chairs",
-    members: [
-      {
-        name: "To be announced",
-        university: "",
-        url: "",
-      },
-      {
-        name: "To be announced",
-        university: "",
-        url: "",
-      },
-      {
-        name: "To be announced",
-        university: "",
-        url: "",
-      },
-      
-    ],
-  },
+  // {    
+  //   title: "Programming Committee",
+  //   members: [
+  //     {
+  //       name: "TBA",
+  //       university: "",
+  //       url: "",
+  //     },      
+  //   ],
+  // },
 ];
 
 function ProgramCommitteeContent() {
@@ -148,7 +136,7 @@ function ProgramCommitteeContent() {
         <div key={index} className="mb-10">
 
           {/* Heading */}
-          <h5 className="text-center font-semibold text-[24px] mb-6 text-[#101828]">
+          <h5 className="pl-5 font-semibold text-[24px] mb-6 text-[#101828]">
             {committee.title}
           </h5>
 
@@ -182,20 +170,17 @@ function ProgramCommitteeContent() {
           {index !== committees.length - 1 && (
             <div className="border-t border-blue-800 mt-8"></div>
           )}
-
+        
         </div>
+        
       ))}
-
-      {/* <div className="mt-12">
-        <h5 className="text-center font-semibold text-[24px] mb-6 text-[#101828]">
-          Programming Committee Chairs
-        </h5>
-
-        <ul className="list-disc pl-6 space-y-3 text-lg text-gray-800">
-          <li>To be announced</li>
-          <li>To be announced</li>
-        </ul>
-      </div> */}
+      
+      <div className="border-t border-blue-800 mb-8 mt-8"></div>    
+      <h3 className="text-center font-semibold text-[36px] md:text-[44px] mb-12 text-[#101828]">
+        Programming Committee
+      </h3>
+      TBA
+      
 
     </div>
   );
