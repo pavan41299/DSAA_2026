@@ -136,7 +136,7 @@ function ProgramCommitteeContent() {
         <div key={index} className="mb-10">
 
           {/* Heading */}
-          <h5 className="pl-5 font-semibold text-[24px] mb-6 text-[#101828]">
+          <h5 className="text-left font-semibold text-[24px] mb-6 text-[#101828]">
             {committee.title}
           </h5>
 
@@ -177,7 +177,7 @@ function ProgramCommitteeContent() {
       
       <div className="border-t border-blue-800 mb-8 mt-8"></div>    
       <h3 className="text-center font-semibold text-[36px] md:text-[44px] mb-12 text-[#101828]">
-        Programming Committee
+        Program Committee
       </h3>
       TBA
       
