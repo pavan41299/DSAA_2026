@@ -302,7 +302,7 @@ function ProgramCommitteeContent() {
       ))}
       
       <div className="border-t border-blue-800 mb-8 mt-8"></div>    
-      <h3 className="text-center font-semibold text-[24px] md:text-[32px] mb-12 text-[#101828]">
+      <h3 className="text-left font-semibold text-[24px] md:text-[32px] mb-12 text-[#101828]">
         Program Committee
       </h3>
       <ul className="list-disc pl-6 space-y-3 text-lg text-gray-800">
