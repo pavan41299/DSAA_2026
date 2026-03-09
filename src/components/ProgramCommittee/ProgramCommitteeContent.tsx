@@ -145,7 +145,6 @@ const programCommitteeMembers = [
   { name: "Bruno Veloso", university: "University of Porto & INESC TEC", url: "" },
   { name: "Can Polat", university: "Texas A&M University", url: "" },
   { name: "Carson Leung", university: "University of Manitoba", url: "" },
-  { name: "Chen", university: "Arizona State University", url: "" },
   { name: "Chenlei Leng", university: "Hong Kong Polytechnic University", url: "" },
   { name: "Chiara Balestra", university: "TU Dortmund", url: "" },
   { name: "Cho Yin Yiu", university: "Hong Kong Polytechnic University", url: "" },
@@ -303,7 +302,7 @@ function ProgramCommitteeContent() {
       ))}
       
       <div className="border-t border-blue-800 mb-8 mt-8"></div>    
-      <h3 className="text-center font-semibold text-[36px] md:text-[44px] mb-12 text-[#101828]">
+      <h3 className="text-center font-semibold text-[24px] md:text-[32px] mb-12 text-[#101828]">
         Program Committee
       </h3>
       <ul className="list-disc pl-6 space-y-3 text-lg text-gray-800">
