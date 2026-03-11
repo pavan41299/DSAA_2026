@@ -246,7 +246,7 @@ const committees = [
       },
       {
         photo: "/Kamal.png",
-        name: "Kamal Karlapalem",
+        name: "lalith baru",
         university: "IIIT Hyderabad, India",
         url: "https://www.iiit.ac.in/faculty/kamalakar-karlapalem/",
       },
