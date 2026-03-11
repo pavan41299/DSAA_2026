@@ -232,7 +232,7 @@ const programCommitteeMembers = [
   { name: "Sirui Chen", university: "University of Illinois Urbana-Champaign", url: "" },
   { name: "Siyi Guo", university: "University of Southern California", url: "" },
   { name: "Sonali Agarwal", university: " Indian Institute of Information Technology Allahabad ", url: "" },
-  { name: " Sudhanshu Kumar", university: " MIT Moradabad", url: "" }
+  { name: "Sudhanshu Kumar", university: " MIT Moradabad", url: "" },
   { name: "Tadashi Nomoto", university: "National Institute of Japanese Literature", url: "" },
   { name: "Theodore Dalamagas", university: "ATHENA Research Center", url: "" },
   { name: "Tianlin Zhang", university: "University of Manchester", url: "" },
