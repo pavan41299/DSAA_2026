@@ -214,7 +214,7 @@ const programCommitteeMembers = [
   { name: "Ricardo Torres", university: "Wageningen University & Research", url: "" },
   { name: "Ruiyang Wang", university: "Anthropic", url: "" },
   { name: "Ruizhong Qiu", university: "University of Illinois Urbana-Champaign", url: "" },
-  { name: "Rushanthi Baskaran", university: "Informatics Institute of Technology", url: "" },
+  { name: "Rushanthi Baskaran", university: "Informatics Institute of Technology, Colombo", url: "" },
   { name: "Shiqi Yang", university: "Amazon", url: "" },
   { name: "Shishir Adhikari", university: "University of Illinois Chicago", url: "" },
   { name: "Sirui Chen", university: "University of Illinois Urbana-Champaign", url: "" },
