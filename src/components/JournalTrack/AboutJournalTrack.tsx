@@ -88,7 +88,7 @@ function AboutJournalTrack() {
     Each paper submitted to the Journal tracks should be formatted by following the standard 2-column U.S. letter style of the 
     DSAA Conference template. For further information and instructions, see the 
     <a
-    href="https://www.DSAA.org/conferences/publishing/templates"
+    href="  "
     target="_blank"
     rel="noopener noreferrer"
     className="text-[#1D4ED8] hover:underline"

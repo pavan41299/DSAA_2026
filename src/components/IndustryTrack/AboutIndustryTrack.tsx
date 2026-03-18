@@ -57,7 +57,7 @@ function AboutIndustryTrack() {
           {/* </ul> */}
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-2">
             For further details, see the <a
-    href="https://www.DSAA.org/conferences/publishing/templates"
+    href="  "
     target="_blank"
     rel="noopener noreferrer"
     className="text-[#1D4ED8] hover:underline"

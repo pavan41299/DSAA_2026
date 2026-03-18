@@ -81,7 +81,7 @@ function AboutSurvey() {
             <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 mb-3 space-y-1">
               <li>The length of each paper submitted to the Survey and Vision Track should be no more than ten (10) pages of technical content plus additional pages solely for references and should be formatted following the standard 2-column U.S. letter style of DSAA Conference template.</li>
               <li>For further information and instructions, see the <a
-    href="https://www.DSAA.org/conferences/publishing/templates"
+    href="  "
     target="_blank"
     rel="noopener noreferrer"
     className="text-[#1D4ED8] hover:underline"

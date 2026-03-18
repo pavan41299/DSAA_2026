@@ -10,7 +10,7 @@ function CameraReadyInstructions() {
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-2">Dear Authors of DSAA DSAA 2026 Accepted papers,</div>
           <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 space-y-2">
             <li>Please revise your papers taking into account the reviewers’ comments.</li>
-            <li>Please format your final manuscript using the Manuscript Templates for Conference Proceedings: <a href="https://www.DSAA.org/conferences/publishing/templates.html" className="text-[#155DFC]">DSAA Templates</a></li>
+            <li>Please format your final manuscript using the Manuscript Templates for Conference Proceedings: <a href="  .html" className="text-[#155DFC]">DSAA Templates</a></li>
             <li>Please add the author names as they appear in your OpenReview submission.</li>
             <li>Make sure that all Figures and Tables are of high quality and their content is easily readable.</li>
             <li>Make sure also that your paper contains no headers, no footers, and no page numbers. This information will be added by the conference publication team.</li>

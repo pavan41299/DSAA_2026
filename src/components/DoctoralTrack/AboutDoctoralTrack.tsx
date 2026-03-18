@@ -53,7 +53,7 @@ function AboutDoctoralTrack(){
           </div>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
             Each paper should be no more than seven (7) pages of technical content plus additional pages for references, formatted in the standard 2-column U.S. letter DSAA Conference template. See the <a
-    href="https://www.DSAA.org/conferences/publishing/templates"
+    href="  "
     target="_blank"
     rel="noopener noreferrer"
     className="text-[#1D4ED8] hover:underline"
