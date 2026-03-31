@@ -48,7 +48,9 @@ function About() {
                 Journal Track & Late-Breaking &amp; PhD{" "}
                 <span className="bg-yellow-200 font-medium text-black">Abstract submission call</span> closed.
               </li>*/}
-             
+              <li>
+                The IEEE Computer Society Chair of the Conferences Activities Committee has approved the request for Computer Society Technical Co-Sponsorship of the conference event
+              </li>
               <li>
                 We have finalised the conference venue: DSAA’26 will be held at the Pride Plaza Hotel, Aerocity, New Delhi.
               </li>
