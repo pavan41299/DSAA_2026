@@ -34,7 +34,7 @@ const dropdownItems = {
   // Organization pages are top-level routes added to the project
   "Organization": [
     { name: "Organizing Committee", link: "/organizing-committee" },
-    { name: "Technical Program Committee", link: "/program-committee" }
+    { name: "Program Committee", link: "/program-committee" }
   ],
 
   "Venue": [
@@ -55,7 +55,7 @@ const navItems = [
   "Venue",
   "Sponsors",
   "Contact Us"
-  // "DSAA CIS Travel Grant",
+  // "IEEE CIS Travel Grant",
 ];
 
 // Map nav labels to actual routes (pages created in the app)
@@ -70,7 +70,7 @@ const navLinks: Record<string, string> = {
   Venue: '/venue',
   'Contact Us': '/contact',
 
-  // 'DSAA CIS Travel Grant': '/travel-grant',
+  // 'IEEE CIS Travel Grant': '/travel-grant',
 }
 
 function Navbar() {

@@ -49,7 +49,7 @@ function AboutIndustryTrack() {
           </div>
           {/* <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 mb-3 space-y-1">
             <li> */}
-              <span className="font-semibold">Regular Papers:</span> Maximum 4 pages + References, formatted per DSAA Conference 2-column U.S. letter style.
+              <span className="font-semibold">Regular Papers:</span> Maximum 4 pages + References, formatted per IEEE Conference 2-column U.S. letter style.
             {/* </li> */}
             {/* <li>
               <span className="font-semibold">Short Papers:</span> maximum 2 pages + References, same format.
@@ -57,11 +57,11 @@ function AboutIndustryTrack() {
           {/* </ul> */}
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-2">
             For further details, see the <a
-    href="  "
+    href="https://www.ieee.org/conferences/publishing/templates"
     target="_blank"
     rel="noopener noreferrer"
     className="text-[#1D4ED8] hover:underline"
-    > DSAA Proceedings Author Guidelines.</a>
+    > IEEE Proceedings Author Guidelines.</a>
           </div>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-2">
             <span className="font-semibold">Double-blind review:</span> DSAA&apos;2026 operates a double-blind review process. Submissions must not include author names or other identifying information. These will be added only after acceptance.
@@ -77,7 +77,7 @@ function AboutIndustryTrack() {
             Proceedings and Indexing
           </h3>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
-            TBA. 
+            All accepted papers will be published by IEEE, submitted for inclusion in the IEEE Xplore Digital Library, and for EI indexing through INSPEC.
           </div>
         </div>
 
@@ -91,7 +91,7 @@ function AboutIndustryTrack() {
             <li><span className="font-semibold">Authorship</span> – No changes allowed after submission.</li>
             <li><span className="font-semibold">Dual Submissions</span> – Strictly prohibited.</li>
             <li><span className="font-semibold">Conflicts of Interest (COI)</span> – Must be declared at submission.</li>
-            <li><span className="font-semibold">Attendance</span> – At least one author must register and present, or the paper will be excluded from DSAA Xplore.</li>
+            <li><span className="font-semibold">Attendance</span> – At least one author must register and present, or the paper will be excluded from IEEE Xplore.</li>
             <li><span className="font-semibold">AI-Generated Text</span> – Must be disclosed in acknowledgements, with citation to the AI system used.</li>
           </ol>
         </div>

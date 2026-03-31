@@ -7,10 +7,10 @@ function CameraReadyInstructions() {
 
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">Note: This page is for accepted authors after the conference review. Authors of the Journal Track accepted papers will submit their camera-ready to their journal, not this website – for deadline please enquire the journal track chairs.</div>
-          <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-2">Dear Authors of DSAA DSAA 2026 Accepted papers,</div>
+          <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-2">Dear Authors of IEEE DSAA 2026 Accepted papers,</div>
           <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 space-y-2">
             <li>Please revise your papers taking into account the reviewers’ comments.</li>
-            <li>Please format your final manuscript using the Manuscript Templates for Conference Proceedings: <a href="  .html" className="text-[#155DFC]">DSAA Templates</a></li>
+            <li>Please format your final manuscript using the Manuscript Templates for Conference Proceedings: <a href="https://www.ieee.org/conferences/publishing/templates.html" className="text-[#155DFC]">IEEE Templates</a></li>
             <li>Please add the author names as they appear in your OpenReview submission.</li>
             <li>Make sure that all Figures and Tables are of high quality and their content is easily readable.</li>
             <li>Make sure also that your paper contains no headers, no footers, and no page numbers. This information will be added by the conference publication team.</li>
@@ -31,7 +31,7 @@ function CameraReadyInstructions() {
 
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
           <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">eCopyright Form (eCF)</h3>
-          <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">The DSAA eCopyright is now integrated into OpenReview. The corresponding author (or the first author) should see a button “Copyright Submission” in the Authors console (not in each paper’s submission page). Click on it to complete the form. Important: The eCopyright release form MUST be completed when you submit your paper, and one eCopyright Form is required for each paper.</div>
+          <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">The IEEE eCopyright is now integrated into OpenReview. The corresponding author (or the first author) should see a button “Copyright Submission” in the Authors console (not in each paper’s submission page). Click on it to complete the form. Important: The eCopyright release form MUST be completed when you submit your paper, and one eCopyright Form is required for each paper.</div>
         </div>
 
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
@@ -41,7 +41,7 @@ function CameraReadyInstructions() {
 
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
           <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">No-Show Policy</h3>
-          <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">Each paper MUST be presented at the conference by an author of that paper, unless prior approval is obtained from the PC Chairs to allow a well-qualified alternative presenter who is able to present the paper and answer questions. Papers that are NOT presented may be removed from DSAA Xplore Digital Library and be excluded from distribution after the conference.</div>
+          <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">Each paper MUST be presented at the conference by an author of that paper, unless prior approval is obtained from the PC Chairs to allow a well-qualified alternative presenter who is able to present the paper and answer questions. Papers that are NOT presented may be removed from IEEE Xplore Digital Library and be excluded from distribution after the conference.</div>
         </div>
       </div>
     </section>

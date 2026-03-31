@@ -52,12 +52,12 @@ function AboutDoctoralTrack(){
             All papers should be submitted electronically via <b>OpenReview</b> (under the Doctoral Consortium).
           </div>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
-            Each paper should be no more than seven (7) pages of technical content plus additional pages for references, formatted in the standard 2-column U.S. letter DSAA Conference template. See the <a
-    href="  "
+            Each paper should be no more than seven (7) pages of technical content plus additional pages for references, formatted in the standard 2-column U.S. letter IEEE Conference template. See the <a
+    href="https://www.ieee.org/conferences/publishing/templates"
     target="_blank"
     rel="noopener noreferrer"
     className="text-[#1D4ED8] hover:underline"
-    > DSAA Proceedings Author Guidelines</a> for further instructions.
+    > IEEE Proceedings Author Guidelines</a> for further instructions.
           </div>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
             All submissions will be blind reviewed for technical quality, relevance, originality, significance, and clarity. Author names and affiliations must be omitted, and references adjusted to preserve anonymity. Non-compliant submissions will be rejected without review.
@@ -73,7 +73,7 @@ function AboutDoctoralTrack(){
             Proceedings and Indexing
           </h3>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
-          TBA.
+          All accepted full-length papers will be published by IEEE and will be submitted for inclusion in the IEEE Xplore Digital Library. The conference proceedings will also be submitted for EI indexing through INSPEC by IEEE.
           </div>
         </div>
 
@@ -96,10 +96,10 @@ function AboutDoctoralTrack(){
     <span className="font-semibold">Conflicts of Interest (COI):</span> COIs must be declared at submission. They include employment at the same institution at the time of submission or in the past three years, collaborations in the past three years, advisor/advisee relationships, and family or close friends. Program chairs, track chairs, special session chairs, and other function chairs cannot submit to their own tracks.
   </li>
   <li>
-    <span className="font-semibold">Attendance:</span> At least one author of each accepted paper must register and attend the conference to present. No-show papers will be removed from DSAA Xplore.
+    <span className="font-semibold">Attendance:</span> At least one author of each accepted paper must register and attend the conference to present. No-show papers will be removed from IEEE Xplore.
   </li>
   <li>
-    <span className="font-semibold">AI-generated Text:</span>The use of artificial intelligence (AI)-generated text in an article shall be disclosed in the acknowledgements section of any paper submitted to an DSAA Conference or Periodical. The sections of the paper that use AI-generated text shall have a citation to the AI system used to generate the text.
+    <span className="font-semibold">AI-generated Text:</span>The use of artificial intelligence (AI)-generated text in an article shall be disclosed in the acknowledgements section of any paper submitted to an IEEE Conference or Periodical. The sections of the paper that use AI-generated text shall have a citation to the AI system used to generate the text.
   </li>
 </ol>
 
@@ -145,12 +145,12 @@ function AboutDoctoralTrack(){
             <li>
               <span className="font-semibold">Attendance</span> At least one author of each
               accepted paper must register in full and attend the conference to present the
-              paper. No-show papers will be removed from the DSAA Xplore proceedings.
+              paper. No-show papers will be removed from the IEEE Xplore proceedings.
             </li>
             <li>
               <span className="font-semibold">AI-Generated Text</span> The use of artificial
               intelligence (AI)-generated text in an article shall be disclosed in the
-              acknowledgements section of any paper submitted to an DSAA Conference or
+              acknowledgements section of any paper submitted to an IEEE Conference or
               Periodical. The sections of the paper that use AI-generated text shall have
               a citation to the AI system used to generate the text.
             </li>

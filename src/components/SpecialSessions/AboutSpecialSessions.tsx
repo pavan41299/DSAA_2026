@@ -15,8 +15,8 @@ function AboutSpecialSessions() {
                   Important Dates
                 </h3>
                 <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
-                  <li><b>Special Session Proposals Due :</b> March 31, 2026</li>
-                  <li><b>Special Session Proposals Notification : </b> April 15, 2026</li>                  
+                  <li><b>Special Session Proposals Due :</b> March 16, 2026</li>
+                  <li><b>Special Session Proposals Notification : </b>March 30, 2026</li>
                   <li><b>Special Session Paper Submission:</b> May 1, 2026</li>
                   <li><b>Special Session Paper Notification :</b> July 24, 2026</li>
                   <li><b>Special Session Paper Camera-Ready :</b> August 21, 2026</li>
@@ -114,7 +114,7 @@ function AboutSpecialSessions() {
             Proceedings and Indexing
           </h3>
           <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
-            TBA.
+            All accepted Special Session Proposals will be published by IEEE in the DSAA main conference proceedings under its Special Session scheme and submitted for inclusion in the IEEE Xplore Digital Library.
           </p>
           <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mt-2">
             Organizers may also arrange special issues for extended journal versions of the papers.

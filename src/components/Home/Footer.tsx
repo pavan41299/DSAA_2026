@@ -49,7 +49,7 @@ export default function Footer() {
           {/* About */}
           <section aria-labelledby="footer-about">
             <h2 id="footer-about" className="text-balance text-xl font-semibold text-white">
-              DSAA 2026
+              IEEE DSAA 2026
             </h2>
             <p className="mt-2 text-md text-slate-400">Data Sciences and Analytics Center</p>
               <ul className="mt-4 space-y-3 text-sm">
@@ -149,7 +149,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="flex flex-col items-start justify-between gap-4 text-sm text-slate-400 md:flex-row">
           <p className="leading-6">
-            © 2026 International Conference on Data Science and Advanced Analytics. All rights reserved.
+            © 2026 IEEE International Conference on Data Science and Advanced Analytics. All rights reserved.
           </p>
           <ul className="flex flex-wrap items-center gap-x-6 gap-y-2">
             {/* <li>
@@ -167,10 +167,10 @@ export default function Footer() {
             </li> */}
             <li>
               <Link
-                href="https://www.DSAA.org/about/corporate/governance/code-of-conduct#:~:text=The%20DSAA%20Code%20of%20Conduct%20describes%20DSAA%20members%E2%80%99,the%20DSAA%20Board%20of%20Directors%20in%20June%202014."
+                href="https://www.ieee.org/about/corporate/governance/code-of-conduct#:~:text=The%20IEEE%20Code%20of%20Conduct%20describes%20IEEE%20members%E2%80%99,the%20IEEE%20Board%20of%20Directors%20in%20June%202014."
                 className="hover:text-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-400/50"
               >
-                
+                IEEE Code of Conduct
               </Link>
             </li>
           </ul>

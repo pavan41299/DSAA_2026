@@ -121,9 +121,9 @@ function AboutApplicationsTrack() {
             The length of each paper submitted to the Research tracks should be no
             more than <b>seven (7) pages</b> of technical content plus additional
             pages solely for references and should be formatted following the
-            standard 2-column U.S. letter style of the <b>DSAA Conference template</b>.
+            standard 2-column U.S. letter style of the <b>IEEE Conference template</b>.
             For further information and instructions, see the
-            <b> DSAA Proceedings Author Guidelines</b>.
+            <b> IEEE Proceedings Author Guidelines</b>.
           </p>
 
           <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
@@ -168,13 +168,13 @@ function AboutApplicationsTrack() {
     The length of each paper submitted to the Research tracks should be no more than 
     seven (7) pages of technical content plus additional pages solely for references 
     and should be formatted following the standard 2-column U.S. letter style of the 
-    DSAA Conference template. For further information and instructions, see the 
+    IEEE Conference template. For further information and instructions, see the 
     <a
-    href="  "
+    href="https://www.ieee.org/conferences/publishing/templates"
     target="_blank"
     rel="noopener noreferrer"
     className="text-[#1D4ED8] hover:underline"
-    > DSAA Proceedings Author Guidelines.</a>
+    > IEEE Proceedings Author Guidelines.</a>
     
   </p>
 
@@ -209,10 +209,10 @@ function AboutApplicationsTrack() {
             Proceedings and Indexing
           </h3>
           <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] leading-relaxed">
-            All accepted <b>full-length papers</b> will be published by <b>DSAA</b>
+            All accepted <b>full-length papers</b> will be published by <b>IEEE</b>
             and will be submitted for inclusion in the
-            <b> DSAA Xplore Digital Library</b>. The conference proceedings will also
-            be submitted for <b>EI indexing</b> through <b>INSPEC by DSAA</b>.
+            <b> IEEE Xplore Digital Library</b>. The conference proceedings will also
+            be submitted for <b>EI indexing</b> through <b>INSPEC by IEEE</b>.
           </p>
         </div> */}
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6 max-w-5xl mx-auto">
@@ -220,10 +220,12 @@ function AboutApplicationsTrack() {
             Proceedings and Indexing
           </h3>
             <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] leading-relaxed">
-              TBA.
+              All accepted full-length papers will be published by IEEE and will be submitted 
+              for inclusion in the IEEE Xplore Digital Library. The conference proceedings will also be 
+              submitted for EI indexing through INSPEC by IEEE.
             </p>
           {/* <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A]">
-            All accepted full-length papers and short papers will be published by <span className="font-semibold">DSAA</span>, submitted for inclusion in the <span className="font-semibold">DSAA Xplore Digital Library</span>, and for EI indexing. through.<span className="font-semibold">INSPEC</span>.
+            All accepted full-length papers and short papers will be published by <span className="font-semibold">IEEE</span>, submitted for inclusion in the <span className="font-semibold">IEEE Xplore Digital Library</span>, and for EI indexing. through.<span className="font-semibold">INSPEC</span>.
           </div> */}
         </div>
         {/* Important Policies */}
@@ -268,12 +270,12 @@ function AboutApplicationsTrack() {
             <li>
               <span className="font-semibold">Attendance</span> At least one author of each
               accepted paper must register in full and attend the conference to present the
-              paper. No-show papers will be removed from the DSAA Xplore proceedings.
+              paper. No-show papers will be removed from the IEEE Xplore proceedings.
             </li>
             <li>
               <span className="font-semibold">AI-Generated Text</span> The use of artificial
               intelligence (AI)-generated text in an article shall be disclosed in the
-              acknowledgements section of any paper submitted to an DSAA Conference or
+              acknowledgements section of any paper submitted to an IEEE Conference or
               Periodical. The sections of the paper that use AI-generated text shall have
               a citation to the AI system used to generate the text.
             </li>

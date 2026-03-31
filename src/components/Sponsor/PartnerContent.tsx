@@ -4,6 +4,11 @@ import Image from 'next/image'
 function PartnerContent() {
   const partners = [
     {
+      name: "IEEE Delhi",
+      logo: "/IEEE Delhi Section Logo.jpg",
+      url: "https://r10.ieee.org/delhi/",
+    },    
+    {
       name: "IIIT Hyderabad",
       logo: "/download.webp",
       url: "https://www.iiit.ac.in/",

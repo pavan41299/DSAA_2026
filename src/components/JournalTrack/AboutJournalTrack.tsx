@@ -86,13 +86,13 @@ function AboutJournalTrack() {
 
   <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
     Each paper submitted to the Journal tracks should be formatted by following the standard 2-column U.S. letter style of the 
-    DSAA Conference template. For further information and instructions, see the 
+    IEEE Conference template. For further information and instructions, see the 
     <a
-    href="  "
+    href="https://www.ieee.org/conferences/publishing/templates"
     target="_blank"
     rel="noopener noreferrer"
     className="text-[#1D4ED8] hover:underline"
-    > DSAA Proceedings Author Guidelines.</a>
+    > IEEE Proceedings Author Guidelines.</a>
     <br>
     
     </br>
@@ -134,14 +134,14 @@ function AboutJournalTrack() {
           </div>
           <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 mb-3 space-y-1">
             <li>
-              Full Papers: maximum 10 pages, formatted per DSAA Conference 2-column U.S. letter style.
+              Full Papers: maximum 10 pages, formatted per IEEE Conference 2-column U.S. letter style.
             </li>
             <li>
               Short Papers: maximum 5 pages, same format.
             </li>
           </ul>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-2">
-            For further details, see the <span className="font-semibold">DSAA Proceedings Author Guidelines.</span>
+            For further details, see the <span className="font-semibold">IEEE Proceedings Author Guidelines.</span>
           </div>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-2">
             All submissions will be double-blind reviewed by the Program Committee based on <span className="font-semibold">technical quality, relevance, originality, significance, and clarity.</span> Submissions not complying with formatting or anonymity will be rejected.
