@@ -2,7 +2,9 @@
 import React from "react";
 import Image from "next/image"; // ✅ Import Next.js Image
 import IIITLogo from "../../../public/IIIT LOGO.png"; // <-- Replace with your logo path
-import DSAAposter from "../../../public/PosterCODS.jpg";
+import IEEE from "../../../public/ieee.png";
+import IEEECS from "../../../public/ieeecs.jpeg";
+
 function About() {
   return (
     <section className="max-w-[1600px] py-10 px-4 sm:py-14 sm:px-8 bg-white mx-auto">
@@ -109,6 +111,71 @@ function About() {
             className="mx-auto"
           />
         </a>
+        {/* Technical Co-Sponsors */}
+<div className="mt-12">
+  <h3 className="text-black text-[24px] sm:text-[28px] font-semibold text-center mb-8">
+    Technical Co-Sponsors
+  </h3>
+
+  <div className="flex flex-wrap justify-center items-start gap-10 sm:gap-16">
+    {/* IEEE */}
+    <div className="flex flex-col items-center">
+      <a
+        href="https://www.ieee.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block border border-transparent transition-all duration-500 ease-in-out
+                   hover:bg-blue-900 hover:shadow-[0_0_15px_6px_rgba(0,0,60,0.5)]
+                   hover:border-blue-900"
+      >
+        <Image
+          src={IEEE}
+          alt="IEEE"
+          width={260}
+          height={140}
+          className="mx-auto object-contain"
+        />
+      </a>
+      <a
+        href="https://www.ieee.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-3 text-blue-700 hover:underline text-[16px] font-medium text-center"
+      >
+        IEEE
+      </a>
+    </div>
+
+    {/* IEEE Computer Society */}
+    <div className="flex flex-col items-center">
+      <a
+        href="https://www.computer.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block border border-transparent transition-all duration-500 ease-in-out
+                   hover:bg-blue-900 hover:shadow-[0_0_15px_6px_rgba(0,0,60,0.5)]
+                   hover:border-blue-900"
+      >
+        <Image
+          src={IEEECS}
+          alt="IEEE Computer Society"
+          width={260}
+          height={140}
+          className="mx-auto object-contain"
+        />
+      </a>
+      <a
+        href="https://www.computer.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-3 text-blue-700 hover:underline text-[16px] font-medium text-center"
+      >
+        IEEE Computer Society
+      </a>
+    </div>
+  </div>
+</div>
+        
       </div>
     </section>
   );
