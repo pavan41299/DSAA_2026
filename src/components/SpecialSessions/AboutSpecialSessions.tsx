@@ -51,7 +51,7 @@ function AboutSpecialSessions() {
           </h3>
           <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
             All papers should be submitted electronically via
-            <a href="https://openreview.net/group?id=IEEE.org/DSAA/2026/Special_Sessions" target="_blank" style="color: blue;">
+            <a href="https://openreview.net/group?id=IEEE.org/DSAA/2026/Special_Sessions" target="_blank" style={{ color: 'blue' }}>
               <b> Open Review</b>
             </a> (under Special Session Proposal category).
           </p>
