@@ -76,7 +76,14 @@ function AboutSurvey() {
               Paper Submission
             </h3>
             <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
-              All papers should be submitted electronically via <b>Open Review</b> (under the &quot;Survey and Vision Track&quot;).
+            All papers should be submitted electronically via{' '}
+            <a 
+              href="https://openreview.net/group?id=IEEE.org/DSAA/2026/Conference" 
+              target="_blank" 
+              style={{ color: 'blue' }}
+            >
+              <b>Open Review </b>
+            </a> (under the &quot;Survey and Vision Track&quot;).
             </div>
             <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] list-disc pl-5 mb-3 space-y-1">
               <li>The length of each paper submitted to the Survey and Vision Track should be no more than ten (10) pages of technical content plus additional pages solely for references and should be formatted following the standard 2-column U.S. letter style of IEEE Conference template.</li>

@@ -161,7 +161,16 @@ function AboutApplicationsTrack() {
   </h3>
 
   <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
-    All papers should be submitted electronically via <b>Open Review</b> (under the Research Track).
+    All papers should be submitted electronically via{' '}
+    <a 
+      href="https://openreview.net/group?id=IEEE.org/DSAA/2026/Conference" 
+      target="_blank" 
+      style={{ color: 'blue' }}
+    >
+      <b>Open Review </b>
+    </a>
+    
+    (under the Research Track).
   </p>
 
   <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">

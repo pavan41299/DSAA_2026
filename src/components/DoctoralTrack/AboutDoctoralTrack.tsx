@@ -49,7 +49,15 @@ function AboutDoctoralTrack(){
             Paper Submissions
           </h3>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
-            All papers should be submitted electronically via <b>OpenReview</b> (under the Doctoral Consortium).
+          All papers should be submitted electronically via{' '}
+          <a 
+            href="https://openreview.net/group?id=IEEE.org/DSAA/2026/Conference" 
+            target="_blank" 
+            style={{ color: 'blue' }}
+          >
+            <b>Open Review </b>
+          </a>
+            (under the Doctoral Consortium).
           </div>
           <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
             Each paper should be no more than seven (7) pages of technical content plus additional pages for references, formatted in the standard 2-column U.S. letter IEEE Conference template. See the <a

@@ -66,7 +66,14 @@ function AboutLLMTrack() {
               Paper Submission
             </h3>
             <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
-              All papers should be submitted electronically via <b>Open Review</b> (under the Special Track on Large Language Models).
+            All papers should be submitted electronically via{' '}
+    <a 
+      href="https://openreview.net/group?id=IEEE.org/DSAA/2026/Conference" 
+      target="_blank" 
+      style={{ color: 'blue' }}
+    >
+      <b>Open Review </b>
+    </a> (under the Special Track on Large Language Models).
             </div>
             <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
     The length of each paper submitted to the Research tracks should be no more than 
