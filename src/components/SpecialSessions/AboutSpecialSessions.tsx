@@ -50,7 +50,10 @@ function AboutSpecialSessions() {
             Special Session Proposal Submission and Review
           </h3>
           <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-4">
-            All papers should be submitted electronically via <b>Open Review</b> (under Special Session Proposal category).
+            All papers should be submitted electronically via 
+            <a href="https://openreview.net/group?id=IEEE.org/DSAA/2026/Special_Sessions" target="_blank">
+              <b>Open Review</b>
+            </a> (under Special Session Proposal category).
           </p>
           
           <p className="font-inter text-[15px] md:text-[16px] text-[#232B3A] mb-3">
