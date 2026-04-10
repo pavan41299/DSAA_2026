@@ -2,31 +2,30 @@ import React from "react";
 import Link from "next/link";
 
 const keyDates = [
-  { event: "Paper Submission Deadline", date: "May 30, 2026" },
-  { event: "Paper Notification", date: "August 10, 2026" },
-  { event: "Paper Camera-Ready", date: "August 30, 2026" },
+  { event: "Paper Submission Deadline", oldDate: "May 1, 2026", newDate: "May 30, 2026" },
+  { event: "Paper Notification", oldDate: "July 24, 2026", newDate: "August 10, 2026" },
+  { event: "Paper Camera-Ready", oldDate: "August 21, 2026", newDate: "August 30, 2026" },
 
   { event: "Special Session Proposals Due", date: "April 8, 2026" },
   { event: "Special Session Proposals Notification", date: "April 14, 2026" },
 
-  { event: "Special Session Paper Submission", date: "May 30, 2026" },
-  { event: "Special Session Paper Notification", date: "August 10, 2026" },
-  { event: "Special Session Paper Camera-Ready", date: "August 30, 2026" },
+  { event: "Special Session Paper Submission", oldDate: "May 1, 2026", newDate: "May 30, 2026" },
+  { event: "Special Session Paper Notification", oldDate: "July 24, 2026", newDate: "August 10, 2026" },
+  { event: "Special Session Paper Camera-Ready", oldDate: "August 21, 2026", newDate: "August 30, 2026" },
 
   { event: "Tutorials Submission", date: "April 20, 2026" },
   { event: "Tutorials Notification", date: "May 16, 2026" },
 
   { event: "Journal Call for Papers", date: "September, 2025" },
-  // { event: "First round : Manuscript submission", date: "May 16, 2026" },
   { event: "Journal - First round : Manuscript submission", date: "February 15, 2026" },
   { event: "Journal - Second round : Manuscript submission", date: "March 15, 2026" },
   { event: "Journal - Third round : Manuscript submission", date: "April 15, 2026" },
   { event: "Journal - Final decision notification", date: "July 15, 2026" },
   { event: "Journal - Revised manuscript deadline", date: "August 1, 2026" },
 
-  // { event: "Early Bird Registration", date: "TBA" },
   { event: "Conference Dates", date: "October 6-9, 2026" },
 ];
+  // { event: "Early Bird Registration", date: "TBA" },
 
 function KeyDatesContent() {
   return (
@@ -50,10 +49,29 @@ function KeyDatesContent() {
                   key={index}
                   className="hover:bg-gray-50 transition border-b border-[#101828]/40 mt-2"
                 >
-                  <td className="px-6 py-4 font-medium text-gray-900">
-                    {item.event}
+                    <td className="px-6 py-4 font-medium text-gray-900">
+                      {item.event}
+                    </td>
+                  {/* <td className="px-6 py-4 text-gray-500 italic">{item.date}</td> */}
+                  
+                  <td className="px-6 py-4 italic">
+                    {item.event === "Conference Dates" ? (
+                      <span className="bg-yellow-200 text-gray-900 px-2 py-1 rounded font-semibold">
+                        {item.date}
+                      </span>
+                    ) : item.newDate ? (
+                      <>
+                        <span className="line-through text-gray-400 mr-2">
+                          {item.oldDate}
+                        </span>
+                        <span className="text-green-600 font-semibold">
+                          {item.newDate}
+                        </span>
+                      </>
+                    ) : (
+                      <span className="text-black-500">{item.date}</span>
+                    )}
                   </td>
-                  <td className="px-6 py-4 text-gray-500 italic">{item.date}</td>
                 </tr>
               ))}
             </tbody>
