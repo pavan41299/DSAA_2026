@@ -17,9 +17,9 @@ function AboutSpecialSessions() {
                 <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
                   <li><b>Special Session Proposals Due :</b> April 8, 2026</li>
                   <li><b>Special Session Proposals Notification : </b>April 14, 2026</li>
-                  <li><b>Special Session Paper Submission:</b> May 1, 2026</li>
-                  <li><b>Special Session Paper Notification :</b> July 24, 2026</li>
-                  <li><b>Special Session Paper Camera-Ready :</b> August 21, 2026</li>
+                  <li><b>Special Session Paper Submission:</b> May 30, 2026</li>
+                  <li><b>Special Session Paper Notification :</b> August 10, 2026</li>
+                  <li><b>Special Session Paper Camera-Ready :</b> August 30, 2026</li>
                 </ul>
               </div>  
 

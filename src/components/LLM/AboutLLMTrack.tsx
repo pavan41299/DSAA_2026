@@ -16,9 +16,9 @@ function AboutLLMTrack() {
                   Important Dates
                 </h3>
                 <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
-                  <li><b>Paper Submission:</b> May 1, 2026</li>
-                  <li><b>Paper Notification:</b> July 24, 2026</li>
-                  <li><b>Paper Camera-Ready:</b> August 21, 2026</li>
+                  <li><b>Paper Submission:</b> May 30, 2026</li>
+                  <li><b>Paper Notification:</b> August 10, 2026</li>
+                  <li><b>Paper Camera-Ready:</b> August 30, 2026</li>
                 </ul>
               </div>
           {/* About Card */}
