@@ -16,11 +16,36 @@ function AboutTutorials() {
                   Important Dates
                 </h3>
                 <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
-                  <li><b>Tutorial Proposal Submission :</b>   April 20th, 2026</li>
-                  <li><b>Tutorial Notification :</b> May 16th, 2026</li>
-                  <li><b>Survey Paper Submission :</b> July 4, 2026</li>
-                  <li><b>Survey Paper Notification :</b> July 24, 2026</li>
-                  <li><b>Survey Paper Camera-Ready :</b> August 21, 2026</li>
+                  {/* <li>
+                    <b>Paper Notification:</b>{" "}
+                    <span className="line-through text-gray-400 mr-2">July 24, 2026</span>
+                    <span className="text-green-600 font-semibold">August 10, 2026</span>
+                  </li> */}
+                  <li>
+                    <b>Tutorial Proposal Submission :</b>{"  "}
+                    <span className="line-through text-gray-400 mr-2">April 20th, 2026</span>
+                    <span className="text-green-600 font-semibold">May 23, 2026</span>
+                  </li>
+                  <li>
+                    <b>Tutorial Notification :</b>{" "}
+                    <span className="line-through text-gray-400 mr-2">May 16th, 2026</span>
+                    <span className="text-green-600 font-semibold">June 3, 2026</span>
+                  </li>
+                  <li>
+                    <b>Survey Paper Submission :</b>{" "}
+                    <span className="line-through text-gray-400 mr-2">July 4, 2026</span>
+                    <span className="text-green-600 font-semibold">August 4, 2026</span>
+                  </li>
+                  <li>
+                    <b>Survey Paper Notification :</b>{" "}
+                    <span className="line-through text-gray-400 mr-2">July 24, 2026</span>
+                    <span className="text-green-600 font-semibold">August 18, 2026</span>
+                  </li>
+                  <li>
+                    <b>Survey Paper Camera-Ready :</b>{" "}
+                    <span className="line-through text-gray-400 mr-2">August 21, 2026</span>
+                    <span className="text-green-600 font-semibold">August 30, 2026</span>
+                  </li>
                 </ul>
               </div>
 

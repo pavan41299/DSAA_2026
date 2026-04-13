@@ -13,8 +13,8 @@ const keyDates = [
   { event: "Special Session Paper Notification", oldDate: "July 24, 2026", newDate: "August 10, 2026" },
   { event: "Special Session Paper Camera-Ready", oldDate: "August 21, 2026", newDate: "August 30, 2026" },
 
-  { event: "Tutorials Submission", date: "April 20, 2026" },
-  { event: "Tutorials Notification", date: "May 16, 2026" },
+  { event: "Tutorials Submission", oldDate: "April 20, 2026", newDate: "May 23, 2026" },    
+  { event: "Tutorials Notification", oldDate: "May 16, 2026", newDate: "June 3, 2026" },  
 
   { event: "Journal Call for Papers", date: "September, 2025" },
   { event: "Journal - First round : Manuscript submission", date: "February 15, 2026" },
