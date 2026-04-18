@@ -6,8 +6,8 @@ const keyDates = [
   { event: "Paper Notification", oldDate: "July 24, 2026", newDate: "August 10, 2026" },
   { event: "Paper Camera-Ready", oldDate: "August 21, 2026", newDate: "August 30, 2026" },
 
-  { event: "Special Session Proposals Due", date: "April 8, 2026" },
-  { event: "Special Session Proposals Notification", date: "April 14, 2026" },
+  { event: "Special Session Proposals Due", date: "April 8, 2026 (Applications Closed)" },
+  { event: "Special Session Proposals Notification", date: "April 14, 2026 (Applications Closed)" },
 
   { event: "Special Session Paper Submission", oldDate: "May 1, 2026", newDate: "May 30, 2026" },
   { event: "Special Session Paper Notification", oldDate: "July 24, 2026", newDate: "August 10, 2026" },
@@ -17,9 +17,9 @@ const keyDates = [
   { event: "Tutorials Notification", oldDate: "May 16, 2026", newDate: "June 3, 2026" },  
 
   { event: "Journal Call for Papers", date: "September, 2025" },
-  { event: "Journal - First round : Manuscript submission", date: "February 15, 2026" },
-  { event: "Journal - Second round : Manuscript submission", date: "March 15, 2026" },
-  { event: "Journal - Third round : Manuscript submission", date: "April 15, 2026" },
+  { event: "Journal - First round : Manuscript submission", date: "February 15, 2026 (Applications Closed)" },
+  { event: "Journal - Second round : Manuscript submission", date: "March 15, 2026 (Applications Closed)" },
+  { event: "Journal - Third round : Manuscript submission", date: "April 15, 2026 (Applications Closed)" },
   { event: "Journal - Final decision notification", date: "July 15, 2026" },
   { event: "Journal - Revised manuscript deadline", date: "August 1, 2026" },
 

@@ -16,11 +16,11 @@ function AboutJournalTrack() {
             Important Dates
           </h3>
           <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
-          <li><b>Call for Papers :</b> September, 2025</li>
+          <li><b>Call for Papers :</b> September, 2025 </li>
             <li><b>Manuscript submission deadline:</b></li>
-            <li><b>1. First round:</b> February 15, 2026</li>
-            <li><b>2. Second round:</b> March 15, 2026</li>
-            <li><b>3. Third round:</b> April 15, 2026</li>
+            <li><b>1. First round:</b> February 15, 2026 <i>(<b>Applications Closed</b>)</i></li>
+            <li><b>2. Second round:</b> March 15, 2026 <i>(<b>Applications Closed</b>)</i></li>
+            <li><b>3. Third round:</b> April 15, 2026 <i>(<b>Applications Closed</b>)</i></li>
             <li><b>Final decision notification:</b> July 15, 2026</li>
             <li><b>Revised manuscript deadline:</b> August 1, 2026</li>
           </ul>

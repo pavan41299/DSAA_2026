@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function AboutSpecialSessions() {
   return (
     <section className="w-full bg-white py-12 px-4 sm:py-16 sm:px-6 max-w-5xl mx-auto">
@@ -15,8 +17,8 @@ function AboutSpecialSessions() {
                   Important Dates
                 </h3>
                 <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
-                  <li><b>Special Session Proposals Due :</b> April 8, 2026</li>
-                  <li><b>Special Session Proposals Notification : </b>April 14, 2026</li>
+                  <li><b>Special Session Proposals Due :</b> April 8, 2026 <i>(<b>Applications Closed</b>)</i></li>
+                  <li><b>Special Session Proposals Notification : </b>April 14, 2026 <i>(<b>Applications Closed</b>)</i></li>
                   <li><b>Special Session Paper Submission:</b>{" "}
                     <span className="line-through text-gray-400 mr-2">May 1, 2026</span>
                     <span className="text-green-600 font-semibold">May 30, 2026</span>
@@ -31,7 +33,18 @@ function AboutSpecialSessions() {
                   </li>
                 </ul>
               </div>  
-
+              <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-8 max-w-5xl mx-auto"> 
+          <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
+          Please refer to{" "}
+          <Link
+            href="/calls/acceptedspecial-sessions"
+            className="text-blue-600 font-medium hover:underline"
+          >
+            Accepted Special Sessions
+          </Link>{" "}
+          for detailed information of each special session.
+        </div>
+        </div>    
         {/* About DSAA Special Sessions */}
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
           <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
