@@ -68,6 +68,7 @@ const navLinks: Record<string, string> = {
   Attend: '/attend',
   Organization: '/organizing-committee',
   Sponsors: '/sponsor',
+  Downloads: '/calls/acceptedspecial-sessions',
   Venue: '/venue',
   'Contact Us': '/contact',
 
