@@ -19,6 +19,152 @@ function AboutSpecialSessions() {
                 <ul className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
                   <li><b>Special Session Proposals Due :</b> April 8, 2026 <i>(<b>Applications Closed</b>)</i></li>
                   <li><b>Special Session Proposals Notification : </b>April 14, 2026 <i>(<b>Applications Closed</b>)</i></li>
+                  <section className="w-full bg-white py-12 px-4 sm:py-16 sm:px-6 max-w-5xl mx-auto">
+      <div className="max-w-[1700px] mx-auto">
+
+        {/* Heading */}
+        <h2 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-4">
+          Accepted Special Sessions
+        </h2>
+
+        {/* Sessions List */}
+        <div>
+        <ul className="list-disc pl-5 font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-6 marker:text-lg">
+
+            <li>
+              <a
+                href=""
+                className="font-semibold hover:underline"
+                target="_blank"
+              >
+                Computational Imaging, Vision, and Language (CIVIL)
+              </a>
+              <div className="text-gray-600">
+                Organized by : Yaping Zhao
+              </div>
+              {/* <div>
+              <a
+                href="https://dsaa-2026.vercel.app/attend"
+                className="text-blue-600 font-semibold hover:underline"
+                target="_blank"
+              >
+                URL: TBA
+              </a>
+              </div> */}
+              <div>
+  <span className="text-gray-700">URL: </span>
+  <a
+    href="https://dsaa-2026.vercel.app/attend"
+    className="text-blue-600 font-semibold hover:underline"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Register Here
+  </a>
+</div>
+            </li>
+
+            <li>
+              <a
+                href="https://sites.google.com/view/ds4sg2026/home"
+                className="font-semibold hover:underline"
+                target="_blank"
+              >
+                DS4SG: Data Science for Social Good
+              </a>
+              <div className="text-gray-600">
+                Organized by : Abdul Wahid*, Ioanna Miliou, Lauri Lovén, Rimjhim, Kainat Khan
+              </div>
+              <div>
+                <span className="text-gray-700">URL: </span>
+                <a
+                  href="https://sites.google.com/view/ds4sg2026/home"
+                  className="text-blue-600 font-semibold hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Register Here
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <a
+                href="https://dsaa-2026.vercel.app/attend"
+                className="font-semibold hover:underline"
+                target="_blank"
+              >
+                From Theory to Practice: Special Session on Large Language and Foundation Models (LLFM 2026)
+              </a>
+              <div className="text-gray-600">
+                Organized by : Rafet Sifa*, Wei Liu, Dhaval Patel, Lorenz Sparrenberg, Priya Priya
+              </div>
+              <div>
+              <span className="text-gray-700">URL: </span>
+              <a
+                href="https://dsaa-2026.vercel.app/attend"
+                className="text-blue-600 font-semibold hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Register Here
+              </a>
+            </div>
+            </li>
+
+            <li>
+              <a
+                href="https://sites.google.com/view/dsaa-scda/home"
+                className="font-semibold hover:underline"
+                target="_blank"
+              >
+                Maritime and Other Applications of Deep Learning Techniques: Challenges and Opportunities (MADL 2026)
+              </a>
+              <div className="text-gray-600">
+                Organized by : Youcef Djenouri, Gautam Srivastava*, Mohit Kumar
+              </div>
+              <div>
+                <span className="text-gray-700">URL: </span>
+                <a
+                  href="https://sites.google.com/view/dsaa-scda/home"
+                  className="text-blue-600 font-semibold hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Register Here
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <a
+                href="https://dsaa-2026.vercel.app/attend"
+                className="font-semibold hover:underline"
+                target="_blank"
+              >
+                Scalable Data Science: Integration with Cloud and Distributed Systems (SDS 2026)
+              </a>
+              <div className="text-gray-600">
+                Organized by : Tanvi Chawla*, Mamta Dahiya
+              </div>
+              <div>
+              <span className="text-gray-700">URL: </span>
+              <a
+                href="https://dsaa-2026.vercel.app/attend"
+                className="text-blue-600 font-semibold hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Register Here
+              </a>
+            </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section>
                   <li><b>Special Session Paper Submission:</b>{" "}
                     <span className="line-through text-gray-400 mr-2">May 1, 2026</span>
                     <span className="text-green-600 font-semibold">May 30, 2026</span>
