@@ -179,7 +179,7 @@ function AboutSpecialSessions() {
                   </li>
                 </ul>
               </div>  
-              <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-8 max-w-5xl mx-auto"> 
+              {/* <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-8 max-w-5xl mx-auto">  */}
           {/* <div className="font-inter text-[15px] md:text-[16px] text-[#232B3A] space-y-2">
           Please refer to{" "}
           <Link
@@ -190,7 +190,7 @@ function AboutSpecialSessions() {
           </Link>{" "}
           for detailed information of each special session.
         </div> */}
-        </div>    
+        {/* </div>     */}
         {/* About DSAA Special Sessions */}
         <div className="border border-[#D1D5DB] rounded-xl p-6 md:p-8 mb-6">
           <h3 className="font-inter font-semibold text-[22px] md:text-[26px] text-[#232B3A] mb-3">
