@@ -1,0 +1,64 @@
+DSAA'2026: Call for Papers and Proposals
+The 13th IEEE International Conference on Data Science and Advanced Analytics (DSAA’2026)
+October 6-9, 2026,  New Delhi, India
+https://dsaa2026.dsaa.co/
+
+(Extended paper submission deadline: May 30, 2026)
+
+The 13th IEEE International Conference on Data Science and Advanced Analytics (DSAA’2026) will be held in  New Delhi, India on October 6-9, 2026. It features its strong interdisciplinary synergy between statistics, computing and information/intelligence sciences, and cross-domain interactions between academia and business for data science and analytics. DSAA sets up a high standard for its organizing committee, keynote speeches, submissions to main conference and special sessions, and a competitive rate for paper acceptance. DSAA has been widely recognized as a dedicated flagship annual meeting in data science and analytics such as by the Google Metrics and China Computer Foundation. DSAA’2026 provides a premier forum that brings together researchers, industry and government practitioners, as well as developers and users of big data solutions for the exchange of the latest theoretical developments in Data Science and the best practice for a wide range of applications. DSAA 2026 is technically co-sponsored by IEEE Computer Society.
+
+DSAA’2026 invites submissions of papers and proposals  describing innovative research on all aspects of data science and advanced analytics as well as application-oriented papers that make significant, original, and reproducible contributions to improving the practice of data science and analytics in real-world scenarios. Refer https://dsaa2026.dsaa.co/ for the details.
+
+(i)     Research Papers (Research Track; Application, Data and Benchmark Track; Industry Track; Large Language Models Track; Survey and Vision Track; and Doctoral Consortium Track)
+
+Important Dates: Paper Submission: May 30, 2026; Paper Notification: August 10, 2026; Paper Camera-Ready: August 30, 2026
+
+(ii)    Journal Track Papers (Machine Learning Journal (MLJ) and International Journal of Data Science and Analytics (JDSA))
+
+Important Dates: First round: February 15, 2026; Second round: March 15, 2026; Third round: April 15, 2026;  Final decision notification: July 15, 2026; and Revised manuscript deadline: August 1, 2026
+
+(iii)   Special Session Papers
+
+Special Session Paper Submission: May 30, 2026; Special Session Paper Notification : August 10, 2026; and Special Session Paper Camera-Ready : August 30, 2026
+
+List of special sessions (Visit https://dsaa2026.dsaa.co/ for submission details)
+
+1.      Computational imaging, vision, and language (CIVIL)
+2.      DS4SG: Data science for social good
+3.      From theory to practice: Special session on large language and foundation models (LLFM 2026)
+4.      Maritime and other applications of deep learning techniques: challenges and opportunities (MADL 2026)
+5.      Scalable data science: Integration with cloud and distributed systems" (SDS 2026)
+
+(iv)    Tutorial proposals
+Important Dates: Tutorials Submission:   May 23, 2026; Tutorials Notification : June 3, 2026, Survey Paper Submission: August 4, 2026, Survey Paper Notification: August 18, 2026, Survey Paper Camera-Ready: August 30, 2026
+ Publication:  The proceedings of  DSAA2026 will be published by IEEE.
+
+Contact:
+DSAA 2026 Secretariat, Data Sciences and Analytics Center (DSAC)
+International Institute of Information  Technology - Hyderabad (IIIT-H)
+Gachibowli, Hyderabad,Telangana, India. Pin Code: 500032
+Email: dsaa2026india@gmail.com
+URL: https://dsaa2026.dsaa.co/
+
+Organization
+Honoraray Chairs: Sandeep Kumar Shukla, Director, IIIT Hyderabad, India and Debabrata Das, Director, IIIT Bangalore, India
+Chair, IEEE India Council: Prerna Gaur, Netaji Subhash University of Technology, New Delhi, India
+Chair, IEEE Delhi Section: M. N. Hoda, BVICAM, New Delhi, India
+General Chairs: P. Krishna Reddy, IIIT Hyderabad, India; Jaideep Srivastava, University of Minnesota, USA; Masaru Kitsuregawa, The University of Tokyo, Japan
+PC chairs-Research Track:       Tanmoy Chakraborty, IIT Delhi, India; Sharma Chakravarthy, The University of Texas at Arlington, USA; Longbing Cao, Macquarie University, Australia
+PC chairs- Application track: Partha Pratim Roy, Indian Institute of Technology (ISM), Dhanbad, India; Ladjel Bellatreche, ENSMA, France.
+PC chairs- Industry track: Arvind Agarwal, IBM, India  and Rajeev Gupta, Microsoft, India.
+PC Chairs-Special Track-Surveys and Vision: Qingsong Wen, Squirrel Ai Learning, USA; Erol Gelenbe, Institute of Theoretical and Applied Informatics, Polish Academy of Sciences, Poland; Satish Narayana Srirama, University of Hyderabad, India.
+PC Chairs-Special Track- Large Language Models:  Linsey Pang, PayPal AI , USA; Naresh Manwani, IIIT Hyderabad, India; Chenlei Leng, Hong Kong Polytechnic University, China.
+PC Chairs-PhD Consortium Track: Carlos Ordonez, University of Houston, USA; Xudong Liu, The University of North Florida, USA; Abhishek Santra, The University of Texas at Arlington, USA
+Journal track chairs: Hady Lauw, Singapore Management University, Singapore; Lan Du, Monash University, Australia; Benjamin Fung, McGill University, Canada;  Kalidas Yeturu, IIT Tirupati, India; Longbing Cao, Macquarie University, Australia.
+Special session chairs: Carson Leung, University of Manitoba, Canada; Kamal Karlapalem, IIIT Hyderabad, India; Defu Lian, University of Science and Technology of China.
+Tutorial chairs: Benjamin Fung, McGill University, Canada; P. Radha Krishna, NIT Warangal, India; Sanjay Madria, Missouri University of Science and Technology, USA.
+Diversity and inclusion chair: Dr Sanju Tiwari, Sharda University, India.
+Publicity Chairs: Vinu Ellampallil Venugopal, IIIT Bangalore, India; Qi Zhang, Tongji University, China; Veeraraghava Raju Hasti, University of Central Florida, USA
+Proceedings Chairs: R. Uday Kiran, The University of Aizu, Japan; Yanqiu Wu, Macquarie University, Australia.
+Sponsorship Chair: Kedar Kulkarni, Reliance Industries Ltd., India.
+Finance chair: Vikram Pudi, IIIT Hyderabad, India.
+Web Chairs: Pavan Parvatham, IIIT Hyderabad, India, T. Chandrasheker, IIIT Hyderabad,
+Registration/Local Arrangement Co-Chairs: Vikram Goyal, IIIT Delhi
+********************************************

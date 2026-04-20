@@ -6,7 +6,7 @@ function AboutSpecialSessions() {
       <div className="max-w-[1700px] mx-auto">
         {/* Heading */}
         <h2 className="font-inter font-bold text-[32px] md:text-[40px] text-center text-[#101828] mb-3">
-        Call for Proposal - Special Session Proposals
+        Call for Paper - Special Sessions
         </h2>
         {/* <div className="font-inter text-[16px] md:text-[18px] text-center text-[#4A5565] mb-8">
           Important deadlines and milestones for DSAA 2026. Mark your calendar and stay updated.

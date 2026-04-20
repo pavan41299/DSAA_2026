@@ -52,6 +52,7 @@ const navItems = [
   "Calls",
   "Program",
   "Attend",  
+  "Downloads",
   "Venue",
   "Sponsors",
   "Contact Us"
