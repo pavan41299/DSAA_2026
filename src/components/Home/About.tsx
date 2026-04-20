@@ -4,6 +4,7 @@ import Image from "next/image"; // ✅ Import Next.js Image
 import IIITLogo from "../../../public/IIIT LOGO.png"; // <-- Replace with your logo path
 import IEEE from "../../../public/ieee.png";
 import IEEECS from "../../../public/ieeecs.jpeg";
+import DSAAposter from "../../../public/A4 Poster IEEE.jpg";
 
 function About() {
   return (
@@ -82,16 +83,6 @@ function About() {
 
 
 
-          {/* ✅ Centered Responsive PDF Image */}
-          {/* <div className="flex justify-center mb-8">
-            <Image
-              src={DSAAposter}
-              alt="DSAA Poster 2026"
-              width={800}
-              height={800}
-              className="w-[70%] h-[70%] object-contain mx-auto rounded-lg shadow-lg"
-            />
-          </div> */}
 
              
         {/* ✅ Clickable Logo */}
@@ -175,6 +166,18 @@ function About() {
     </div>
   </div>
 </div>
+
+
+          {/* ✅ Centered Responsive PDF Image */}
+          <div className="flex justify-center mb-8">
+            <Image
+              src={DSAAposter}
+              alt="DSAA Poster 2026"
+              width={800}
+              height={800}
+              className="w-[70%] h-[70%] object-contain mx-auto rounded-lg shadow-lg"
+            />
+          </div>
         
       </div>
     </section>
