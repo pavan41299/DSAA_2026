@@ -33,7 +33,7 @@ function AboutSpecialSessions() {
 
                           <li>
                             <a
-                              href=""
+                              href="https://indigopurple.github.io/DSAA/dsaa2026.html"
                               className="font-semibold hover:underline"
                               target="_blank"
                             >
@@ -45,7 +45,7 @@ function AboutSpecialSessions() {
                             <div>
                               <span className="text-gray-700">URL: </span>
                               <a
-                                href="https://dsaa-2026.vercel.app/attend"
+                                href="https://indigopurple.github.io/DSAA/dsaa2026.html"
                                 className="text-blue-600 font-semibold hover:underline"
                                 target="_blank"
                                 rel="noopener noreferrer"
