@@ -50,7 +50,7 @@ function AboutSpecialSessions() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                               >
-                                
+                                https://indigopurple.github.io/DSAA/dsaa2026.html
                               </a>
                             </div>
                           </li>
