@@ -129,7 +129,7 @@ function AboutSpecialSessions() {
 
                           <li>
                             <a
-                              href="https://dsaa-2026.vercel.app/attend"
+                              href="https://sites.google.com/view/dsaa-sds-2026/home"
                               className="font-semibold hover:underline"
                               target="_blank"
                             >
@@ -141,12 +141,12 @@ function AboutSpecialSessions() {
                             <div>
                             <span className="text-gray-700">URL: </span>
                             <a
-                              href="https://dsaa-2026.vercel.app/attend"
+                              href="https://sites.google.com/view/dsaa-sds-2026/home"
                               className="text-blue-600 font-semibold hover:underline"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              
+                              https://sites.google.com/view/dsaa-sds-2026/home
                             </a>
                           </div>
                           </li>
