@@ -2,7 +2,7 @@
 import React from "react";
 import { Download, FileText } from "lucide-react";
 
-function DownloadFiles() {
+function Posters() {
   const files = [
     {
       name: "DSAA'2026 CFP A4 Poster",
@@ -81,4 +81,4 @@ function DownloadFiles() {
   );
 }
 
-export default DownloadFiles;
+export default Posters;

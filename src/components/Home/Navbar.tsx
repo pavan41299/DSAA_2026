@@ -52,7 +52,7 @@ const navItems = [
   "Calls",
   "Program",
   "Attend",  
-  "Downloads",
+  "Posters",
   "Venue",
   "Sponsors",
   "Contact Us"
@@ -68,7 +68,7 @@ const navLinks: Record<string, string> = {
   Attend: '/attend',
   Organization: '/organizing-committee',
   Sponsors: '/sponsor',
-  Downloads: '/calls/acceptedspecial-sessions',
+  Posters: '/posters',
   Venue: '/venue',
   'Contact Us': '/contact',
 
