@@ -81,7 +81,7 @@ function AboutSpecialSessions() {
 
                           <li>
                             <a
-                              href="https://dsaa-2026.vercel.app/attend"
+                              href="https://appliedmachinelearning-lab.github.io/ssllfm2026/"
                               className="font-semibold hover:underline"
                               target="_blank"
                             >
@@ -93,12 +93,12 @@ function AboutSpecialSessions() {
                             <div>
                             <span className="text-gray-700">URL: </span>
                             <a
-                              href="https://dsaa-2026.vercel.app/attend"
+                              href="https://appliedmachinelearning-lab.github.io/ssllfm2026"
                               className="text-blue-600 font-semibold hover:underline"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                            
+                            https://appliedmachinelearning-lab.github.io/ssllfm2026/
                             </a>
                           </div>
                           </li>
