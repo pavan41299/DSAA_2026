@@ -52,6 +52,15 @@ function About() {
                 <span className="bg-yellow-200 font-medium text-black">Abstract submission call</span> closed.
               </li>*/}
               <li>
+                Paper submission deadline has been extended to <span className="text-green-700 font-bold">June 7, 2026</span>.
+              </li>
+              <li>
+                Paper submissions are to be made via Open Review.
+              </li>
+              {/* <li>
+                All paper submissions should be submitted in the IEEE Computer Society 2-column U.S. letter template.
+              </li> */}
+              <li>
                 The IEEE Computer Society Chair of the Conferences Activities Committee has approved the request for Computer Society Technical Co-Sponsorship of the conference event
               </li>
               <li>

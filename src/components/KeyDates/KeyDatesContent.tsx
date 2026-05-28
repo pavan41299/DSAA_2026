@@ -2,14 +2,14 @@ import React from "react";
 import Link from "next/link";
 
 const keyDates = [
-  { event: "Paper Submission Deadline", oldDate: "May 1, 2026", newDate: "May 30, 2026" },
+  { event: "Paper Submission Deadline", oldDate: "May 1, 2026", newDate: "June 7, 2026" },
   { event: "Paper Notification", oldDate: "July 24, 2026", newDate: "August 10, 2026" },
   { event: "Paper Camera-Ready", oldDate: "August 21, 2026", newDate: "August 30, 2026" },
 
   { event: "Special Session Proposals Due", date: "April 8, 2026 (Applications Closed)" },
   { event: "Special Session Proposals Notification", date: "April 14, 2026 (Applications Closed)" },
 
-  { event: "Special Session Paper Submission", oldDate: "May 1, 2026", newDate: "May 30, 2026" },
+  { event: "Special Session Paper Submission", oldDate: "May 1, 2026", newDate: "June 7, 2026" },
   { event: "Special Session Paper Notification", oldDate: "July 24, 2026", newDate: "August 10, 2026" },
   { event: "Special Session Paper Camera-Ready", oldDate: "August 21, 2026", newDate: "August 30, 2026" },
 

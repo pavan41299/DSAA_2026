@@ -19,7 +19,7 @@ function AboutLLMTrack() {
           <li>
             <b>Paper Submission:</b>{" "}
             <span className="line-through text-gray-400 mr-2">May 1, 2026</span>
-            <span className="text-green-600 font-semibold">May 30, 2026</span>
+            <span className="text-green-600 font-semibold">June 7, 2026</span>
           </li>
 
           <li>
